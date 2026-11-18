@@ -1,0 +1,51 @@
+{
+  "description": "Approach 5 + scale-normalised rotation-invariant uniform LBP (P,R)=(8,1),(16,2),(24,3)",
+  "members": {
+    "approach5_lbp": {
+      "dimension": 106,
+      "pca_components": null,
+      "rotation_views": 1
+    }
+  },
+  "fusion_rule": "mean of member linear-SVM decision values; >= 0 means bad",
+  "image_level": {
+    "accuracy": 0.7558139534883721,
+    "balanced_accuracy": 0.7676559325164707,
+    "bad_precision": 0.8583333333333333,
+    "bad_recall": 0.6912751677852349,
+    "bad_f1": 0.7657992565055762,
+    "false_accept_bad_as_good": 46,
+    "false_reject_good_as_bad": 17,
+    "confusion_matrix": [
+      [
+        92,
+        17
+      ],
+      [
+        46,
+        103
+      ]
+    ]
+  },
+  "brick_level": {
+    "accuracy": 0.9,
+    "balanced_accuracy": 0.9166666666666667,
+    "bad_precision": 1.0,
+    "bad_recall": 0.8333333333333334,
+    "bad_f1": 0.9090909090909091,
+    "false_accept_bad_as_good": 1,
+    "false_reject_good_as_bad": 0,
+    "confusion_matrix": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "n_images": 258,
+  "n_bricks": 10
+}

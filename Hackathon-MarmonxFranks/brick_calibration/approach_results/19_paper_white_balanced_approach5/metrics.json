@@ -1,0 +1,51 @@
+{
+  "description": "Approach 5 features after per-image white balance to the paper background",
+  "members": {
+    "paper_wb_approach5": {
+      "dimension": 52,
+      "pca_components": null,
+      "rotation_views": 1
+    }
+  },
+  "fusion_rule": "mean of member linear-SVM decision values; >= 0 means bad",
+  "image_level": {
+    "accuracy": 0.686046511627907,
+    "balanced_accuracy": 0.7072532479527123,
+    "bad_precision": 0.8333333333333334,
+    "bad_recall": 0.5704697986577181,
+    "bad_f1": 0.6772908366533864,
+    "false_accept_bad_as_good": 64,
+    "false_reject_good_as_bad": 17,
+    "confusion_matrix": [
+      [
+        92,
+        17
+      ],
+      [
+        64,
+        85
+      ]
+    ]
+  },
+  "brick_level": {
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.75,
+    "bad_precision": 1.0,
+    "bad_recall": 0.5,
+    "bad_f1": 0.6666666666666666,
+    "false_accept_bad_as_good": 3,
+    "false_reject_good_as_bad": 0,
+    "confusion_matrix": [
+      [
+        4,
+        0
+      ],
+      [
+        3,
+        3
+      ]
+    ]
+  },
+  "n_images": 258,
+  "n_bricks": 10
+}

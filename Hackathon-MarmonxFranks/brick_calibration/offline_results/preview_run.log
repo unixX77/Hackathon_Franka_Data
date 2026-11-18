@@ -1,0 +1,74 @@
+Loading SAM3 and frozen Approach 17 once...
+Brick_1_good b001_good.png: good score=-3.456491 in 0.82s
+Brick_2_good b027_good.png: good score=-3.553864 in 0.339s
+Brick_3_good b057_good.png: good score=-2.438097 in 0.33s
+Brick_4_good b085_good.png: good score=-2.853967 in 0.341s
+Brick_5_bad b001_bad.png: bad score=0.534169 in 0.335s
+Brick_6_bad b026_bad.png: bad score=1.867812 in 0.34s
+Brick_7_bad b050_bad.png: bad score=2.809292 in 0.343s
+Brick_8_bad b074_bad.png: bad score=-0.914823 in 0.313s
+Brick_9_bad b098_bad.png: bad score=-1.090974 in 0.324s
+Brick_10_bad b122_bad.png: bad score=1.592963 in 0.324s
+{
+  "input": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/brick_splits/images",
+  "output": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/offline_results",
+  "sam_model": "/cache/s95vkond/huggingface/hub/models--facebook--sam3/snapshots/3c879f39826c281e95690f02c7821c4de09afae7",
+  "sam_prompt": "brick",
+  "threshold_policy": "minus_two_binary",
+  "total_images": 10,
+  "classified": 10,
+  "correct": 10,
+  "per_folder": {
+    "Brick_1_good": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_2_good": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_3_good": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_4_good": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_5_bad": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_6_bad": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_7_bad": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_8_bad": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_9_bad": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    },
+    "Brick_10_bad": {
+      "images": 1,
+      "classified": 1,
+      "correct": 1
+    }
+  },
+  "note": "These are the same physical bricks used to fit the frozen checkpoint; this is an in-sample SAM3-mask check, not brick-held-out generalisation."
+}

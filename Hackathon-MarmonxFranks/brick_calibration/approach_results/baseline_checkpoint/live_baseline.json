@@ -1,0 +1,12 @@
+{
+  "name": "SAM3 + Approach 17 with review band",
+  "pipeline": "sam3",
+  "sam3_checkpoint": "/cache/s95vkond/huggingface/hub/models--facebook--sam3/snapshots/3c879f39826c281e95690f02c7821c4de09afae7",
+  "classifier_checkpoint": "brick_calibration/approach_results/baseline_checkpoint",
+  "threshold_policy": "review_band_175_120",
+  "threshold_policy_file": "brick_calibration/threshold_policies/review_band_175_120.json",
+  "good": "score <= -1.75",
+  "uncertain": "-1.75 < score <= -1.20",
+  "bad": "score > -1.20",
+  "notes": "Live default; Approach 17 checkpoint and historical training metadata remain unchanged. Scores and thresholds require validation on live camera frames."
+}

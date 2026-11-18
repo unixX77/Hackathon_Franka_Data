@@ -1,0 +1,44 @@
+{
+  "image_level": {
+    "accuracy": 0.5232558139534884,
+    "balanced_accuracy": 0.5293701126777908,
+    "bad_precision": 0.6083333333333333,
+    "bad_recall": 0.4899328859060403,
+    "bad_f1": 0.5427509293680297,
+    "false_accept_bad_as_good": 76,
+    "false_reject_good_as_bad": 47,
+    "confusion_matrix": [
+      [
+        62,
+        47
+      ],
+      [
+        76,
+        73
+      ]
+    ]
+  },
+  "brick_level": {
+    "accuracy": 0.6,
+    "balanced_accuracy": 0.625,
+    "bad_precision": 0.75,
+    "bad_recall": 0.5,
+    "bad_f1": 0.6,
+    "false_accept_bad_as_good": 3,
+    "false_reject_good_as_bad": 1,
+    "confusion_matrix": [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        3
+      ]
+    ]
+  },
+  "n_images": 258,
+  "n_bricks": 10,
+  "method": "mean distance to five nearest good-image references",
+  "pca_components_max": 32
+}

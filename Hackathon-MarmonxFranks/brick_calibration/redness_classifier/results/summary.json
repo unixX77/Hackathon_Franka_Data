@@ -1,0 +1,176 @@
+{
+  "lobo_nested": {
+    "image_accuracy": 0.8090909090909091,
+    "balanced_accuracy": 0.8300940990238326,
+    "good_recall": 0.9156626506024096,
+    "bad_recall": 0.7445255474452555,
+    "coverage": 0.8527131782945736,
+    "strict_accuracy_no_verdict_counts_wrong": 0.689922480620155,
+    "brick_accuracy": 0.8,
+    "per_brick": {
+      "Brick_10_bad": {
+        "label": "bad",
+        "photos_with_verdict": 26,
+        "photos": 28,
+        "image_accuracy": 0.5384615384615384,
+        "mean_score": -0.10560491995513835,
+        "brick_correct": false
+      },
+      "Brick_1_good": {
+        "label": "good",
+        "photos_with_verdict": 15,
+        "photos": 26,
+        "image_accuracy": 0.7333333333333333,
+        "mean_score": -0.7026080480411839,
+        "brick_correct": true
+      },
+      "Brick_2_good": {
+        "label": "good",
+        "photos_with_verdict": 24,
+        "photos": 30,
+        "image_accuracy": 0.9583333333333334,
+        "mean_score": -0.7597823825467614,
+        "brick_correct": true
+      },
+      "Brick_3_good": {
+        "label": "good",
+        "photos_with_verdict": 23,
+        "photos": 28,
+        "image_accuracy": 0.9565217391304348,
+        "mean_score": -1.8423055406064328,
+        "brick_correct": true
+      },
+      "Brick_4_good": {
+        "label": "good",
+        "photos_with_verdict": 21,
+        "photos": 25,
+        "image_accuracy": 0.9523809523809523,
+        "mean_score": -1.1241957333743016,
+        "brick_correct": true
+      },
+      "Brick_5_bad": {
+        "label": "bad",
+        "photos_with_verdict": 23,
+        "photos": 25,
+        "image_accuracy": 1.0,
+        "mean_score": 3.35080461071468,
+        "brick_correct": true
+      },
+      "Brick_6_bad": {
+        "label": "bad",
+        "photos_with_verdict": 22,
+        "photos": 24,
+        "image_accuracy": 0.045454545454545456,
+        "mean_score": -1.2223938476901024,
+        "brick_correct": false
+      },
+      "Brick_7_bad": {
+        "label": "bad",
+        "photos_with_verdict": 22,
+        "photos": 24,
+        "image_accuracy": 1.0,
+        "mean_score": 3.272972138972902,
+        "brick_correct": true
+      },
+      "Brick_8_bad": {
+        "label": "bad",
+        "photos_with_verdict": 22,
+        "photos": 24,
+        "image_accuracy": 1.0,
+        "mean_score": 0.9283305044423679,
+        "brick_correct": true
+      },
+      "Brick_9_bad": {
+        "label": "bad",
+        "photos_with_verdict": 22,
+        "photos": 24,
+        "image_accuracy": 0.9090909090909091,
+        "mean_score": 0.7793466845604148,
+        "brick_correct": true
+      }
+    },
+    "chosen_per_fold": {
+      "Brick_10_bad": {
+        "features": "L,chroma,hue",
+        "distance": "mahalanobis",
+        "inner_score": 0.8456574675324675,
+        "threshold": 2.9918126431881538
+      },
+      "Brick_1_good": {
+        "features": "L,a,b",
+        "distance": "max",
+        "inner_score": 0.8513777888777889,
+        "threshold": 2.7820519250657973
+      },
+      "Brick_2_good": {
+        "features": "L,chroma,hue",
+        "distance": "mahalanobis",
+        "inner_score": 0.8600613154960981,
+        "threshold": 2.8370609959275934
+      },
+      "Brick_3_good": {
+        "features": "L,a,b,hue",
+        "distance": "max",
+        "inner_score": 0.7355769230769231,
+        "threshold": 3.051956598323781
+      },
+      "Brick_4_good": {
+        "features": "L,chroma,hue",
+        "distance": "mahalanobis",
+        "inner_score": 0.7963869463869464,
+        "threshold": 2.5543301033800345
+      },
+      "Brick_5_bad": {
+        "features": "L,chroma,hue",
+        "distance": "max",
+        "inner_score": 0.810224558050645,
+        "threshold": 2.120197792113676
+      },
+      "Brick_6_bad": {
+        "features": "L,chroma,hue",
+        "distance": "max",
+        "inner_score": 0.9056791035051904,
+        "threshold": 2.120197792113676
+      },
+      "Brick_7_bad": {
+        "features": "L,chroma,hue",
+        "distance": "max",
+        "inner_score": 0.810224558050645,
+        "threshold": 2.120197792113676
+      },
+      "Brick_8_bad": {
+        "features": "L,a,b",
+        "distance": "max",
+        "inner_score": 0.8025187222198091,
+        "threshold": 2.352564126711999
+      },
+      "Brick_9_bad": {
+        "features": "L,a,b",
+        "distance": "max",
+        "inner_score": 0.8011929646440517,
+        "threshold": 2.352564126711999
+      }
+    },
+    "excluding_brick6": {
+      "image_accuracy": 0.8939393939393939,
+      "balanced_accuracy": 0.8969617600838136,
+      "good_recall": 0.9156626506024096,
+      "bad_recall": 0.8782608695652174,
+      "coverage": 0.8461538461538461,
+      "strict_accuracy_no_verdict_counts_wrong": 0.7564102564102564,
+      "brick_accuracy": 0.8888888888888888
+    }
+  },
+  "provided_splits": {
+    "n_splits": 24,
+    "mean_test_accuracy": 0.765407157053238,
+    "std_test_accuracy": 0.20511179485377828,
+    "mean_test_accuracy_splits_without_brick6_in_test": 0.8341843347663053
+  },
+  "final_model": {
+    "features": "L,chroma,hue",
+    "distance": "max",
+    "inner_score": 0.8320194298455168,
+    "threshold": 2.120197792113676
+  }
+}

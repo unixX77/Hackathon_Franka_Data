@@ -1,0 +1,13 @@
+{
+  "data": "/cache/s95vkond/test_data/rgb_bricks",
+  "n_images": 258,
+  "n_physical_bricks": 10,
+  "skipped_images": 0,
+  "selection_rule": "brick bad recall, then balanced accuracy, then accuracy",
+  "recommended_approach_by_rule": "05_masked_lab_hist_texture_linear_svm",
+  "frozen_approach_5_checkpoint": "05_approach_checkpoint/model.joblib",
+  "approach_5_checkpoint_parameters": {
+    "svc__C": 0.1
+  },
+  "warning": "Only ten physical bricks; results are exploratory, not a deployment guarantee."
+}

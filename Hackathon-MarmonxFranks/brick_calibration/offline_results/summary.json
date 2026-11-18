@@ -1,0 +1,63 @@
+{
+  "input": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/brick_splits/images",
+  "output": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/offline_results",
+  "sam_model": "/cache/s95vkond/huggingface/hub/models--facebook--sam3/snapshots/3c879f39826c281e95690f02c7821c4de09afae7",
+  "sam_prompt": "brick",
+  "threshold_policy": "minus_two_binary",
+  "total_images": 258,
+  "classified": 258,
+  "correct": 207,
+  "per_folder": {
+    "Brick_1_good": {
+      "images": 26,
+      "classified": 26,
+      "correct": 15
+    },
+    "Brick_2_good": {
+      "images": 30,
+      "classified": 30,
+      "correct": 18
+    },
+    "Brick_3_good": {
+      "images": 28,
+      "classified": 28,
+      "correct": 13
+    },
+    "Brick_4_good": {
+      "images": 25,
+      "classified": 25,
+      "correct": 21
+    },
+    "Brick_5_bad": {
+      "images": 25,
+      "classified": 25,
+      "correct": 25
+    },
+    "Brick_6_bad": {
+      "images": 24,
+      "classified": 24,
+      "correct": 23
+    },
+    "Brick_7_bad": {
+      "images": 24,
+      "classified": 24,
+      "correct": 24
+    },
+    "Brick_8_bad": {
+      "images": 24,
+      "classified": 24,
+      "correct": 19
+    },
+    "Brick_9_bad": {
+      "images": 24,
+      "classified": 24,
+      "correct": 23
+    },
+    "Brick_10_bad": {
+      "images": 28,
+      "classified": 28,
+      "correct": 26
+    }
+  },
+  "note": "These are the same physical bricks used to fit the frozen checkpoint; this is an in-sample SAM3-mask check, not brick-held-out generalisation."
+}

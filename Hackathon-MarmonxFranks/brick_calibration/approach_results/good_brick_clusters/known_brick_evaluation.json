@@ -1,0 +1,32 @@
+{
+  "evaluation": "ordered photo holdout from same known physical bricks; not new-brick generalization",
+  "counts": {
+    "train": 154,
+    "validation": 53,
+    "test": 51
+  },
+  "selection": {
+    "variant": "color_texture",
+    "prototypes_per_brick": 1,
+    "threshold": 0.8396527425625395,
+    "validation_metrics": {
+      "balanced_group_accuracy": 0.7416666666666667,
+      "bad_group_accuracy": 0.8666666666666667,
+      "good_group_accuracy": 0.6166666666666667
+    }
+  },
+  "test_correct": 33,
+  "test_accuracy": 0.6470588235294118,
+  "test_confusion_matrix_good_bad": [
+    [
+      8,
+      13
+    ],
+    [
+      5,
+      25
+    ]
+  ],
+  "test_good_recall": 0.38095238095238093,
+  "test_bad_recall": 0.8333333333333334
+}

@@ -1,0 +1,25 @@
+{
+  "name": "good_brick_clusters",
+  "selection": {
+    "variant": "color_texture",
+    "prototypes_per_brick": 2,
+    "threshold": 1.1792161283795424,
+    "inner_metrics": {
+      "balanced_group_accuracy": 0.5855570818070818,
+      "bad_group_accuracy": 0.6734126984126984,
+      "good_group_accuracy": 0.49770146520146524
+    }
+  },
+  "reference_bricks": [
+    "Brick_1_good",
+    "Brick_2_good",
+    "Brick_3_good",
+    "Brick_4_good"
+  ],
+  "n_prototypes": 8,
+  "n_training_images": 258,
+  "decision_rule": "bad if nearest normalized good-reference distance > threshold",
+  "scaler_fit": "training good images only; equal weight per physical good brick",
+  "score_scale": "distance divided by median training-good prototype residual",
+  "evaluation": "evaluation.json"
+}

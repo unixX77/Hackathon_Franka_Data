@@ -1,0 +1,24 @@
+{
+  "name": "face-color-rotation-v2",
+  "selection": {
+    "C": 0.03,
+    "threshold": 0.08506523805659455,
+    "inner_metrics": {
+      "balanced_group_accuracy": 0.722675518925519,
+      "bad_group_accuracy": 0.6476587301587301,
+      "good_group_accuracy": 0.7976923076923077
+    }
+  },
+  "n_images": 258,
+  "n_physical_bricks": 10,
+  "features": {
+    "baseline_appearance": 52,
+    "view_geometry_proxy": 8,
+    "filtered_material_lab": 53,
+    "local_lab": 20,
+    "rotation_averaged_dino": 1152
+  },
+  "view_limitation": "No labeled physical face types; dark components and geometry are proxies only.",
+  "rotation_limitation": "0,90,180,270 are in-plane rotations, not hidden faces.",
+  "decision": "bad if SVM raw score > training-selected threshold"
+}

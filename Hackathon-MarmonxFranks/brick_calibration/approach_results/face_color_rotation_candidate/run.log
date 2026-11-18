@@ -1,0 +1,54 @@
+Extracted four-feature vectors: 25/258
+Extracted four-feature vectors: 50/258
+Extracted four-feature vectors: 75/258
+Extracted four-feature vectors: 100/258
+Extracted four-feature vectors: 125/258
+Extracted four-feature vectors: 150/258
+Extracted four-feature vectors: 175/258
+Extracted four-feature vectors: 200/258
+Extracted four-feature vectors: 225/258
+Extracted four-feature vectors: 250/258
+Extracted four-feature vectors: 258/258
+Held out Brick_10_bad: 13/28
+Held out Brick_1_good: 22/26
+Held out Brick_2_good: 18/30
+Held out Brick_3_good: 28/28
+Held out Brick_4_good: 24/25
+Held out Brick_5_bad: 22/25
+Held out Brick_6_bad: 2/24
+Held out Brick_7_bad: 24/24
+Held out Brick_8_bad: 2/24
+Held out Brick_9_bad: 24/24
+{
+  "evaluation": {
+    "method": "outer leave-one-physical-brick-out; inner grouped C and threshold selection",
+    "n_images": 258,
+    "n_bricks": 10,
+    "image_correct": 179,
+    "image_accuracy": 0.6937984496124031,
+    "balanced_accuracy": 0.7139646573486855,
+    "good_recall": 0.8440366972477065,
+    "bad_recall": 0.5838926174496645,
+    "confusion_matrix_good_bad": [
+      [
+        92,
+        17
+      ],
+      [
+        62,
+        87
+      ]
+    ],
+    "material_mask_fallbacks": 0,
+    "brick_correct": 7
+  },
+  "selection": {
+    "C": 0.03,
+    "threshold": 0.08506523805659455,
+    "inner_metrics": {
+      "balanced_group_accuracy": 0.722675518925519,
+      "bad_group_accuracy": 0.6476587301587301,
+      "good_group_accuracy": 0.7976923076923077
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "image_level": {
+    "accuracy": 0.5697674418604651,
+    "balanced_accuracy": 0.5831845329721076,
+    "bad_precision": 0.6727272727272727,
+    "bad_recall": 0.4966442953020134,
+    "bad_f1": 0.5714285714285714,
+    "false_accept_bad_as_good": 75,
+    "false_reject_good_as_bad": 36,
+    "confusion_matrix": [
+      [
+        73,
+        36
+      ],
+      [
+        75,
+        74
+      ]
+    ]
+  },
+  "brick_level": {
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.7083333333333333,
+    "bad_precision": 0.8,
+    "bad_recall": 0.6666666666666666,
+    "bad_f1": 0.7272727272727273,
+    "false_accept_bad_as_good": 2,
+    "false_reject_good_as_bad": 1,
+    "confusion_matrix": [
+      [
+        3,
+        1
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "method": "per-patch nearest-good cosine anomaly; mean top 5%",
+  "top_fraction": 0.05,
+  "grid": [
+    16,
+    16
+  ],
+  "n_images": 258,
+  "n_bricks": 10
+}

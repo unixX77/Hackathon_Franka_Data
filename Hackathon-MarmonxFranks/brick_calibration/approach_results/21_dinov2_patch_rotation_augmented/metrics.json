@@ -1,0 +1,51 @@
+{
+  "description": "Approach 8 trained on 0/90/180/270-degree crops; test score averaged over the four rotations",
+  "members": {
+    "dinov2_patch_rot4": {
+      "dimension": 1152,
+      "pca_components": 32,
+      "rotation_views": 4
+    }
+  },
+  "fusion_rule": "mean of member linear-SVM decision values; >= 0 means bad",
+  "image_level": {
+    "accuracy": 0.7945736434108527,
+    "balanced_accuracy": 0.7999815282310203,
+    "bad_precision": 0.8636363636363636,
+    "bad_recall": 0.7651006711409396,
+    "bad_f1": 0.8113879003558719,
+    "false_accept_bad_as_good": 35,
+    "false_reject_good_as_bad": 18,
+    "confusion_matrix": [
+      [
+        91,
+        18
+      ],
+      [
+        35,
+        114
+      ]
+    ]
+  },
+  "brick_level": {
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.8333333333333333,
+    "bad_precision": 1.0,
+    "bad_recall": 0.6666666666666666,
+    "bad_f1": 0.8,
+    "false_accept_bad_as_good": 2,
+    "false_reject_good_as_bad": 0,
+    "confusion_matrix": [
+      [
+        4,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  },
+  "n_images": 258,
+  "n_bricks": 10
+}

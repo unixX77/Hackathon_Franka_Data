@@ -1,0 +1,95 @@
+Ablation: baseline_control
+Reusing completed evaluation: /ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/approach_results/face_color_rotation_candidate/ablations/baseline_control/evaluation.json
+Ablation: view_proxy
+Reusing completed evaluation: /ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/approach_results/face_color_rotation_candidate/ablations/view_proxy/evaluation.json
+Ablation: material_color
+Held out Brick_10_bad: 11/28
+Held out Brick_1_good: 22/26
+Held out Brick_2_good: 16/30
+Held out Brick_3_good: 28/28
+Held out Brick_4_good: 21/25
+Held out Brick_5_bad: 24/25
+Held out Brick_6_bad: 6/24
+Held out Brick_7_bad: 24/24
+Held out Brick_8_bad: 2/24
+Held out Brick_9_bad: 24/24
+Ablation: local_color
+Held out Brick_10_bad: 13/28
+Held out Brick_1_good: 19/26
+Held out Brick_2_good: 16/30
+Held out Brick_3_good: 28/28
+Held out Brick_4_good: 23/25
+Held out Brick_5_bad: 23/25
+Held out Brick_6_bad: 2/24
+Held out Brick_7_bad: 24/24
+Held out Brick_8_bad: 1/24
+Held out Brick_9_bad: 24/24
+Ablation: rotation_dino
+Held out Brick_10_bad: 15/28
+Held out Brick_1_good: 23/26
+Held out Brick_2_good: 9/30
+Held out Brick_3_good: 27/28
+Held out Brick_4_good: 24/25
+Held out Brick_5_bad: 23/25
+Held out Brick_6_bad: 2/24
+Held out Brick_7_bad: 24/24
+Held out Brick_8_bad: 5/24
+Held out Brick_9_bad: 24/24
+Ablation: all_four
+Reusing completed evaluation: /ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/approach_results/face_color_rotation_candidate/evaluation.json
+[
+  {
+    "approach": "baseline_control",
+    "correct": 167,
+    "total": 258,
+    "accuracy": 0.6472868217054264,
+    "good_recall": 0.7522935779816514,
+    "bad_recall": 0.5704697986577181,
+    "brick_correct": 6
+  },
+  {
+    "approach": "view_proxy",
+    "correct": 175,
+    "total": 258,
+    "accuracy": 0.6782945736434108,
+    "good_recall": 0.7889908256880734,
+    "bad_recall": 0.5973154362416108,
+    "brick_correct": 8
+  },
+  {
+    "approach": "material_color",
+    "correct": 178,
+    "total": 258,
+    "accuracy": 0.689922480620155,
+    "good_recall": 0.7981651376146789,
+    "bad_recall": 0.610738255033557,
+    "brick_correct": 7
+  },
+  {
+    "approach": "local_color",
+    "correct": 173,
+    "total": 258,
+    "accuracy": 0.6705426356589147,
+    "good_recall": 0.7889908256880734,
+    "bad_recall": 0.5838926174496645,
+    "brick_correct": 7
+  },
+  {
+    "approach": "rotation_dino",
+    "correct": 176,
+    "total": 258,
+    "accuracy": 0.6821705426356589,
+    "good_recall": 0.7614678899082569,
+    "bad_recall": 0.6241610738255033,
+    "brick_correct": 7
+  },
+  {
+    "approach": "all_four",
+    "correct": 179,
+    "total": 258,
+    "accuracy": 0.6937984496124031,
+    "good_recall": 0.8440366972477065,
+    "bad_recall": 0.5838926174496645,
+    "brick_correct": 7
+  }
+]

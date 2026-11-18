@@ -1,0 +1,1262 @@
+{
+  "rgb": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.5736434108527132,
+        "balanced_accuracy": 0.5865402376700942,
+        "bad_precision": 0.6756756756756757,
+        "bad_recall": 0.5033557046979866,
+        "bad_f1": 0.5769230769230769,
+        "false_accept_bad_as_good": 74,
+        "false_reject_good_as_bad": 36,
+        "confusion_matrix": [
+          [
+            73,
+            36
+          ],
+          [
+            74,
+            75
+          ]
+        ]
+      },
+      "bricks_correct": 6,
+      "per_brick_images_correct": {
+        "Brick_1_good": "26/26",
+        "Brick_2_good": "13/30",
+        "Brick_3_good": "22/28",
+        "Brick_4_good": "12/25",
+        "Brick_5_bad": "15/25",
+        "Brick_6_bad": "2/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "0/24",
+        "Brick_9_bad": "24/24",
+        "Brick_10_bad": "10/28"
+      },
+      "brick6_images_correct": 2,
+      "brick6_mean_score": -1.4051652432287882
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.5503875968992248,
+        "balanced_accuracy": 0.5565543993596453,
+        "bad_precision": 0.6363636363636364,
+        "bad_recall": 0.5167785234899329,
+        "bad_f1": 0.5703703703703704,
+        "false_accept_bad_as_good": 72,
+        "false_reject_good_as_bad": 44,
+        "confusion_matrix": [
+          [
+            65,
+            44
+          ],
+          [
+            72,
+            77
+          ]
+        ]
+      },
+      "bricks_correct": 5,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "15/30",
+        "Brick_3_good": "23/28",
+        "Brick_4_good": "8/25",
+        "Brick_5_bad": "16/25",
+        "Brick_6_bad": "2/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "0/24",
+        "Brick_9_bad": "24/24",
+        "Brick_10_bad": "11/28"
+      },
+      "brick6_images_correct": 2,
+      "brick6_mean_score": -1.729464823698483
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 5.624710559844971,
+        "nearest_bad": 7.853699207305908,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 4.0463361740112305,
+        "nearest_bad": 5.362154006958008,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 4.0463361740112305,
+        "nearest_bad": 5.168576717376709,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 4.2821550369262695,
+        "nearest_bad": 6.431530475616455,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 5.168576717376709,
+        "nearest_bad": 4.7242021560668945,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.6657952070236206,
+        "nearest_bad": 4.879798889160156,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 6.566712856292725,
+        "nearest_bad": 4.206640720367432,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 6.431530475616455,
+        "nearest_bad": 9.268840789794922,
+        "closer_to": "good"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 7.616455554962158,
+        "nearest_bad": 4.206640720367432,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 7.284799098968506,
+        "nearest_bad": 5.5221052169799805,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "hsv": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.5775193798449613,
+        "balanced_accuracy": 0.5886644911027646,
+        "bad_precision": 0.6754385964912281,
+        "bad_recall": 0.5167785234899329,
+        "bad_f1": 0.5855513307984791,
+        "false_accept_bad_as_good": 72,
+        "false_reject_good_as_bad": 37,
+        "confusion_matrix": [
+          [
+            72,
+            37
+          ],
+          [
+            72,
+            77
+          ]
+        ]
+      },
+      "bricks_correct": 6,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "18/30",
+        "Brick_3_good": "24/28",
+        "Brick_4_good": "11/25",
+        "Brick_5_bad": "7/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "2/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "18/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -1.3070345340204665
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7325581395348837,
+        "balanced_accuracy": 0.746290253063235,
+        "bad_precision": 0.8448275862068966,
+        "bad_recall": 0.6577181208053692,
+        "bad_f1": 0.7396226415094339,
+        "false_accept_bad_as_good": 51,
+        "false_reject_good_as_bad": 18,
+        "confusion_matrix": [
+          [
+            91,
+            18
+          ],
+          [
+            51,
+            98
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "24/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "23/25",
+        "Brick_5_bad": "14/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "11/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "23/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -0.79663988067311
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 3.9119057655334473,
+        "nearest_bad": 6.1039299964904785,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 4.032495021820068,
+        "nearest_bad": 5.369699001312256,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.9119057655334473,
+        "nearest_bad": 4.592987537384033,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 4.032495021820068,
+        "nearest_bad": 6.869472980499268,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 4.592987537384033,
+        "nearest_bad": 5.664523601531982,
+        "closer_to": "good"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 2.4489822387695312,
+        "nearest_bad": 5.043843746185303,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 7.411465644836426,
+        "nearest_bad": 5.540945529937744,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 6.920952320098877,
+        "nearest_bad": 6.808611869812012,
+        "closer_to": "bad"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.389520168304443,
+        "nearest_bad": 4.482731342315674,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.740601539611816,
+        "nearest_bad": 4.482731342315674,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "hls": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.6317829457364341,
+        "balanced_accuracy": 0.6467274182624223,
+        "bad_precision": 0.7454545454545455,
+        "bad_recall": 0.5503355704697986,
+        "bad_f1": 0.6332046332046332,
+        "false_accept_bad_as_good": 67,
+        "false_reject_good_as_bad": 28,
+        "confusion_matrix": [
+          [
+            81,
+            28
+          ],
+          [
+            67,
+            82
+          ]
+        ]
+      },
+      "bricks_correct": 7,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "18/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "19/25",
+        "Brick_5_bad": "8/25",
+        "Brick_6_bad": "1/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "9/24",
+        "Brick_9_bad": "24/24",
+        "Brick_10_bad": "16/28"
+      },
+      "brick6_images_correct": 1,
+      "brick6_mean_score": -1.7996172690103507
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7248062015503876,
+        "balanced_accuracy": 0.7395788436672619,
+        "bad_precision": 0.8421052631578947,
+        "bad_recall": 0.6442953020134228,
+        "bad_f1": 0.7300380228136882,
+        "false_accept_bad_as_good": 53,
+        "false_reject_good_as_bad": 18,
+        "confusion_matrix": [
+          [
+            91,
+            18
+          ],
+          [
+            53,
+            96
+          ]
+        ]
+      },
+      "bricks_correct": 8,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "23/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "24/25",
+        "Brick_5_bad": "12/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "17/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "17/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -1.1319105399372533
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 4.464697360992432,
+        "nearest_bad": 6.95011043548584,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.337982416152954,
+        "nearest_bad": 5.508406162261963,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.821333408355713,
+        "nearest_bad": 5.162269592285156,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.337982416152954,
+        "nearest_bad": 6.787923336029053,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 5.162269592285156,
+        "nearest_bad": 5.826218128204346,
+        "closer_to": "good"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 2.4011449813842773,
+        "nearest_bad": 5.4513840675354,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 7.911262512207031,
+        "nearest_bad": 5.043065547943115,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 6.796684265136719,
+        "nearest_bad": 6.811934471130371,
+        "closer_to": "good"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.709417819976807,
+        "nearest_bad": 4.694229602813721,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.736410617828369,
+        "nearest_bad": 4.694229602813721,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "lab": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.7403100775193798,
+        "balanced_accuracy": 0.744381503601995,
+        "bad_precision": 0.8106060606060606,
+        "bad_recall": 0.7181208053691275,
+        "bad_f1": 0.7615658362989324,
+        "false_accept_bad_as_good": 42,
+        "false_reject_good_as_bad": 25,
+        "confusion_matrix": [
+          [
+            84,
+            25
+          ],
+          [
+            42,
+            107
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "22/26",
+        "Brick_2_good": "19/30",
+        "Brick_3_good": "21/28",
+        "Brick_4_good": "22/25",
+        "Brick_5_bad": "19/25",
+        "Brick_6_bad": "2/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "18/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "21/28"
+      },
+      "brick6_images_correct": 2,
+      "brick6_mean_score": -1.4362828201458828
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7635658914728682,
+        "balanced_accuracy": 0.7743673419124438,
+        "bad_precision": 0.860655737704918,
+        "bad_recall": 0.7046979865771812,
+        "bad_f1": 0.7749077490774908,
+        "false_accept_bad_as_good": 44,
+        "false_reject_good_as_bad": 17,
+        "confusion_matrix": [
+          [
+            92,
+            17
+          ],
+          [
+            44,
+            105
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "26/30",
+        "Brick_3_good": "22/28",
+        "Brick_4_good": "25/25",
+        "Brick_5_bad": "13/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "21/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "21/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -1.0803274633078146
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 3.951267719268799,
+        "nearest_bad": 6.561315536499023,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.585862874984741,
+        "nearest_bad": 6.10740327835083,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.951267719268799,
+        "nearest_bad": 6.004606246948242,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.585862874984741,
+        "nearest_bad": 7.1851725578308105,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 6.004606246948242,
+        "nearest_bad": 4.950888633728027,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.9020148515701294,
+        "nearest_bad": 6.386125564575195,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 7.638987064361572,
+        "nearest_bad": 4.950888633728027,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 7.1851725578308105,
+        "nearest_bad": 6.842285633087158,
+        "closer_to": "bad"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.10740327835083,
+        "nearest_bad": 4.95138692855835,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.3327460289001465,
+        "nearest_bad": 4.95138692855835,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "luv": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.7441860465116279,
+        "balanced_accuracy": 0.7563573671571948,
+        "bad_precision": 0.8487394957983193,
+        "bad_recall": 0.6778523489932886,
+        "bad_f1": 0.753731343283582,
+        "false_accept_bad_as_good": 48,
+        "false_reject_good_as_bad": 18,
+        "confusion_matrix": [
+          [
+            91,
+            18
+          ],
+          [
+            48,
+            101
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "21/26",
+        "Brick_2_good": "23/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "22/25",
+        "Brick_5_bad": "15/25",
+        "Brick_6_bad": "2/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "18/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "19/28"
+      },
+      "brick6_images_correct": 2,
+      "brick6_mean_score": -1.31502871630165
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7790697674418605,
+        "balanced_accuracy": 0.7902530632350224,
+        "bad_precision": 0.8770491803278688,
+        "bad_recall": 0.7181208053691275,
+        "bad_f1": 0.7896678966789668,
+        "false_accept_bad_as_good": 42,
+        "false_reject_good_as_bad": 15,
+        "confusion_matrix": [
+          [
+            94,
+            15
+          ],
+          [
+            42,
+            107
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "25/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "25/25",
+        "Brick_5_bad": "15/25",
+        "Brick_6_bad": "1/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "23/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "21/28"
+      },
+      "brick6_images_correct": 1,
+      "brick6_mean_score": -1.2941249155480188
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 3.945516586303711,
+        "nearest_bad": 6.42155647277832,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 4.0703606605529785,
+        "nearest_bad": 6.087277889251709,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.945516586303711,
+        "nearest_bad": 5.104005813598633,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 4.0703606605529785,
+        "nearest_bad": 7.311441421508789,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 5.104005813598633,
+        "nearest_bad": 5.253532409667969,
+        "closer_to": "good"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.8280774354934692,
+        "nearest_bad": 5.403511047363281,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 7.040863990783691,
+        "nearest_bad": 5.253532409667969,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 7.311441421508789,
+        "nearest_bad": 6.9974045753479,
+        "closer_to": "bad"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.777499675750732,
+        "nearest_bad": 4.997944355010986,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.403609275817871,
+        "nearest_bad": 4.997944355010986,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "ycrcb": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.8062015503875969,
+        "balanced_accuracy": 0.8199002524475094,
+        "bad_precision": 0.9159663865546218,
+        "bad_recall": 0.7315436241610739,
+        "bad_f1": 0.8134328358208955,
+        "false_accept_bad_as_good": 40,
+        "false_reject_good_as_bad": 10,
+        "confusion_matrix": [
+          [
+            99,
+            10
+          ],
+          [
+            40,
+            109
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "25/26",
+        "Brick_2_good": "26/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "23/25",
+        "Brick_5_bad": "16/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "23/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "20/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -1.0602879944301005
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7868217054263565,
+        "balanced_accuracy": 0.799427375161628,
+        "bad_precision": 0.8916666666666667,
+        "bad_recall": 0.7181208053691275,
+        "bad_f1": 0.7955390334572491,
+        "false_accept_bad_as_good": 42,
+        "false_reject_good_as_bad": 13,
+        "confusion_matrix": [
+          [
+            96,
+            13
+          ],
+          [
+            42,
+            107
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "27/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "25/25",
+        "Brick_5_bad": "16/25",
+        "Brick_6_bad": "2/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "24/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "18/28"
+      },
+      "brick6_images_correct": 2,
+      "brick6_mean_score": -1.4098913784406684
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 3.955690622329712,
+        "nearest_bad": 6.7845540046691895,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.5756843090057373,
+        "nearest_bad": 6.452798843383789,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.955690622329712,
+        "nearest_bad": 5.552774429321289,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.5756843090057373,
+        "nearest_bad": 7.408625602722168,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 5.552774429321289,
+        "nearest_bad": 5.255876541137695,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.8940037488937378,
+        "nearest_bad": 5.898134231567383,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 7.301466941833496,
+        "nearest_bad": 5.255876541137695,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 7.408625602722168,
+        "nearest_bad": 6.5090436935424805,
+        "closer_to": "bad"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.685927391052246,
+        "nearest_bad": 5.070896148681641,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.712019443511963,
+        "nearest_bad": 5.070896148681641,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "xyz": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.6395348837209303,
+        "balanced_accuracy": 0.6608275352502925,
+        "bad_precision": 0.78,
+        "bad_recall": 0.5234899328859061,
+        "bad_f1": 0.6265060240963856,
+        "false_accept_bad_as_good": 71,
+        "false_reject_good_as_bad": 22,
+        "confusion_matrix": [
+          [
+            87,
+            22
+          ],
+          [
+            71,
+            78
+          ]
+        ]
+      },
+      "bricks_correct": 7,
+      "per_brick_images_correct": {
+        "Brick_1_good": "25/26",
+        "Brick_2_good": "16/30",
+        "Brick_3_good": "24/28",
+        "Brick_4_good": "22/25",
+        "Brick_5_bad": "13/25",
+        "Brick_6_bad": "4/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "2/24",
+        "Brick_9_bad": "24/24",
+        "Brick_10_bad": "11/28"
+      },
+      "brick6_images_correct": 4,
+      "brick6_mean_score": -0.6852791985190567
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.624031007751938,
+        "balanced_accuracy": 0.6375531063358167,
+        "bad_precision": 0.7321428571428571,
+        "bad_recall": 0.5503355704697986,
+        "bad_f1": 0.6283524904214559,
+        "false_accept_bad_as_good": 67,
+        "false_reject_good_as_bad": 30,
+        "confusion_matrix": [
+          [
+            79,
+            30
+          ],
+          [
+            67,
+            82
+          ]
+        ]
+      },
+      "bricks_correct": 7,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "20/30",
+        "Brick_3_good": "23/28",
+        "Brick_4_good": "17/25",
+        "Brick_5_bad": "16/25",
+        "Brick_6_bad": "4/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "4/24",
+        "Brick_9_bad": "24/24",
+        "Brick_10_bad": "10/28"
+      },
+      "brick6_images_correct": 4,
+      "brick6_mean_score": -0.5600596560058229
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 5.592202186584473,
+        "nearest_bad": 7.78583288192749,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.9603524208068848,
+        "nearest_bad": 5.059903621673584,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.9695870876312256,
+        "nearest_bad": 5.180702209472656,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.9603524208068848,
+        "nearest_bad": 6.527191162109375,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 5.059903621673584,
+        "nearest_bad": 5.030464172363281,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.6347122192382812,
+        "nearest_bad": 4.659458637237549,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 6.735904216766357,
+        "nearest_bad": 4.134522438049316,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 6.527191162109375,
+        "nearest_bad": 9.320182800292969,
+        "closer_to": "good"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 8.18337345123291,
+        "nearest_bad": 4.134522438049316,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 7.437863349914551,
+        "nearest_bad": 5.654205799102783,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "rgb_chromaticity": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.7364341085271318,
+        "balanced_accuracy": 0.744720152699957,
+        "bad_precision": 0.824,
+        "bad_recall": 0.6912751677852349,
+        "bad_f1": 0.7518248175182481,
+        "false_accept_bad_as_good": 46,
+        "false_reject_good_as_bad": 22,
+        "confusion_matrix": [
+          [
+            87,
+            22
+          ],
+          [
+            46,
+            103
+          ]
+        ]
+      },
+      "bricks_correct": 8,
+      "per_brick_images_correct": {
+        "Brick_1_good": "24/26",
+        "Brick_2_good": "26/30",
+        "Brick_3_good": "18/28",
+        "Brick_4_good": "19/25",
+        "Brick_5_bad": "9/25",
+        "Brick_6_bad": "7/24",
+        "Brick_7_bad": "22/24",
+        "Brick_8_bad": "23/24",
+        "Brick_9_bad": "21/24",
+        "Brick_10_bad": "21/28"
+      },
+      "brick6_images_correct": 7,
+      "brick6_mean_score": -1.7407151001964414
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7984496124031008,
+        "balanced_accuracy": 0.810725940520904,
+        "bad_precision": 0.9008264462809917,
+        "bad_recall": 0.7315436241610739,
+        "bad_f1": 0.8074074074074075,
+        "false_accept_bad_as_good": 40,
+        "false_reject_good_as_bad": 12,
+        "confusion_matrix": [
+          [
+            97,
+            12
+          ],
+          [
+            40,
+            109
+          ]
+        ]
+      },
+      "bricks_correct": 8,
+      "per_brick_images_correct": {
+        "Brick_1_good": "22/26",
+        "Brick_2_good": "28/30",
+        "Brick_3_good": "24/28",
+        "Brick_4_good": "23/25",
+        "Brick_5_bad": "8/25",
+        "Brick_6_bad": "4/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "23/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "27/28"
+      },
+      "brick6_images_correct": 4,
+      "brick6_mean_score": -0.995975401977344
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 3.0858335494995117,
+        "nearest_bad": 6.282304286956787,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.0594708919525146,
+        "nearest_bad": 4.940469741821289,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.0858335494995117,
+        "nearest_bad": 5.926610469818115,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.0594708919525146,
+        "nearest_bad": 5.4239983558654785,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 7.380619049072266,
+        "nearest_bad": 3.9196794033050537,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 2.238893508911133,
+        "nearest_bad": 5.191707611083984,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 9.092216491699219,
+        "nearest_bad": 3.9196794033050537,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 4.940469741821289,
+        "nearest_bad": 2.9163033962249756,
+        "closer_to": "bad"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 5.064356327056885,
+        "nearest_bad": 2.9163033962249756,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 5.378500461578369,
+        "nearest_bad": 4.4804368019104,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "opponent": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.7790697674418605,
+        "balanced_accuracy": 0.7890216119697062,
+        "bad_precision": 0.8709677419354839,
+        "bad_recall": 0.7248322147651006,
+        "bad_f1": 0.7912087912087912,
+        "false_accept_bad_as_good": 41,
+        "false_reject_good_as_bad": 16,
+        "confusion_matrix": [
+          [
+            93,
+            16
+          ],
+          [
+            41,
+            108
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "22/26",
+        "Brick_2_good": "25/30",
+        "Brick_3_good": "23/28",
+        "Brick_4_good": "23/25",
+        "Brick_5_bad": "16/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "23/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "19/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -1.140778884682264
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7984496124031008,
+        "balanced_accuracy": 0.8094944892555878,
+        "bad_precision": 0.8943089430894309,
+        "bad_recall": 0.738255033557047,
+        "bad_f1": 0.8088235294117647,
+        "false_accept_bad_as_good": 39,
+        "false_reject_good_as_bad": 13,
+        "confusion_matrix": [
+          [
+            96,
+            13
+          ],
+          [
+            39,
+            110
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "19/26",
+        "Brick_2_good": "27/30",
+        "Brick_3_good": "25/28",
+        "Brick_4_good": "25/25",
+        "Brick_5_bad": "16/25",
+        "Brick_6_bad": "2/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "24/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "21/28"
+      },
+      "brick6_images_correct": 2,
+      "brick6_mean_score": -1.2634771770482882
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 3.9438207149505615,
+        "nearest_bad": 6.787498950958252,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.4726803302764893,
+        "nearest_bad": 6.544147968292236,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 3.9438207149505615,
+        "nearest_bad": 5.48112154006958,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.4726803302764893,
+        "nearest_bad": 7.486659526824951,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 5.48112154006958,
+        "nearest_bad": 5.261832237243652,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.8410890102386475,
+        "nearest_bad": 5.95238733291626,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 7.4623260498046875,
+        "nearest_bad": 5.261832237243652,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 7.486659526824951,
+        "nearest_bad": 6.680857181549072,
+        "closer_to": "bad"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.554257869720459,
+        "nearest_bad": 5.015880584716797,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.610146522521973,
+        "nearest_bad": 5.015880584716797,
+        "closer_to": "bad"
+      }
+    }
+  },
+  "log_chromaticity": {
+    "colour_only": {
+      "image": {
+        "accuracy": 0.7751937984496124,
+        "balanced_accuracy": 0.7832030047410874,
+        "bad_precision": 0.8582677165354331,
+        "bad_recall": 0.7315436241610739,
+        "bad_f1": 0.7898550724637681,
+        "false_accept_bad_as_good": 40,
+        "false_reject_good_as_bad": 18,
+        "confusion_matrix": [
+          [
+            91,
+            18
+          ],
+          [
+            40,
+            109
+          ]
+        ]
+      },
+      "bricks_correct": 8,
+      "per_brick_images_correct": {
+        "Brick_1_good": "24/26",
+        "Brick_2_good": "24/30",
+        "Brick_3_good": "21/28",
+        "Brick_4_good": "22/25",
+        "Brick_5_bad": "21/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "11/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "27/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -1.1695361167380585
+    },
+    "colour_plus_texture": {
+      "image": {
+        "accuracy": 0.7984496124031008,
+        "balanced_accuracy": 0.8082630379902715,
+        "bad_precision": 0.888,
+        "bad_recall": 0.7449664429530202,
+        "bad_f1": 0.8102189781021898,
+        "false_accept_bad_as_good": 38,
+        "false_reject_good_as_bad": 14,
+        "confusion_matrix": [
+          [
+            95,
+            14
+          ],
+          [
+            38,
+            111
+          ]
+        ]
+      },
+      "bricks_correct": 9,
+      "per_brick_images_correct": {
+        "Brick_1_good": "21/26",
+        "Brick_2_good": "27/30",
+        "Brick_3_good": "24/28",
+        "Brick_4_good": "23/25",
+        "Brick_5_bad": "19/25",
+        "Brick_6_bad": "3/24",
+        "Brick_7_bad": "24/24",
+        "Brick_8_bad": "14/24",
+        "Brick_9_bad": "23/24",
+        "Brick_10_bad": "28/28"
+      },
+      "brick6_images_correct": 3,
+      "brick6_mean_score": -0.9080318003903761
+    },
+    "separability": {
+      "Brick_1_good": {
+        "nearest_good": 4.227410316467285,
+        "nearest_bad": 7.050609588623047,
+        "closer_to": "good"
+      },
+      "Brick_2_good": {
+        "nearest_good": 3.473008632659912,
+        "nearest_bad": 6.101059913635254,
+        "closer_to": "good"
+      },
+      "Brick_3_good": {
+        "nearest_good": 4.227410316467285,
+        "nearest_bad": 6.223304271697998,
+        "closer_to": "good"
+      },
+      "Brick_4_good": {
+        "nearest_good": 3.473008632659912,
+        "nearest_bad": 5.372906684875488,
+        "closer_to": "good"
+      },
+      "Brick_5_bad": {
+        "nearest_good": 6.223304271697998,
+        "nearest_bad": 4.145447731018066,
+        "closer_to": "bad"
+      },
+      "Brick_6_bad": {
+        "nearest_good": 1.9357479810714722,
+        "nearest_bad": 6.32275390625,
+        "closer_to": "good"
+      },
+      "Brick_7_bad": {
+        "nearest_good": 8.252663612365723,
+        "nearest_bad": 4.145447731018066,
+        "closer_to": "bad"
+      },
+      "Brick_8_bad": {
+        "nearest_good": 5.372906684875488,
+        "nearest_bad": 7.293537139892578,
+        "closer_to": "good"
+      },
+      "Brick_9_bad": {
+        "nearest_good": 6.525882720947266,
+        "nearest_bad": 5.083456993103027,
+        "closer_to": "bad"
+      },
+      "Brick_10_bad": {
+        "nearest_good": 6.520500183105469,
+        "nearest_bad": 5.083456993103027,
+        "closer_to": "bad"
+      }
+    }
+  }
+}

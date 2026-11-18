@@ -1,0 +1,56 @@
+{
+  "description": "Equal-weight late fusion of Approach 18 and Approach 8 decision scores",
+  "members": {
+    "approach5_lbp": {
+      "dimension": 106,
+      "pca_components": null,
+      "rotation_views": 1
+    },
+    "dinov2_patch": {
+      "dimension": 1152,
+      "pca_components": 32,
+      "rotation_views": 1
+    }
+  },
+  "fusion_rule": "mean of member linear-SVM decision values; >= 0 means bad",
+  "image_level": {
+    "accuracy": 0.7984496124031008,
+    "balanced_accuracy": 0.8082630379902715,
+    "bad_precision": 0.888,
+    "bad_recall": 0.7449664429530202,
+    "bad_f1": 0.8102189781021898,
+    "false_accept_bad_as_good": 38,
+    "false_reject_good_as_bad": 14,
+    "confusion_matrix": [
+      [
+        95,
+        14
+      ],
+      [
+        38,
+        111
+      ]
+    ]
+  },
+  "brick_level": {
+    "accuracy": 0.9,
+    "balanced_accuracy": 0.9166666666666667,
+    "bad_precision": 1.0,
+    "bad_recall": 0.8333333333333334,
+    "bad_f1": 0.9090909090909091,
+    "false_accept_bad_as_good": 1,
+    "false_reject_good_as_bad": 0,
+    "confusion_matrix": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        5
+      ]
+    ]
+  },
+  "n_images": 258,
+  "n_bricks": 10
+}

@@ -1,0 +1,24 @@
+{
+  "approach": "Approach 5",
+  "feature_description": "automatic material mask; per-channel LAB histograms; global gradient, Laplacian and intensity texture statistics",
+  "feature_dimension": 52,
+  "classifier": "svm",
+  "selected_parameters": {
+    "svc__C": 0.1
+  },
+  "grouped_cv_mean_image_accuracy": 0.8138424908424909,
+  "training_images": 258,
+  "training_physical_bricks": 10,
+  "class_counts_images": {
+    "good": 109,
+    "bad": 149
+  },
+  "label_mapping": {
+    "good": 0,
+    "bad": 1
+  },
+  "decision_rule": "decision_function >= 0 means bad",
+  "extractor_source": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/brick_calibration/evaluate_approaches.py",
+  "dataset_root": "/cache/s95vkond/test_data/rgb_bricks",
+  "warning": "Checkpoint is trained on ten physical bricks and requires the identical feature extractor. Validate on robot-domain data before deployment."
+}

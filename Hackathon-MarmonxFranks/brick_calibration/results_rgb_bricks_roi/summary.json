@@ -1,0 +1,27 @@
+{
+  "n_images": 258,
+  "n_bricks": 10,
+  "n_good_bricks": 4,
+  "n_bad_bricks": 6,
+  "mean_within_brick_deltaE00": 8.589890410712178,
+  "image_clipping_flags": 4,
+  "roi_warning": true,
+  "note": "Thresholds/ratios are descriptive diagnostics, not validated pass/fail criteria. Same-brick photos are correlated.",
+  "minimum_between_opposite_labels_deltaE00": 1.247387687832773,
+  "held_out_brick_metrics": {
+    "accuracy": 0.8,
+    "bad_precision": 1.0,
+    "bad_recall": 0.6666666666666666,
+    "bad_f1": 0.8,
+    "confusion_matrix_rows_good_bad_cols_good_bad": [
+      [
+        4,
+        0
+      ],
+      [
+        2,
+        4
+      ]
+    ]
+  }
+}

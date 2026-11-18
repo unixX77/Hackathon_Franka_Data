@@ -1,0 +1,12 @@
+{
+  "name": "local_defect_candidate",
+  "feature_dimension": 1220,
+  "handcrafted_dimension": 68,
+  "threshold": 0.0,
+  "C": 0.03,
+  "n_images": 258,
+  "n_physical_bricks": 10,
+  "feature_source": "SAM3 masks; LAB histogram, texture, local defects, frozen DINOv2 patch distribution",
+  "label_limit": "Only brick-level labels exist; a hidden defect may make a bad-brick image look good.",
+  "evaluation_file": "evaluation.json"
+}

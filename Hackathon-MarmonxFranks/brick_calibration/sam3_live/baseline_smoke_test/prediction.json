@@ -1,0 +1,77 @@
+{
+  "type": "prediction",
+  "frame_id": 1,
+  "captured_at": "2026-10-27T15:56:52+01:00",
+  "pipeline": "sam3",
+  "threshold_policy": "review_band_175_120",
+  "truth_label": "",
+  "correct": "",
+  "label": "uncertain",
+  "score_bad": -1.6383521887803953,
+  "approach5_score": -0.8492534817476668,
+  "dinov2_score": -2.427450895813124,
+  "baseline_margin_label": "good",
+  "zero_binary_label": "good",
+  "minus_two_binary_label": "bad",
+  "review_band_175_120_label": "uncertain",
+  "status": "ok",
+  "sam_candidates": 2,
+  "sam_rejected": 0,
+  "sam_score": 0.922,
+  "sam_touches_border": false,
+  "mask_area_px": 458227,
+  "brick_count": 1,
+  "good_count": 0,
+  "bad_count": 0,
+  "uncertain_count": 1,
+  "detections": [
+    {
+      "id": 1,
+      "label": "uncertain",
+      "score_bad": -1.6383521887803953,
+      "approach5_score": -0.8492534817476668,
+      "dinov2_score": -2.427450895813124,
+      "baseline_margin_label": "good",
+      "zero_binary_label": "good",
+      "minus_two_binary_label": "bad",
+      "review_band_175_120_label": "uncertain",
+      "local_defect_features": [],
+      "reference_distance": "",
+      "reference_threshold": "",
+      "nearest_good_reference": "",
+      "sam_score": 0.922,
+      "sam_touches_border": false,
+      "mask_area_px": 458227,
+      "box_xyxy": [
+        340,
+        335,
+        1559,
+        808
+      ],
+      "centroid_xy": [
+        957.2,
+        574.7
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          948.0,
+          577.2
+        ],
+        "size_wh": [
+          410.4,
+          1222.7
+        ],
+        "angle_deg": 85.4
+      }
+    }
+  ],
+  "box_x": 340,
+  "box_y": 335,
+  "box_width": 1220,
+  "box_height": 474,
+  "frame_width": 1920,
+  "frame_height": 1080,
+  "error": "",
+  "inference_seconds": 0.759,
+  "roundtrip_seconds": 0.771
+}

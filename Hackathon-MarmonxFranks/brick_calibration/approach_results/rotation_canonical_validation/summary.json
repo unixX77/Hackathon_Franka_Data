@@ -1,0 +1,202 @@
+{
+  "rotation": [
+    {
+      "angle_deg": 0,
+      "image_accuracy": 0.9147286821705426,
+      "image_bad_recall": 0.8791946308724832,
+      "predicted_bad": 135,
+      "mean_score": 0.19258009583252192
+    },
+    {
+      "angle_deg": 15,
+      "image_accuracy": 0.9302325581395349,
+      "image_bad_recall": 0.912751677852349,
+      "predicted_bad": 141,
+      "mean_score": 0.485684599238047
+    },
+    {
+      "angle_deg": 30,
+      "image_accuracy": 0.9224806201550387,
+      "image_bad_recall": 0.8859060402684564,
+      "predicted_bad": 135,
+      "mean_score": 0.44334809195350267
+    },
+    {
+      "angle_deg": 45,
+      "image_accuracy": 0.9224806201550387,
+      "image_bad_recall": 0.8859060402684564,
+      "predicted_bad": 135,
+      "mean_score": 0.41488778013502836
+    },
+    {
+      "angle_deg": 60,
+      "image_accuracy": 0.9069767441860465,
+      "image_bad_recall": 0.8657718120805369,
+      "predicted_bad": 133,
+      "mean_score": 0.41356047391701184
+    },
+    {
+      "angle_deg": 75,
+      "image_accuracy": 0.9186046511627907,
+      "image_bad_recall": 0.8859060402684564,
+      "predicted_bad": 136,
+      "mean_score": 0.40607588237888925
+    },
+    {
+      "angle_deg": 90,
+      "image_accuracy": 0.8992248062015504,
+      "image_bad_recall": 0.8590604026845637,
+      "predicted_bad": 133,
+      "mean_score": 0.12549001230944712
+    }
+  ],
+  "canonical_evaluation": {
+    "image_level": {
+      "accuracy": 0.7635658914728682,
+      "balanced_accuracy": 0.7768302444430761,
+      "bad_precision": 0.8728813559322034,
+      "bad_recall": 0.6912751677852349,
+      "bad_f1": 0.7715355805243446,
+      "false_accept_bad_as_good": 46,
+      "false_reject_good_as_bad": 15,
+      "confusion_matrix": [
+        [
+          94,
+          15
+        ],
+        [
+          46,
+          103
+        ]
+      ]
+    },
+    "brick_level": {
+      "accuracy": 0.9,
+      "balanced_accuracy": 0.9166666666666667,
+      "bad_precision": 1.0,
+      "bad_recall": 0.8333333333333334,
+      "bad_f1": 0.9090909090909091,
+      "false_accept_bad_as_good": 1,
+      "false_reject_good_as_bad": 0,
+      "confusion_matrix": [
+        [
+          4,
+          0
+        ],
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    "n_images": 258,
+    "n_bricks": 10
+  },
+  "burst_aggregation": [
+    {
+      "frames_per_brick": 1,
+      "repetitions": 1000,
+      "mean_brick_accuracy": 0.7614000000000001,
+      "std_brick_accuracy": 0.10251848613786688,
+      "mean_bad_recall": 0.693,
+      "std_bad_recall": 0.13364920916754844
+    },
+    {
+      "frames_per_brick": 3,
+      "repetitions": 1000,
+      "mean_brick_accuracy": 0.8045,
+      "std_brick_accuracy": 0.08607990473972427,
+      "mean_bad_recall": 0.7576666666666667,
+      "std_bad_recall": 0.09367259767699175
+    },
+    {
+      "frames_per_brick": 5,
+      "repetitions": 1000,
+      "mean_brick_accuracy": 0.8418000000000002,
+      "std_brick_accuracy": 0.06551915750374085,
+      "mean_bad_recall": 0.7746666666666667,
+      "std_bad_recall": 0.08234345416877076
+    },
+    {
+      "frames_per_brick": 9,
+      "repetitions": 1000,
+      "mean_brick_accuracy": 0.8676000000000003,
+      "std_brick_accuracy": 0.05225169853698537,
+      "mean_bad_recall": 0.7938333333333335,
+      "std_bad_recall": 0.07087371398010223
+    }
+  ],
+  "uncertainty": [
+    {
+      "symmetric_margin": 0,
+      "coverage": 1.0,
+      "certain_images": 258,
+      "uncertain_images": 0,
+      "certain_accuracy": 0.7635658914728682,
+      "certain_bad_recall": 0.6912751677852349,
+      "bad_images_marked_uncertain": 0,
+      "good_images_marked_uncertain": 0
+    },
+    {
+      "symmetric_margin": 0.1,
+      "coverage": 0.9651162790697675,
+      "certain_images": 249,
+      "uncertain_images": 9,
+      "certain_accuracy": 0.7710843373493976,
+      "certain_bad_recall": 0.7013888888888888,
+      "bad_images_marked_uncertain": 5,
+      "good_images_marked_uncertain": 4
+    },
+    {
+      "symmetric_margin": 0.2,
+      "coverage": 0.9302325581395349,
+      "certain_images": 240,
+      "uncertain_images": 18,
+      "certain_accuracy": 0.7833333333333333,
+      "certain_bad_recall": 0.7226277372262774,
+      "bad_images_marked_uncertain": 12,
+      "good_images_marked_uncertain": 6
+    },
+    {
+      "symmetric_margin": 0.3,
+      "coverage": 0.9069767441860465,
+      "certain_images": 234,
+      "uncertain_images": 24,
+      "certain_accuracy": 0.782051282051282,
+      "certain_bad_recall": 0.725925925925926,
+      "bad_images_marked_uncertain": 14,
+      "good_images_marked_uncertain": 10
+    },
+    {
+      "symmetric_margin": 0.5,
+      "coverage": 0.7984496124031008,
+      "certain_images": 206,
+      "uncertain_images": 52,
+      "certain_accuracy": 0.8252427184466019,
+      "certain_bad_recall": 0.7787610619469026,
+      "bad_images_marked_uncertain": 36,
+      "good_images_marked_uncertain": 16
+    },
+    {
+      "symmetric_margin": 0.75,
+      "coverage": 0.7015503875968992,
+      "certain_images": 181,
+      "uncertain_images": 77,
+      "certain_accuracy": 0.8342541436464088,
+      "certain_bad_recall": 0.8,
+      "bad_images_marked_uncertain": 54,
+      "good_images_marked_uncertain": 23
+    },
+    {
+      "symmetric_margin": 1.0,
+      "coverage": 0.5736434108527132,
+      "certain_images": 148,
+      "uncertain_images": 110,
+      "certain_accuracy": 0.8648648648648649,
+      "certain_bad_recall": 0.8536585365853658,
+      "bad_images_marked_uncertain": 67,
+      "good_images_marked_uncertain": 43
+    }
+  ],
+  "warning": "Burst and uncertainty tables use existing held-out photographs; validate thresholds on new robot-domain data before deployment."
+}

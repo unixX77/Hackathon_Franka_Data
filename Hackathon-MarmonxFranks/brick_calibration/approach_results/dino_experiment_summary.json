@@ -1,0 +1,14 @@
+{
+  "model": "facebook/dinov2-small",
+  "encoder_frozen": true,
+  "pca_components": 32,
+  "n_images": 258,
+  "n_physical_bricks": 10,
+  "approaches": [
+    "07_frozen_dinov2_cls_linear_svm",
+    "08_frozen_dinov2_patch_distribution_linear_svm",
+    "09_approach5_plus_dinov2_cls_linear_svm",
+    "10_approach5_plus_dinov2_patch_distribution_linear_svm",
+    "11_frozen_dinov2_good_reference_anomaly"
+  ]
+}

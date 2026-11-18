@@ -1,0 +1,374 @@
+{
+  "protocol": "Evaluate Approaches 5 and 17 on the brick-disjoint train/val/test splits.\n\nProtocol for every split (splits come from ``make_brick_splits.py``):\n\n1. fit each candidate SVM regularisation C on the training bricks only;\n2. choose C by validation balanced accuracy (mean of the two validation bricks'\n   image accuracies; ties go to the smaller, more regularised C);\n3. refit with that C on training + validation bricks;\n4. score the test bricks once (and the set-aside Brick 6, if any).\n\nApproach 5 uses the 52-d colour-histogram + texture vector. Approach 17 averages\nthe Approach 5 score and the DINOv2 patch-distribution score (PCA 32), each with\nits own C chosen as above. The decision threshold stays at 0 (>= 0 means bad);\nvalidation is not used to move it, matching the leave-one-brick-out results.",
+  "splits_root": "/cache/s95vkond/brick_splits",
+  "leave_one_brick_out": {
+    "approach5": {
+      "image_accuracy": 0.7945736434108527,
+      "balanced_accuracy": 0.8135274921494982,
+      "bad_image_recall": 0.6912751677852349,
+      "brick_accuracy": 0.9,
+      "brick6_image_accuracy": 0.041666666666666664,
+      "per_brick": {
+        "Brick_1_good": 0.8846153846153846,
+        "Brick_2_good": 0.9333333333333333,
+        "Brick_3_good": 0.9285714285714286,
+        "Brick_4_good": 1.0,
+        "Brick_5_bad": 0.88,
+        "Brick_6_bad": 0.041666666666666664,
+        "Brick_7_bad": 1.0,
+        "Brick_8_bad": 0.5416666666666666,
+        "Brick_9_bad": 1.0,
+        "Brick_10_bad": 0.6785714285714286
+      }
+    },
+    "approach17": {
+      "image_accuracy": 0.8217054263565892,
+      "balanced_accuracy": 0.8345545225047719,
+      "bad_image_recall": 0.7516778523489933,
+      "brick_accuracy": 0.9,
+      "brick6_image_accuracy": 0.041666666666666664,
+      "per_brick": {
+        "Brick_1_good": 0.9230769230769231,
+        "Brick_2_good": 0.8666666666666667,
+        "Brick_3_good": 0.8928571428571429,
+        "Brick_4_good": 1.0,
+        "Brick_5_bad": 0.76,
+        "Brick_6_bad": 0.041666666666666664,
+        "Brick_7_bad": 1.0,
+        "Brick_8_bad": 0.875,
+        "Brick_9_bad": 1.0,
+        "Brick_10_bad": 0.8214285714285714
+      }
+    }
+  },
+  "without_brick6": {
+    "approach5": {
+      "pooled_test_image_accuracy": 0.8507177033492823,
+      "pooled_test_balanced_accuracy": 0.8464770642201835,
+      "pooled_test_bad_image_recall": 0.748,
+      "pooled_test_good_image_accuracy": 0.944954128440367,
+      "split_test_accuracy_mean": 0.8515048270430577,
+      "split_test_accuracy_min": 0.6,
+      "split_test_accuracy_max": 1.0,
+      "brick_level_accuracy": 0.9,
+      "splits_with_both_test_bricks_correct": 16,
+      "splits": 20,
+      "primary_split": {
+        "split": "split_09",
+        "test_bricks": "Brick_2_good Brick_10_bad",
+        "test_correct": "46/58",
+        "test_bricks_correct": 2
+      },
+      "per_brick": {
+        "Brick_1_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.9538461538461539,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_2_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.9133333333333333,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_3_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.95,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_4_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.968,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_5_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.81,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_7_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_8_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.3020833333333333,
+          "brick_correct_rate": 0.0
+        },
+        "Brick_9_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_10_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.6428571428571429,
+          "brick_correct_rate": 1.0
+        }
+      },
+      "brick6_set_aside": {
+        "models": 20,
+        "image_accuracy": 0.09375,
+        "models_calling_brick6_bad": 0,
+        "mean_score": -1.28953555870292
+      }
+    },
+    "approach17": {
+      "pooled_test_image_accuracy": 0.8545454545454545,
+      "pooled_test_balanced_accuracy": 0.8504770642201835,
+      "pooled_test_bad_image_recall": 0.756,
+      "pooled_test_good_image_accuracy": 0.944954128440367,
+      "split_test_accuracy_mean": 0.8542926637994119,
+      "split_test_accuracy_min": 0.6470588235294118,
+      "split_test_accuracy_max": 0.98,
+      "brick_level_accuracy": 0.9,
+      "splits_with_both_test_bricks_correct": 16,
+      "splits": 20,
+      "primary_split": {
+        "split": "split_09",
+        "test_bricks": "Brick_2_good Brick_10_bad",
+        "test_correct": "52/58",
+        "test_bricks_correct": 2
+      },
+      "per_brick": {
+        "Brick_1_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.9461538461538461,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_2_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.9333333333333333,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_3_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.9285714285714286,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_4_good": {
+          "times_in_test": 5,
+          "image_accuracy": 0.976,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_5_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.59,
+          "brick_correct_rate": 0.5
+        },
+        "Brick_7_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_8_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.3854166666666667,
+          "brick_correct_rate": 0.5
+        },
+        "Brick_9_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_10_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.8035714285714286,
+          "brick_correct_rate": 1.0
+        }
+      },
+      "brick6_set_aside": {
+        "models": 20,
+        "image_accuracy": 0.11041666666666666,
+        "models_calling_brick6_bad": 0,
+        "mean_score": -0.7664768789604591
+      }
+    }
+  },
+  "with_brick6": {
+    "approach5": {
+      "pooled_test_image_accuracy": 0.8072,
+      "pooled_test_balanced_accuracy": 0.8026548036861441,
+      "pooled_test_bad_image_recall": 0.7046979865771812,
+      "pooled_test_good_image_accuracy": 0.900611620795107,
+      "split_test_accuracy_mean": 0.8080926887742362,
+      "split_test_accuracy_min": 0.52,
+      "split_test_accuracy_max": 1.0,
+      "brick_level_accuracy": 0.9166666666666666,
+      "splits_with_both_test_bricks_correct": 20,
+      "splits": 24,
+      "primary_split": {
+        "split": "split_11",
+        "test_bricks": "Brick_2_good Brick_10_bad",
+        "test_correct": "44/58",
+        "test_bricks_correct": 2
+      },
+      "per_brick": {
+        "Brick_1_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.9358974358974359,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_2_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.8333333333333334,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_3_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.8511904761904762,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_4_good": {
+          "times_in_test": 6,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_5_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.87,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_6_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.0625,
+          "brick_correct_rate": 0.0
+        },
+        "Brick_7_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_8_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.59375,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_9_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_10_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.6964285714285714,
+          "brick_correct_rate": 1.0
+        }
+      }
+    },
+    "approach17": {
+      "pooled_test_image_accuracy": 0.8192,
+      "pooled_test_balanced_accuracy": 0.8162058986515609,
+      "pooled_test_bad_image_recall": 0.7516778523489933,
+      "pooled_test_good_image_accuracy": 0.8807339449541285,
+      "split_test_accuracy_mean": 0.8197495400279163,
+      "split_test_accuracy_min": 0.5185185185185185,
+      "split_test_accuracy_max": 1.0,
+      "brick_level_accuracy": 0.8958333333333334,
+      "splits_with_both_test_bricks_correct": 19,
+      "splits": 24,
+      "primary_split": {
+        "split": "split_11",
+        "test_bricks": "Brick_2_good Brick_10_bad",
+        "test_correct": "51/58",
+        "test_bricks_correct": 2
+      },
+      "per_brick": {
+        "Brick_1_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.9423076923076923,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_2_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.7944444444444444,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_3_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.8154761904761905,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_4_good": {
+          "times_in_test": 6,
+          "image_accuracy": 0.9933333333333333,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_5_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.62,
+          "brick_correct_rate": 0.75
+        },
+        "Brick_6_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.07291666666666667,
+          "brick_correct_rate": 0.0
+        },
+        "Brick_7_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 1.0,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_8_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.90625,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_9_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.9895833333333334,
+          "brick_correct_rate": 1.0
+        },
+        "Brick_10_bad": {
+          "times_in_test": 4,
+          "image_accuracy": 0.9017857142857143,
+          "brick_correct_rate": 1.0
+        }
+      }
+    }
+  },
+  "matched_comparisons": {
+    "approach5": {
+      "lobo_excl_brick6_accuracy": 0.8717948717948718,
+      "lobo_excl_brick6_balanced_accuracy": 0.8758899082568807,
+      "lobo_excl_brick6_images": 234,
+      "shared_pairs_brick6_in_training_accuracy": 0.8602870813397129,
+      "shared_pairs_brick6_in_training_balanced_accuracy": 0.858954128440367,
+      "shared_pairs_brick6_in_training_images": 1045,
+      "shared_pairs_brick6_set_aside_accuracy": 0.8507177033492823,
+      "shared_pairs_brick6_set_aside_balanced_accuracy": 0.8464770642201835,
+      "shared_pairs_brick6_set_aside_images": 1045,
+      "Brick_5_bad_brick6_in_training": 0.87,
+      "Brick_5_bad_brick6_set_aside": 0.81,
+      "Brick_8_bad_brick6_in_training": 0.59375,
+      "Brick_8_bad_brick6_set_aside": 0.3020833333333333,
+      "Brick_10_bad_brick6_in_training": 0.6964285714285714,
+      "Brick_10_bad_brick6_set_aside": 0.6428571428571429,
+      "Brick_2_good_brick6_in_training": 0.8133333333333334,
+      "Brick_2_good_brick6_set_aside": 0.9133333333333333,
+      "Brick_3_good_brick6_in_training": 0.8357142857142857,
+      "Brick_3_good_brick6_set_aside": 0.95
+    },
+    "approach17": {
+      "lobo_excl_brick6_accuracy": 0.9017094017094017,
+      "lobo_excl_brick6_balanced_accuracy": 0.9027155963302753,
+      "lobo_excl_brick6_images": 234,
+      "shared_pairs_brick6_in_training_accuracy": 0.8746411483253589,
+      "shared_pairs_brick6_in_training_balanced_accuracy": 0.8749449541284404,
+      "shared_pairs_brick6_in_training_images": 1045,
+      "shared_pairs_brick6_set_aside_accuracy": 0.8545454545454545,
+      "shared_pairs_brick6_set_aside_balanced_accuracy": 0.8504770642201835,
+      "shared_pairs_brick6_set_aside_images": 1045,
+      "Brick_5_bad_brick6_in_training": 0.62,
+      "Brick_5_bad_brick6_set_aside": 0.59,
+      "Brick_8_bad_brick6_in_training": 0.90625,
+      "Brick_8_bad_brick6_set_aside": 0.3854166666666667,
+      "Brick_10_bad_brick6_in_training": 0.9017857142857143,
+      "Brick_10_bad_brick6_set_aside": 0.8035714285714286,
+      "Brick_2_good_brick6_in_training": 0.7733333333333333,
+      "Brick_2_good_brick6_set_aside": 0.9333333333333333,
+      "Brick_3_good_brick6_in_training": 0.7928571428571428,
+      "Brick_3_good_brick6_set_aside": 0.9285714285714286
+    }
+  }
+}
