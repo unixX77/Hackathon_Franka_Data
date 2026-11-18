@@ -1,0 +1,263 @@
+{
+  "device": {
+    "name": "RealSense D435",
+    "serial_number": "829212071248",
+    "firmware_version": "5.17.3.10",
+    "product_line": "D400",
+    "usb_type": "3.2"
+  },
+  "depth_scale_m": 0.0010000000474974513,
+  "depth_aligned_to_color": true,
+  "color_intrinsics": {
+    "width": 1920,
+    "height": 1080,
+    "fx": 1392.3548583984375,
+    "fy": 1392.104248046875,
+    "ppx": 961.3560180664062,
+    "ppy": 552.4085083007812,
+    "K": [
+      [
+        1392.3548583984375,
+        0.0,
+        961.3560180664062
+      ],
+      [
+        0.0,
+        1392.104248046875,
+        552.4085083007812
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion_model": "inverse_brown_conrady",
+    "distortion_coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "depth_intrinsics": {
+    "width": 848,
+    "height": 480,
+    "fx": 421.9009094238281,
+    "fy": 421.9009094238281,
+    "ppx": 426.3525085449219,
+    "ppy": 239.9256134033203,
+    "K": [
+      [
+        421.9009094238281,
+        0.0,
+        426.3525085449219
+      ],
+      [
+        0.0,
+        421.9009094238281,
+        239.9256134033203
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion_model": "brown_conrady",
+    "distortion_coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "depth_to_color_extrinsics": {
+    "rotation": [
+      [
+        0.9999508261680603,
+        0.008725103922188282,
+        0.0047120703384280205
+      ],
+      [
+        -0.008721292950212955,
+        0.9999616146087646,
+        -0.0008288088138215244
+      ],
+      [
+        -0.004719120915979147,
+        0.0007876727031543851,
+        0.9999885559082031
+      ]
+    ],
+    "translation_m": [
+      0.014618008397519588,
+      7.914439629530534e-05,
+      0.000180938295670785
+    ],
+    "T": [
+      [
+        0.9999508261680603,
+        0.008725103922188282,
+        0.0047120703384280205,
+        0.014618008397519588
+      ],
+      [
+        -0.008721292950212955,
+        0.9999616146087646,
+        -0.0008288088138215244,
+        7.914439629530534e-05
+      ],
+      [
+        -0.004719120915979147,
+        0.0007876727031543851,
+        0.9999885559082031,
+        0.000180938295670785
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "color_to_depth_extrinsics": {
+    "rotation": [
+      [
+        0.9999508261680603,
+        -0.008721292950212955,
+        -0.004719120915979147
+      ],
+      [
+        0.008725103922188282,
+        0.9999616146087646,
+        0.0007876727031543851
+      ],
+      [
+        0.0047120703384280205,
+        -0.0008288088138215244,
+        0.9999885559082031
+      ]
+    ],
+    "translation_m": [
+      -0.014615745283663273,
+      -0.00020682753529399633,
+      -0.000249751697992906
+    ],
+    "T": [
+      [
+        0.9999508261680603,
+        -0.008721292950212955,
+        -0.004719120915979147,
+        -0.014615745283663273
+      ],
+      [
+        0.008725103922188282,
+        0.9999616146087646,
+        0.0007876727031543851,
+        -0.00020682753529399633
+      ],
+      [
+        0.0047120703384280205,
+        -0.0008288088138215244,
+        0.9999885559082031,
+        -0.000249751697992906
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "camera_pose": null,
+  "settings_file": "/home/slolla/Documents/marmon/d435_settings.json",
+  "applied_options": {
+    "Stereo Module": {
+      "Exposure": 8500.0,
+      "Gain": 16.0,
+      "Enable Auto Exposure": 1.0,
+      "Visual Preset": 0.0,
+      "Laser Power": 150.0,
+      "Emitter Enabled": 1.0,
+      "Frames Queue Size": 16.0,
+      "Asic Temperature": 25.0,
+      "Error Polling Enabled": 1.0,
+      "Projector Temperature": 26.0,
+      "Output Trigger Enabled": 0.0,
+      "Depth Units": 0.0010000000474974513,
+      "Stereo Baseline": 49.952049255371094,
+      "Inter Cam Sync Mode": 0.0,
+      "Emitter On Off": 0.0,
+      "Global Time Enabled": 1.0,
+      "Emitter Always On": 0.0,
+      "Hdr Enabled": 0.0,
+      "Sequence Name": 0.0,
+      "Sequence Size": 2.0,
+      "Sequence Id": 0.0,
+      "Auto Exposure Limit": 165000.0,
+      "Auto Gain Limit": 248.0,
+      "Auto Exposure Limit Toggle": 0.0,
+      "Auto Gain Limit Toggle": 0.0
+    },
+    "RGB Camera": {
+      "Backlight Compensation": 0.0,
+      "Brightness": 0.0,
+      "Contrast": 50.0,
+      "Exposure": 166.0,
+      "Gain": 64.0,
+      "Gamma": 300.0,
+      "Hue": 0.0,
+      "Saturation": 64.0,
+      "Sharpness": 50.0,
+      "White Balance": 4600.0,
+      "Enable Auto Exposure": 1.0,
+      "Enable Auto White Balance": 1.0,
+      "Frames Queue Size": 16.0,
+      "Power Line Frequency": 3.0,
+      "Auto Exposure Priority": 0.0,
+      "Global Time Enabled": 1.0
+    }
+  },
+  "fps": 30,
+  "post_processing": "none; SDK alignment to colour only",
+  "depth_invalid_value": 0,
+  "camera_coordinate_convention": "x right, y down, z forward; metres",
+  "aligned_depth_intrinsics": {
+    "width": 1920,
+    "height": 1080,
+    "fx": 1392.3548583984375,
+    "fy": 1392.104248046875,
+    "ppx": 961.3560180664062,
+    "ppy": 552.4085083007812,
+    "K": [
+      [
+        1392.3548583984375,
+        0.0,
+        961.3560180664062
+      ],
+      [
+        0.0,
+        1392.104248046875,
+        552.4085083007812
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion_model": "inverse_brown_conrady",
+    "distortion_coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

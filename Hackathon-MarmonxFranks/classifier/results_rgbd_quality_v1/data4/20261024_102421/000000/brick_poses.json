@@ -1,0 +1,514 @@
+{
+  "schema": "brick-poses-v1",
+  "units": {
+    "translation": "metres",
+    "rotation": "unitless"
+  },
+  "coordinate_convention_camera": "RealSense optical: +x right, +y down, +z forward",
+  "pose_semantics": "brick origin is the box-centre camera ray intersected with the fitted top plane; +x follows the long axis; +z is the outward top-surface normal",
+  "corner_semantics": "camera_box corners 0-3 are the fitted top face and 4-7 are the bottom face directly below them",
+  "dataset": "data4",
+  "recording": "20261024_102421",
+  "frame": 0,
+  "rgb": "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102421/rgb/000000.png",
+  "camera_info": "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102421/camera_info.json",
+  "segmentation_source": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/perception/sam3_detection/results_rgbd_topplane_v2/data4/20261024_102421/000000/top_boxes.json",
+  "classification_source": "classifier/results_rgbd_quality_v1/data4/20261024_102421/000000/quality_boxes.json",
+  "robot_base_poses_available": false,
+  "missing_for_robot_execution": [
+    "T_base_camera hand-eye calibration"
+  ],
+  "approach_clearance_m": 0.08,
+  "bricks": [
+    {
+      "id": 1,
+      "quality": "bad",
+      "colour": "reddish_brown",
+      "classification_confidence": "high",
+      "detection": {
+        "top_coverage": 0.867,
+        "sam_overlap": 0.754,
+        "source": "sam+lattice",
+        "center_pixel_xy": [
+          180.7,
+          186.4
+        ],
+        "corners_pixel_xy": [
+          [
+            194.10000610351562,
+            215.39999389648438
+          ],
+          [
+            164.6999969482422,
+            214.0
+          ],
+          [
+            167.3000030517578,
+            157.5
+          ],
+          [
+            196.8000030517578,
+            158.89999389648438
+          ]
+        ]
+      },
+      "pose_camera": {
+        "frame_id": "camera_color_optical_frame",
+        "translation_m": {
+          "x": -0.076732,
+          "y": -0.032428,
+          "z": 0.339405
+        },
+        "quaternion_xyzw": {
+          "x": -0.7233058,
+          "y": 0.6892984,
+          "z": 0.0192276,
+          "w": 0.0364258
+        },
+        "rotation_matrix": [
+          [
+            0.04899611,
+            -0.99854772,
+            0.0224016
+          ],
+          [
+            -0.9957462,
+            -0.04708183,
+            0.079201
+          ],
+          [
+            -0.07803127,
+            -0.02618685,
+            -0.99660693
+          ]
+        ],
+        "T_frame_brick": [
+          [
+            0.04899611,
+            -0.99854772,
+            0.0224016,
+            -0.0767321
+          ],
+          [
+            -0.9957462,
+            -0.04708183,
+            0.079201,
+            -0.03242844
+          ],
+          [
+            -0.07803127,
+            -0.02618685,
+            -0.99660693,
+            0.33940515
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "camera_box": {
+        "top_face_center_camera_m": [
+          -0.0767321,
+          -0.0324284,
+          0.3394052
+        ],
+        "box_center_camera_m": [
+          -0.0768396,
+          -0.0328086,
+          0.3441889
+        ],
+        "box_size_m": [
+          0.0318,
+          0.0158,
+          0.0096
+        ],
+        "box_rotation_camera": [
+          [
+            0.04899611,
+            -0.99854772,
+            0.0224016
+          ],
+          [
+            -0.9957462,
+            -0.04708183,
+            0.079201
+          ],
+          [
+            -0.07803127,
+            -0.02618685,
+            -0.99660693
+          ]
+        ],
+        "top_corners_camera_m": [
+          [
+            -0.0838416,
+            -0.0486327,
+            0.3379576
+          ],
+          [
+            -0.0853997,
+            -0.016968,
+            0.340439
+          ],
+          [
+            -0.0696226,
+            -0.0162241,
+            0.3408527
+          ],
+          [
+            -0.0680645,
+            -0.0478889,
+            0.3383713
+          ]
+        ],
+        "bottom_corners_camera_m": [
+          [
+            -0.0840566,
+            -0.0493931,
+            0.347525
+          ],
+          [
+            -0.0856147,
+            -0.0177283,
+            0.3500064
+          ],
+          [
+            -0.0698377,
+            -0.0169845,
+            0.3504202
+          ],
+          [
+            -0.0682796,
+            -0.0486492,
+            0.3479388
+          ]
+        ],
+        "box_corners_camera_m": [
+          [
+            -0.0838416,
+            -0.0486327,
+            0.3379576
+          ],
+          [
+            -0.0853997,
+            -0.016968,
+            0.340439
+          ],
+          [
+            -0.0696226,
+            -0.0162241,
+            0.3408527
+          ],
+          [
+            -0.0680645,
+            -0.0478889,
+            0.3383713
+          ],
+          [
+            -0.0840566,
+            -0.0493931,
+            0.347525
+          ],
+          [
+            -0.0856147,
+            -0.0177283,
+            0.3500064
+          ],
+          [
+            -0.0698377,
+            -0.0169845,
+            0.3504202
+          ],
+          [
+            -0.0682796,
+            -0.0486492,
+            0.3479388
+          ]
+        ],
+        "corner_order": [
+          "top(+long,+short)",
+          "top(-long,+short)",
+          "top(-long,-short)",
+          "top(+long,-short)",
+          "bottom(+long,+short)",
+          "bottom(-long,+short)",
+          "bottom(-long,-short)",
+          "bottom(+long,-short)"
+        ]
+      },
+      "depth_median_position_camera_m": [
+        -0.07648000121116638,
+        -0.03260999917984009,
+        0.33899998664855957
+      ],
+      "surface_normal_camera": [
+        0.0224016,
+        0.079201,
+        -0.99660693
+      ],
+      "approach_direction_camera": [
+        -0.0224016,
+        -0.079201,
+        0.99660693
+      ],
+      "pregrasp_translation_camera_m": [
+        -0.07494,
+        -0.026092,
+        0.259677
+      ],
+      "nominal_brick_size_m": {
+        "long": 0.0318,
+        "short": 0.0158,
+        "height": 0.0096
+      }
+    },
+    {
+      "id": 2,
+      "quality": "bad",
+      "colour": "reddish_brown",
+      "classification_confidence": "high",
+      "detection": {
+        "top_coverage": 0.857,
+        "sam_overlap": 0.772,
+        "source": "sam+lattice",
+        "center_pixel_xy": [
+          183.4,
+          129.9
+        ],
+        "corners_pixel_xy": [
+          [
+            196.8000030517578,
+            158.89999389648438
+          ],
+          [
+            167.3000030517578,
+            157.5
+          ],
+          [
+            170.0,
+            100.9000015258789
+          ],
+          [
+            199.5,
+            102.30000305175781
+          ]
+        ]
+      },
+      "pose_camera": {
+        "frame_id": "camera_color_optical_frame",
+        "translation_m": {
+          "x": -0.074723,
+          "y": -0.062977,
+          "z": 0.337023
+        },
+        "quaternion_xyzw": {
+          "x": -0.7233058,
+          "y": 0.6892984,
+          "z": 0.0192276,
+          "w": 0.0364258
+        },
+        "rotation_matrix": [
+          [
+            0.04899611,
+            -0.99854772,
+            0.0224016
+          ],
+          [
+            -0.9957462,
+            -0.04708183,
+            0.079201
+          ],
+          [
+            -0.07803127,
+            -0.02618685,
+            -0.99660693
+          ]
+        ],
+        "T_frame_brick": [
+          [
+            0.04899611,
+            -0.99854772,
+            0.0224016,
+            -0.07472298
+          ],
+          [
+            -0.9957462,
+            -0.04708183,
+            0.079201,
+            -0.06297722
+          ],
+          [
+            -0.07803127,
+            -0.02618685,
+            -0.99660693,
+            0.33702258
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "camera_box": {
+        "top_face_center_camera_m": [
+          -0.074723,
+          -0.0629772,
+          0.3370226
+        ],
+        "box_center_camera_m": [
+          -0.0748305,
+          -0.0633574,
+          0.3418063
+        ],
+        "box_size_m": [
+          0.0318,
+          0.0158,
+          0.0096
+        ],
+        "box_rotation_camera": [
+          [
+            0.04899611,
+            -0.99854772,
+            0.0224016
+          ],
+          [
+            -0.9957462,
+            -0.04708183,
+            0.079201
+          ],
+          [
+            -0.07803127,
+            -0.02618685,
+            -0.99660693
+          ]
+        ],
+        "top_corners_camera_m": [
+          [
+            -0.0818325,
+            -0.0791815,
+            0.335575
+          ],
+          [
+            -0.0833905,
+            -0.0475168,
+            0.3380564
+          ],
+          [
+            -0.0676135,
+            -0.0467729,
+            0.3384702
+          ],
+          [
+            -0.0660554,
+            -0.0784376,
+            0.3359888
+          ]
+        ],
+        "bottom_corners_camera_m": [
+          [
+            -0.0820475,
+            -0.0799419,
+            0.3451424
+          ],
+          [
+            -0.0836056,
+            -0.0482771,
+            0.3476238
+          ],
+          [
+            -0.0678285,
+            -0.0475332,
+            0.3480376
+          ],
+          [
+            -0.0662705,
+            -0.079198,
+            0.3455562
+          ]
+        ],
+        "box_corners_camera_m": [
+          [
+            -0.0818325,
+            -0.0791815,
+            0.335575
+          ],
+          [
+            -0.0833905,
+            -0.0475168,
+            0.3380564
+          ],
+          [
+            -0.0676135,
+            -0.0467729,
+            0.3384702
+          ],
+          [
+            -0.0660554,
+            -0.0784376,
+            0.3359888
+          ],
+          [
+            -0.0820475,
+            -0.0799419,
+            0.3451424
+          ],
+          [
+            -0.0836056,
+            -0.0482771,
+            0.3476238
+          ],
+          [
+            -0.0678285,
+            -0.0475332,
+            0.3480376
+          ],
+          [
+            -0.0662705,
+            -0.079198,
+            0.3455562
+          ]
+        ],
+        "corner_order": [
+          "top(+long,+short)",
+          "top(-long,+short)",
+          "top(-long,-short)",
+          "top(+long,-short)",
+          "bottom(+long,+short)",
+          "bottom(-long,+short)",
+          "bottom(-long,-short)",
+          "bottom(+long,-short)"
+        ]
+      },
+      "depth_median_position_camera_m": [
+        -0.07470999658107758,
+        -0.06218999996781349,
+        0.3370000123977661
+      ],
+      "surface_normal_camera": [
+        0.0224016,
+        0.079201,
+        -0.99660693
+      ],
+      "approach_direction_camera": [
+        -0.0224016,
+        -0.079201,
+        0.99660693
+      ],
+      "pregrasp_translation_camera_m": [
+        -0.072931,
+        -0.056641,
+        0.257294
+      ],
+      "nominal_brick_size_m": {
+        "long": 0.0318,
+        "short": 0.0158,
+        "height": 0.0096
+      }
+    }
+  ]
+}

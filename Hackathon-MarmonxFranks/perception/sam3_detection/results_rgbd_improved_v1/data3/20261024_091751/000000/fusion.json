@@ -1,0 +1,2673 @@
+{
+  "dataset": "data3",
+  "recording": "20261024_091751",
+  "frame": 0,
+  "rgb": "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/rgb/000000.png",
+  "depth": "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000000.png",
+  "coordinate_frame": "color optical frame: x right, y down, z forward; metres",
+  "strategy": "improved",
+  "support_plane": {
+    "normal_camera": [
+      -0.02335439994931221,
+      0.0615760013461113,
+      -0.9978290796279907
+    ],
+    "d": 0.4554193,
+    "inliers": 27922,
+    "rmse_m": 0.001289,
+    "layer_clusters": [
+      {
+        "height_m": 0.0754,
+        "instances": 15,
+        "surface_pixels": 12426,
+        "supported": true,
+        "selected": false
+      },
+      {
+        "height_m": 0.08429,
+        "instances": 10,
+        "surface_pixels": 8502,
+        "supported": true,
+        "selected": true
+      }
+    ]
+  },
+  "depth_sources": [
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000000.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000004.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000008.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000012.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000016.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000019.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000023.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000027.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data3/20261024_091751/depth/000031.png"
+  ],
+  "instances": [
+    {
+      "id": 1,
+      "score": 0.891,
+      "area_px": 1510,
+      "box_xyxy": [
+        147,
+        118,
+        175,
+        171
+      ],
+      "centroid_xy": [
+        161.0,
+        144.7
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          161.0,
+          144.5
+        ],
+        "size_wh": [
+          53.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.02,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08432,
+      "position_camera_m": [
+        -0.09662000089883804,
+        -0.06071000173687935,
+        0.3700000047683716
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 865,
+      "top_surface_coverage": 0.825,
+      "surface_mad_m": 0.000937,
+      "surface_rmse_m": 0.000578,
+      "surface_parallel_deg": 14.34,
+      "surface_rectangularity": 0.876,
+      "metric_size_mm": [
+        26.95,
+        10.9
+      ],
+      "height_below_selected_m": -3e-05
+    },
+    {
+      "id": 2,
+      "score": 0.883,
+      "area_px": 1370,
+      "box_xyxy": [
+        153,
+        328,
+        181,
+        377
+      ],
+      "centroid_xy": [
+        166.4,
+        352.5
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          167.0,
+          352.5
+        ],
+        "size_wh": [
+          49.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08484,
+      "position_camera_m": [
+        -0.09480000287294388,
+        0.0654899999499321,
+        0.3779999911785126
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 848,
+      "top_surface_coverage": 0.912,
+      "surface_mad_m": 0.000304,
+      "surface_rmse_m": 0.000542,
+      "surface_parallel_deg": 5.13,
+      "surface_rectangularity": 0.986,
+      "metric_size_mm": [
+        25.84,
+        11.08
+      ],
+      "height_below_selected_m": -0.00055
+    },
+    {
+      "id": 3,
+      "score": 0.879,
+      "area_px": 1444,
+      "box_xyxy": [
+        322,
+        348,
+        372,
+        376
+      ],
+      "centroid_xy": [
+        346.6,
+        361.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          347.0,
+          362.0
+        ],
+        "size_wh": [
+          28.0,
+          50.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.03,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07637,
+      "position_camera_m": [
+        0.016340000554919243,
+        0.07272999733686447,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 928,
+      "top_surface_coverage": 0.93,
+      "surface_mad_m": 0.000483,
+      "surface_rmse_m": 0.000686,
+      "surface_parallel_deg": 3.54,
+      "surface_rectangularity": 0.981,
+      "metric_size_mm": [
+        25.68,
+        12.8
+      ],
+      "height_below_selected_m": 0.00792
+    },
+    {
+      "id": 4,
+      "score": 0.867,
+      "area_px": 1263,
+      "box_xyxy": [
+        269,
+        210,
+        319,
+        235
+      ],
+      "centroid_xy": [
+        294.3,
+        222.0
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          294.0,
+          222.5
+        ],
+        "size_wh": [
+          25.0,
+          50.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.01,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07433,
+      "position_camera_m": [
+        -0.016419999301433563,
+        -0.014480000361800194,
+        0.38100001215934753
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 830,
+      "top_surface_coverage": 0.988,
+      "surface_mad_m": 0.000611,
+      "surface_rmse_m": 0.000987,
+      "surface_parallel_deg": 2.62,
+      "surface_rectangularity": 1.048,
+      "metric_size_mm": [
+        26.37,
+        11.11
+      ],
+      "height_below_selected_m": 0.00996
+    },
+    {
+      "id": 5,
+      "score": 0.867,
+      "area_px": 1489,
+      "box_xyxy": [
+        373,
+        346,
+        423,
+        376
+      ],
+      "centroid_xy": [
+        397.8,
+        361.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          398.0,
+          361.0
+        ],
+        "size_wh": [
+          50.0,
+          30.0
+        ],
+        "angle_deg": 0.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07571,
+      "position_camera_m": [
+        0.0478999987244606,
+        0.07168000191450119,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 1028,
+      "top_surface_coverage": 0.994,
+      "surface_mad_m": 0.00028,
+      "surface_rmse_m": 0.000475,
+      "surface_parallel_deg": 1.9,
+      "surface_rectangularity": 1.016,
+      "metric_size_mm": [
+        26.28,
+        14.3
+      ],
+      "height_below_selected_m": 0.00858
+    },
+    {
+      "id": 6,
+      "score": 0.863,
+      "area_px": 1488,
+      "box_xyxy": [
+        149,
+        172,
+        177,
+        224
+      ],
+      "centroid_xy": [
+        163.1,
+        197.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          163.0,
+          198.0
+        ],
+        "size_wh": [
+          52.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.02,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08419,
+      "position_camera_m": [
+        -0.09560000151395798,
+        -0.02865000069141388,
+        0.37299999594688416
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 869,
+      "top_surface_coverage": 0.847,
+      "surface_mad_m": 0.000526,
+      "surface_rmse_m": 0.000621,
+      "surface_parallel_deg": 11.42,
+      "surface_rectangularity": 0.945,
+      "metric_size_mm": [
+        26.73,
+        10.85
+      ],
+      "height_below_selected_m": 0.0001
+    },
+    {
+      "id": 7,
+      "score": 0.859,
+      "area_px": 1317,
+      "box_xyxy": [
+        204,
+        328,
+        231,
+        377
+      ],
+      "centroid_xy": [
+        217.4,
+        352.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          217.5,
+          352.5
+        ],
+        "size_wh": [
+          49.0,
+          27.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08442,
+      "position_camera_m": [
+        -0.06312000006437302,
+        0.0654899999499321,
+        0.37700000405311584
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 827,
+      "top_surface_coverage": 0.938,
+      "surface_mad_m": 0.000554,
+      "surface_rmse_m": 0.000641,
+      "surface_parallel_deg": 8.58,
+      "surface_rectangularity": 0.916,
+      "metric_size_mm": [
+        25.56,
+        11.32
+      ],
+      "height_below_selected_m": -0.00013
+    },
+    {
+      "id": 8,
+      "score": 0.859,
+      "area_px": 1447,
+      "box_xyxy": [
+        151,
+        225,
+        179,
+        276
+      ],
+      "centroid_xy": [
+        164.5,
+        250.8
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          165.0,
+          250.5
+        ],
+        "size_wh": [
+          51.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.01,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08403,
+      "position_camera_m": [
+        -0.09525000303983688,
+        0.0033199999015778303,
+        0.375
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 876,
+      "top_surface_coverage": 0.884,
+      "surface_mad_m": 0.000367,
+      "surface_rmse_m": 0.000528,
+      "surface_parallel_deg": 7.55,
+      "surface_rectangularity": 0.973,
+      "metric_size_mm": [
+        26.58,
+        10.92
+      ],
+      "height_below_selected_m": 0.00026
+    },
+    {
+      "id": 9,
+      "score": 0.859,
+      "area_px": 1082,
+      "box_xyxy": [
+        231,
+        349,
+        273,
+        376
+      ],
+      "centroid_xy": [
+        251.7,
+        362.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          252.0,
+          362.5
+        ],
+        "size_wh": [
+          27.0,
+          42.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.95,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07646,
+      "position_camera_m": [
+        -0.0427899993956089,
+        0.07310999929904938,
+        0.38499999046325684
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 653,
+      "top_surface_coverage": 0.942,
+      "surface_mad_m": 0.000539,
+      "surface_rmse_m": 0.000611,
+      "surface_parallel_deg": 6.17,
+      "surface_rectangularity": 0.972,
+      "metric_size_mm": [
+        18.35,
+        12.68
+      ]
+    },
+    {
+      "id": 10,
+      "score": 0.855,
+      "area_px": 1415,
+      "box_xyxy": [
+        371,
+        103,
+        423,
+        130
+      ],
+      "centroid_xy": [
+        396.5,
+        116.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          397.0,
+          116.5
+        ],
+        "size_wh": [
+          27.0,
+          52.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.01,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07585,
+      "position_camera_m": [
+        0.04495999962091446,
+        -0.07829000055789948,
+        0.37400001287460327
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 915,
+      "top_surface_coverage": 0.948,
+      "surface_mad_m": 0.000383,
+      "surface_rmse_m": 0.000679,
+      "surface_parallel_deg": 7.33,
+      "surface_rectangularity": 0.968,
+      "metric_size_mm": [
+        26.15,
+        12.02
+      ],
+      "height_below_selected_m": 0.00844
+    },
+    {
+      "id": 11,
+      "score": 0.852,
+      "area_px": 1310,
+      "box_xyxy": [
+        272,
+        348,
+        321,
+        375
+      ],
+      "centroid_xy": [
+        297.2,
+        361.7
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          296.5,
+          361.5
+        ],
+        "size_wh": [
+          27.0,
+          49.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07517,
+      "position_camera_m": [
+        -0.012880000285804272,
+        0.07266999781131744,
+        0.38600000739097595
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 736,
+      "top_surface_coverage": 0.851,
+      "surface_mad_m": 0.000734,
+      "surface_rmse_m": 0.000862,
+      "surface_parallel_deg": 1.04,
+      "surface_rectangularity": 0.876,
+      "metric_size_mm": [
+        24.55,
+        11.55
+      ],
+      "height_below_selected_m": 0.00912
+    },
+    {
+      "id": 12,
+      "score": 0.852,
+      "area_px": 908,
+      "box_xyxy": [
+        233,
+        261,
+        270,
+        286
+      ],
+      "centroid_xy": [
+        251.1,
+        273.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          251.5,
+          273.5
+        ],
+        "size_wh": [
+          25.0,
+          37.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.98,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07531,
+      "position_camera_m": [
+        -0.04307999834418297,
+        0.017009999603033066,
+        0.382999986410141
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 547,
+      "top_surface_coverage": 0.996,
+      "surface_mad_m": 0.000184,
+      "surface_rmse_m": 0.000249,
+      "surface_parallel_deg": 5.25,
+      "surface_rectangularity": 0.96,
+      "metric_size_mm": [
+        18.48,
+        10.55
+      ]
+    },
+    {
+      "id": 13,
+      "score": 0.852,
+      "area_px": 978,
+      "box_xyxy": [
+        231,
+        158,
+        268,
+        184
+      ],
+      "centroid_xy": [
+        249.5,
+        171.2
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          249.5,
+          171.0
+        ],
+        "size_wh": [
+          26.0,
+          37.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.02,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07634,
+      "position_camera_m": [
+        -0.04374000057578087,
+        -0.04503000155091286,
+        0.3779999911785126
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 599,
+      "top_surface_coverage": 0.965,
+      "surface_mad_m": 0.00031,
+      "surface_rmse_m": 0.000561,
+      "surface_parallel_deg": 4.73,
+      "surface_rectangularity": 1.017,
+      "metric_size_mm": [
+        18.55,
+        11.35
+      ]
+    },
+    {
+      "id": 14,
+      "score": 0.852,
+      "area_px": 1244,
+      "box_xyxy": [
+        271,
+        260,
+        319,
+        285
+      ],
+      "centroid_xy": [
+        295.1,
+        272.7
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          295.0,
+          272.5
+        ],
+        "size_wh": [
+          25.0,
+          48.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.04,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07545,
+      "position_camera_m": [
+        -0.015150000341236591,
+        0.01754000037908554,
+        0.38199999928474426
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 726,
+      "top_surface_coverage": 0.888,
+      "surface_mad_m": 0.000517,
+      "surface_rmse_m": 0.000818,
+      "surface_parallel_deg": 1.06,
+      "surface_rectangularity": 0.96,
+      "metric_size_mm": [
+        25.77,
+        11.07
+      ],
+      "height_below_selected_m": 0.00884
+    },
+    {
+      "id": 15,
+      "score": 0.848,
+      "area_px": 1335,
+      "box_xyxy": [
+        372,
+        208,
+        423,
+        234
+      ],
+      "centroid_xy": [
+        398.0,
+        220.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          397.5,
+          221.0
+        ],
+        "size_wh": [
+          26.0,
+          51.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.01,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07596,
+      "position_camera_m": [
+        0.047279998660087585,
+        -0.01498000044375658,
+        0.3779999911785126
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.995,
+      "top_surface_pixels": 854,
+      "top_surface_coverage": 0.963,
+      "surface_mad_m": 0.000476,
+      "surface_rmse_m": 0.000781,
+      "surface_parallel_deg": 6.93,
+      "surface_rectangularity": 0.97,
+      "metric_size_mm": [
+        26.22,
+        11.59
+      ],
+      "height_below_selected_m": 0.00833
+    },
+    {
+      "id": 16,
+      "score": 0.844,
+      "area_px": 1419,
+      "box_xyxy": [
+        204,
+        276,
+        232,
+        327
+      ],
+      "centroid_xy": [
+        217.5,
+        301.8
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          218.0,
+          301.5
+        ],
+        "size_wh": [
+          51.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08431,
+      "position_camera_m": [
+        -0.06339000165462494,
+        0.03432999923825264,
+        0.375
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 840,
+      "top_surface_coverage": 0.875,
+      "surface_mad_m": 0.000549,
+      "surface_rmse_m": 0.000748,
+      "surface_parallel_deg": 9.95,
+      "surface_rectangularity": 0.889,
+      "metric_size_mm": [
+        25.72,
+        11.56
+      ],
+      "height_below_selected_m": -2e-05
+    },
+    {
+      "id": 17,
+      "score": 0.84,
+      "area_px": 1434,
+      "box_xyxy": [
+        202,
+        172,
+        230,
+        223
+      ],
+      "centroid_xy": [
+        215.4,
+        197.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          216.0,
+          197.5
+        ],
+        "size_wh": [
+          51.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08483,
+      "position_camera_m": [
+        -0.06374000012874603,
+        -0.029090000316500664,
+        0.3709999918937683
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 901,
+      "top_surface_coverage": 0.923,
+      "surface_mad_m": 0.00045,
+      "surface_rmse_m": 0.000588,
+      "surface_parallel_deg": 5.7,
+      "surface_rectangularity": 1.001,
+      "metric_size_mm": [
+        26.16,
+        11.38
+      ],
+      "height_below_selected_m": -0.00054
+    },
+    {
+      "id": 18,
+      "score": 0.84,
+      "area_px": 1292,
+      "box_xyxy": [
+        269,
+        158,
+        319,
+        183
+      ],
+      "centroid_xy": [
+        294.0,
+        170.6
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          294.0,
+          170.5
+        ],
+        "size_wh": [
+          25.0,
+          50.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.03,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07553,
+      "position_camera_m": [
+        -0.016270000487565994,
+        -0.0456399992108345,
+        0.3779999911785126
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 864,
+      "top_surface_coverage": 0.998,
+      "surface_mad_m": 0.000335,
+      "surface_rmse_m": 0.00072,
+      "surface_parallel_deg": 0.95,
+      "surface_rectangularity": 1.033,
+      "metric_size_mm": [
+        26.09,
+        11.22
+      ],
+      "height_below_selected_m": 0.00876
+    },
+    {
+      "id": 19,
+      "score": 0.84,
+      "area_px": 1577,
+      "box_xyxy": [
+        200,
+        118,
+        230,
+        171
+      ],
+      "centroid_xy": [
+        214.3,
+        144.5
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          215.0,
+          144.5
+        ],
+        "size_wh": [
+          53.0,
+          30.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08369,
+      "position_camera_m": [
+        -0.06536000221967697,
+        -0.05959000065922737,
+        0.3700000047683716
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 842,
+      "top_surface_coverage": 0.769,
+      "surface_mad_m": 0.000954,
+      "surface_rmse_m": 0.00055,
+      "surface_parallel_deg": 11.03,
+      "surface_rectangularity": 0.896,
+      "metric_size_mm": [
+        27.19,
+        10.56
+      ],
+      "height_below_selected_m": 0.0006
+    },
+    {
+      "id": 20,
+      "score": 0.836,
+      "area_px": 1240,
+      "box_xyxy": [
+        271,
+        311,
+        321,
+        336
+      ],
+      "centroid_xy": [
+        296.1,
+        323.6
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          296.0,
+          323.5
+        ],
+        "size_wh": [
+          25.0,
+          50.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07498,
+      "position_camera_m": [
+        -0.013439999893307686,
+        0.04919999837875366,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.999,
+      "top_surface_pixels": 685,
+      "top_surface_coverage": 0.845,
+      "surface_mad_m": 0.001109,
+      "surface_rmse_m": 0.001008,
+      "surface_parallel_deg": 5.2,
+      "surface_rectangularity": 0.819,
+      "metric_size_mm": [
+        26.05,
+        11.07
+      ],
+      "height_below_selected_m": 0.00931
+    },
+    {
+      "id": 21,
+      "score": 0.824,
+      "area_px": 1444,
+      "box_xyxy": [
+        202,
+        225,
+        230,
+        276
+      ],
+      "centroid_xy": [
+        216.1,
+        249.5
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          216.0,
+          250.5
+        ],
+        "size_wh": [
+          51.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.01,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08404,
+      "position_camera_m": [
+        -0.06442999839782715,
+        0.0021100000012665987,
+        0.37400001287460327
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 796,
+      "top_surface_coverage": 0.799,
+      "surface_mad_m": 0.000505,
+      "surface_rmse_m": 0.000467,
+      "surface_parallel_deg": 8.35,
+      "surface_rectangularity": 1.005,
+      "metric_size_mm": [
+        25.94,
+        10.67
+      ],
+      "height_below_selected_m": 0.00025
+    },
+    {
+      "id": 22,
+      "score": 0.824,
+      "area_px": 1313,
+      "box_xyxy": [
+        322,
+        259,
+        424,
+        284
+      ],
+      "centroid_xy": [
+        398.1,
+        271.8
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          398.5,
+          271.5
+        ],
+        "size_wh": [
+          25.0,
+          51.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.03,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07492,
+      "position_camera_m": [
+        0.04764999821782112,
+        0.01631000079214573,
+        0.38100001215934753
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 840,
+      "top_surface_coverage": 0.964,
+      "surface_mad_m": 0.00041,
+      "surface_rmse_m": 0.000721,
+      "surface_parallel_deg": 2.92,
+      "surface_rectangularity": 1.037,
+      "metric_size_mm": [
+        26.62,
+        11.09
+      ],
+      "height_below_selected_m": 0.00937
+    },
+    {
+      "id": 23,
+      "score": 0.824,
+      "area_px": 1364,
+      "box_xyxy": [
+        319,
+        105,
+        370,
+        131
+      ],
+      "centroid_xy": [
+        344.6,
+        117.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          344.5,
+          118.0
+        ],
+        "size_wh": [
+          26.0,
+          51.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.03,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07553,
+      "position_camera_m": [
+        0.014779999852180481,
+        -0.07749000191688538,
+        0.37599998712539673
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 926,
+      "top_surface_coverage": 1.0,
+      "surface_mad_m": 0.000455,
+      "surface_rmse_m": 0.000625,
+      "surface_parallel_deg": 5.79,
+      "surface_rectangularity": 1.029,
+      "metric_size_mm": [
+        26.05,
+        11.73
+      ],
+      "height_below_selected_m": 0.00876
+    },
+    {
+      "id": 24,
+      "score": 0.82,
+      "area_px": 875,
+      "box_xyxy": [
+        233,
+        211,
+        268,
+        235
+      ],
+      "centroid_xy": [
+        250.7,
+        223.0
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          250.5,
+          223.0
+        ],
+        "size_wh": [
+          24.0,
+          35.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.04,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07535,
+      "position_camera_m": [
+        -0.04284999892115593,
+        -0.013860000297427177,
+        0.38100001215934753
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 533,
+      "top_surface_coverage": 0.991,
+      "surface_mad_m": 0.000192,
+      "surface_rmse_m": 0.000367,
+      "surface_parallel_deg": 3.83,
+      "surface_rectangularity": 1.021,
+      "metric_size_mm": [
+        17.76,
+        10.69
+      ]
+    },
+    {
+      "id": 25,
+      "score": 0.812,
+      "area_px": 577,
+      "box_xyxy": [
+        258,
+        135,
+        283,
+        158
+      ],
+      "centroid_xy": [
+        269.9,
+        146.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          270.5,
+          146.5
+        ],
+        "size_wh": [
+          23.0,
+          25.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.01,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06616,
+      "position_camera_m": [
+        -0.032189998775720596,
+        -0.06241000071167946,
+        0.3869999945163727
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.998,
+      "top_surface_pixels": 290,
+      "top_surface_coverage": 0.924,
+      "surface_mad_m": 0.000881,
+      "surface_rmse_m": 0.000881,
+      "surface_parallel_deg": 6.4,
+      "surface_rectangularity": 0.954,
+      "metric_size_mm": [
+        12.5,
+        11.2
+      ]
+    },
+    {
+      "id": 26,
+      "score": 0.809,
+      "area_px": 1310,
+      "box_xyxy": [
+        269,
+        105,
+        318,
+        132
+      ],
+      "centroid_xy": [
+        293.2,
+        118.6
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          293.5,
+          118.5
+        ],
+        "size_wh": [
+          27.0,
+          49.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07557,
+      "position_camera_m": [
+        -0.016769999638199806,
+        -0.07688000053167343,
+        0.37599998712539673
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.991,
+      "top_surface_pixels": 872,
+      "top_surface_coverage": 1.0,
+      "surface_mad_m": 0.000322,
+      "surface_rmse_m": 0.000642,
+      "surface_parallel_deg": 0.65,
+      "surface_rectangularity": 0.989,
+      "metric_size_mm": [
+        25.21,
+        11.66
+      ],
+      "height_below_selected_m": 0.00872
+    },
+    {
+      "id": 27,
+      "score": 0.805,
+      "area_px": 1231,
+      "box_xyxy": [
+        322,
+        260,
+        371,
+        286
+      ],
+      "centroid_xy": [
+        346.3,
+        273.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          346.5,
+          273.0
+        ],
+        "size_wh": [
+          49.0,
+          26.0
+        ],
+        "angle_deg": 0.0
+      },
+      "rectangularity": 0.97,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07446,
+      "position_camera_m": [
+        0.015060000121593475,
+        0.017629999667406082,
+        0.38199999928474426
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 702,
+      "top_surface_coverage": 0.892,
+      "surface_mad_m": 0.000662,
+      "surface_rmse_m": 0.000828,
+      "surface_parallel_deg": 7.64,
+      "surface_rectangularity": 0.859,
+      "metric_size_mm": [
+        24.99,
+        11.41
+      ],
+      "height_below_selected_m": 0.00983
+    },
+    {
+      "id": 28,
+      "score": 0.793,
+      "area_px": 1282,
+      "box_xyxy": [
+        321,
+        210,
+        371,
+        236
+      ],
+      "centroid_xy": [
+        345.9,
+        222.2
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          348.5,
+          223.0
+        ],
+        "size_wh": [
+          26.0,
+          55.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.9,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07614,
+      "position_camera_m": [
+        0.009429999627172947,
+        -0.013179999776184559,
+        0.3790000081062317
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.645,
+      "top_surface_pixels": 437,
+      "top_surface_coverage": 0.895,
+      "surface_mad_m": 0.000298,
+      "surface_rmse_m": 0.000426,
+      "surface_parallel_deg": 8.54,
+      "surface_rectangularity": 0.885,
+      "metric_size_mm": [
+        15.12,
+        11.67
+      ]
+    },
+    {
+      "id": 29,
+      "score": 0.789,
+      "area_px": 596,
+      "box_xyxy": [
+        309,
+        236,
+        334,
+        261
+      ],
+      "centroid_xy": [
+        321.3,
+        248.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          321.5,
+          248.5
+        ],
+        "size_wh": [
+          25.0,
+          25.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.95,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.0674,
+      "position_camera_m": [
+        0.0002500000118743628,
+        0.0015699999639764428,
+        0.3889999985694885
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 0.998,
+      "top_surface_pixels": 302,
+      "top_surface_coverage": 0.935,
+      "surface_mad_m": 0.000902,
+      "surface_rmse_m": 0.000894,
+      "surface_parallel_deg": 4.23,
+      "surface_rectangularity": 0.935,
+      "metric_size_mm": [
+        12.3,
+        10.59
+      ]
+    },
+    {
+      "id": 30,
+      "score": 0.785,
+      "area_px": 565,
+      "box_xyxy": [
+        307,
+        134,
+        332,
+        157
+      ],
+      "centroid_xy": [
+        320.3,
+        145.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          319.5,
+          145.5
+        ],
+        "size_wh": [
+          23.0,
+          25.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.98,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06652,
+      "position_camera_m": [
+        -0.0003699999942909926,
+        -0.06287000328302383,
+        0.38600000739097595
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 256,
+      "top_surface_coverage": 0.831,
+      "surface_mad_m": 0.000641,
+      "surface_rmse_m": 0.000731,
+      "surface_parallel_deg": 2.7,
+      "surface_rectangularity": 1.094,
+      "metric_size_mm": [
+        10.77,
+        8.19
+      ]
+    },
+    {
+      "id": 31,
+      "score": 0.781,
+      "area_px": 537,
+      "box_xyxy": [
+        180,
+        212,
+        201,
+        236
+      ],
+      "centroid_xy": [
+        190.6,
+        224.2
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          190.5,
+          224.0
+        ],
+        "size_wh": [
+          24.0,
+          21.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.07,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "nonplanar_surface",
+      "height_m": 0.07821,
+      "position_camera_m": [
+        -0.08060000091791153,
+        -0.012600000016391277,
+        0.3799999952316284
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 231,
+      "top_surface_coverage": 0.794,
+      "surface_mad_m": 0.001037,
+      "surface_rmse_m": 0.000699,
+      "surface_parallel_deg": 22.52,
+      "surface_rectangularity": 0.987,
+      "metric_size_mm": [
+        11.41,
+        9.4
+      ]
+    },
+    {
+      "id": 32,
+      "score": 0.77,
+      "area_px": 604,
+      "box_xyxy": [
+        180,
+        262,
+        203,
+        289
+      ],
+      "centroid_xy": [
+        191.0,
+        274.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          191.5,
+          275.5
+        ],
+        "size_wh": [
+          27.0,
+          23.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.97,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07716,
+      "position_camera_m": [
+        -0.08145000040531158,
+        0.017629999667406082,
+        0.38199999928474426
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 255,
+      "top_surface_coverage": 0.777,
+      "surface_mad_m": 0.000795,
+      "surface_rmse_m": 0.000506,
+      "surface_parallel_deg": 14.77,
+      "surface_rectangularity": 0.981,
+      "metric_size_mm": [
+        12.08,
+        8.73
+      ]
+    },
+    {
+      "id": 33,
+      "score": 0.766,
+      "area_px": 1401,
+      "box_xyxy": [
+        151,
+        277,
+        179,
+        327
+      ],
+      "centroid_xy": [
+        165.6,
+        301.6
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          165.0,
+          302.0
+        ],
+        "size_wh": [
+          50.0,
+          28.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": true,
+      "depth_status": "ok",
+      "height_m": 0.08424,
+      "position_camera_m": [
+        -0.09489999711513519,
+        0.03441999852657318,
+        0.37599998712539673
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 838,
+      "top_surface_coverage": 0.876,
+      "surface_mad_m": 0.00047,
+      "surface_rmse_m": 0.000591,
+      "surface_parallel_deg": 7.53,
+      "surface_rectangularity": 0.966,
+      "metric_size_mm": [
+        26.43,
+        10.57
+      ],
+      "height_below_selected_m": 5e-05
+    },
+    {
+      "id": 34,
+      "score": 0.766,
+      "area_px": 551,
+      "box_xyxy": [
+        358,
+        185,
+        383,
+        208
+      ],
+      "centroid_xy": [
+        370.8,
+        196.8
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          370.5,
+          196.5
+        ],
+        "size_wh": [
+          25.0,
+          23.0
+        ],
+        "angle_deg": 0.0
+      },
+      "rectangularity": 0.96,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.0656,
+      "position_camera_m": [
+        0.031599998474121094,
+        -0.030419999733567238,
+        0.3880000114440918
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.989,
+      "top_surface_pixels": 292,
+      "top_surface_coverage": 1.0,
+      "surface_mad_m": 0.000162,
+      "surface_rmse_m": 0.000379,
+      "surface_parallel_deg": 0.63,
+      "surface_rectangularity": 1.014,
+      "metric_size_mm": [
+        11.16,
+        9.72
+      ]
+    },
+    {
+      "id": 35,
+      "score": 0.766,
+      "area_px": 592,
+      "box_xyxy": [
+        358,
+        235,
+        383,
+        260
+      ],
+      "centroid_xy": [
+        371.2,
+        247.2
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          370.5,
+          247.5
+        ],
+        "size_wh": [
+          25.0,
+          25.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.95,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06689,
+      "position_camera_m": [
+        0.031599998474121094,
+        0.001560000004246831,
+        0.3889999985694885
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 0.99,
+      "top_surface_pixels": 302,
+      "top_surface_coverage": 0.965,
+      "surface_mad_m": 0.00034,
+      "surface_rmse_m": 0.000582,
+      "surface_parallel_deg": 8.79,
+      "surface_rectangularity": 1.045,
+      "metric_size_mm": [
+        12.44,
+        11.56
+      ]
+    },
+    {
+      "id": 36,
+      "score": 0.746,
+      "area_px": 1179,
+      "box_xyxy": [
+        213,
+        107,
+        268,
+        132
+      ],
+      "centroid_xy": [
+        244.3,
+        118.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          240.5,
+          119.5
+        ],
+        "size_wh": [
+          25.0,
+          55.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.86,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07546,
+      "position_camera_m": [
+        -0.04544999822974205,
+        -0.07769999653100967,
+        0.37700000405311584
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.985,
+      "top_surface_pixels": 719,
+      "top_surface_coverage": 1.0,
+      "surface_mad_m": 0.000193,
+      "surface_rmse_m": 0.00043,
+      "surface_parallel_deg": 3.37,
+      "surface_rectangularity": 0.772,
+      "metric_size_mm": [
+        26.63,
+        12.17
+      ],
+      "height_below_selected_m": 0.00883
+    },
+    {
+      "id": 37,
+      "score": 0.738,
+      "area_px": 636,
+      "box_xyxy": [
+        358,
+        133,
+        383,
+        157
+      ],
+      "centroid_xy": [
+        370.4,
+        145.1
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          370.5,
+          145.0
+        ],
+        "size_wh": [
+          24.0,
+          25.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.06,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06581,
+      "position_camera_m": [
+        0.032680001109838486,
+        -0.06287000328302383,
+        0.38600000739097595
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.805,
+      "top_surface_pixels": 233,
+      "top_surface_coverage": 0.752,
+      "surface_mad_m": 0.001145,
+      "surface_rmse_m": 0.000812,
+      "surface_parallel_deg": 8.27,
+      "surface_rectangularity": 0.971,
+      "metric_size_mm": [
+        10.59,
+        9.36
+      ]
+    },
+    {
+      "id": 38,
+      "score": 0.738,
+      "area_px": 412,
+      "box_xyxy": [
+        424,
+        170,
+        433,
+        219
+      ],
+      "centroid_xy": [
+        428.8,
+        196.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          428.5,
+          194.5
+        ],
+        "size_wh": [
+          49.0,
+          9.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.93,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "nonplanar_surface",
+      "height_m": 0.06466,
+      "position_camera_m": [
+        0.06779000163078308,
+        -0.029249999672174454,
+        0.3880000114440918
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 0.978,
+      "top_surface_pixels": 61,
+      "top_surface_coverage": 0.836,
+      "surface_mad_m": 0.000727,
+      "surface_rmse_m": 0.000438,
+      "surface_parallel_deg": 71.72,
+      "surface_rectangularity": 1.271,
+      "metric_size_mm": [
+        14.7,
+        2.97
+      ]
+    },
+    {
+      "id": 39,
+      "score": 0.727,
+      "area_px": 564,
+      "box_xyxy": [
+        182,
+        312,
+        203,
+        350
+      ],
+      "centroid_xy": [
+        192.5,
+        325.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          192.5,
+          325.5
+        ],
+        "size_wh": [
+          27.0,
+          21.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "nonplanar_surface",
+      "height_m": 0.08016,
+      "position_camera_m": [
+        -0.0785600021481514,
+        0.049070000648498535,
+        0.38100001215934753
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 250,
+      "top_surface_coverage": 0.831,
+      "surface_mad_m": 0.001149,
+      "surface_rmse_m": 0.00029,
+      "surface_parallel_deg": 23.26,
+      "surface_rectangularity": 0.872,
+      "metric_size_mm": [
+        12.89,
+        9.84
+      ]
+    },
+    {
+      "id": 40,
+      "score": 0.707,
+      "area_px": 523,
+      "box_xyxy": [
+        310,
+        287,
+        333,
+        310
+      ],
+      "centroid_xy": [
+        321.4,
+        298.2
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          321.5,
+          298.5
+        ],
+        "size_wh": [
+          23.0,
+          23.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06736,
+      "position_camera_m": [
+        0.0002500000118743628,
+        0.03353000059723854,
+        0.39100000262260437
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 252,
+      "top_surface_coverage": 0.926,
+      "surface_mad_m": 0.000803,
+      "surface_rmse_m": 0.000634,
+      "surface_parallel_deg": 12.52,
+      "surface_rectangularity": 0.988,
+      "metric_size_mm": [
+        11.24,
+        10.65
+      ]
+    },
+    {
+      "id": 41,
+      "score": 0.703,
+      "area_px": 1329,
+      "box_xyxy": [
+        233,
+        312,
+        270,
+        347
+      ],
+      "centroid_xy": [
+        251.8,
+        329.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          251.5,
+          329.5
+        ],
+        "size_wh": [
+          35.0,
+          37.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.03,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07581,
+      "position_camera_m": [
+        -0.04380999878048897,
+        0.05119000002741814,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 819,
+      "top_surface_coverage": 0.895,
+      "surface_mad_m": 0.000662,
+      "surface_rmse_m": 0.000973,
+      "surface_parallel_deg": 3.95,
+      "surface_rectangularity": 0.911,
+      "metric_size_mm": [
+        20.16,
+        17.52
+      ]
+    },
+    {
+      "id": 42,
+      "score": 0.684,
+      "area_px": 577,
+      "box_xyxy": [
+        360,
+        286,
+        383,
+        310
+      ],
+      "centroid_xy": [
+        371.6,
+        298.3
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          371.5,
+          298.0
+        ],
+        "size_wh": [
+          24.0,
+          23.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.05,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.0675,
+      "position_camera_m": [
+        0.0318400003015995,
+        0.03316999971866608,
+        0.38999998569488525
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 0.976,
+      "top_surface_pixels": 317,
+      "top_surface_coverage": 0.994,
+      "surface_mad_m": 0.000753,
+      "surface_rmse_m": 0.000788,
+      "surface_parallel_deg": 6.34,
+      "surface_rectangularity": 1.036,
+      "metric_size_mm": [
+        10.9,
+        10.86
+      ]
+    },
+    {
+      "id": 43,
+      "score": 0.66,
+      "area_px": 1271,
+      "box_xyxy": [
+        373,
+        158,
+        424,
+        183
+      ],
+      "centroid_xy": [
+        398.6,
+        170.2
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          398.5,
+          170.5
+        ],
+        "size_wh": [
+          25.0,
+          51.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "ok",
+      "height_m": 0.07524,
+      "position_camera_m": [
+        0.04763000085949898,
+        -0.0456399992108345,
+        0.37700000405311584
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 801,
+      "top_surface_coverage": 0.955,
+      "surface_mad_m": 0.000858,
+      "surface_rmse_m": 0.000925,
+      "surface_parallel_deg": 3.29,
+      "surface_rectangularity": 0.96,
+      "metric_size_mm": [
+        25.55,
+        10.9
+      ],
+      "height_below_selected_m": 0.00905
+    },
+    {
+      "id": 44,
+      "score": 0.645,
+      "area_px": 341,
+      "box_xyxy": [
+        269,
+        286,
+        283,
+        309
+      ],
+      "centroid_xy": [
+        276.3,
+        297.6
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          276.0,
+          297.5
+        ],
+        "size_wh": [
+          23.0,
+          14.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.06,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "nonplanar_surface",
+      "height_m": 0.06584,
+      "position_camera_m": [
+        -0.02833000011742115,
+        0.03342000022530556,
+        0.3930000066757202
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 119,
+      "top_surface_coverage": 0.832,
+      "surface_mad_m": 0.000928,
+      "surface_rmse_m": 0.000516,
+      "surface_parallel_deg": 22.84,
+      "surface_rectangularity": 1.062,
+      "metric_size_mm": [
+        9.91,
+        5.2
+      ]
+    },
+    {
+      "id": 45,
+      "score": 0.625,
+      "area_px": 1398,
+      "box_xyxy": [
+        322,
+        311,
+        372,
+        343
+      ],
+      "centroid_xy": [
+        346.7,
+        324.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          347.0,
+          327.0
+        ],
+        "size_wh": [
+          32.0,
+          50.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.87,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "irregular_rectangle",
+      "height_m": 0.07394,
+      "position_camera_m": [
+        0.010820000432431698,
+        0.049949999898672104,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.853,
+      "top_surface_pixels": 549,
+      "top_surface_coverage": 0.765,
+      "surface_mad_m": 0.001179,
+      "surface_rmse_m": 0.000835,
+      "surface_parallel_deg": 10.46,
+      "surface_rectangularity": 0.624,
+      "metric_size_mm": [
+        27.03,
+        11.93
+      ]
+    },
+    {
+      "id": 46,
+      "score": 0.621,
+      "area_px": 361,
+      "box_xyxy": [
+        267,
+        185,
+        282,
+        209
+      ],
+      "centroid_xy": [
+        274.6,
+        197.4
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          274.5,
+          197.0
+        ],
+        "size_wh": [
+          24.0,
+          15.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06591,
+      "position_camera_m": [
+        -0.02873999997973442,
+        -0.02995000034570694,
+        0.3889999985694885
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 140,
+      "top_surface_coverage": 0.933,
+      "surface_mad_m": 0.000754,
+      "surface_rmse_m": 0.000823,
+      "surface_parallel_deg": 6.35,
+      "surface_rectangularity": 0.929,
+      "metric_size_mm": [
+        10.58,
+        4.81
+      ]
+    },
+    {
+      "id": 47,
+      "score": 0.59,
+      "area_px": 599,
+      "box_xyxy": [
+        178,
+        160,
+        201,
+        209
+      ],
+      "centroid_xy": [
+        189.3,
+        175.1
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          189.5,
+          174.5
+        ],
+        "size_wh": [
+          29.0,
+          23.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.9,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "nonplanar_surface",
+      "height_m": 0.07865,
+      "position_camera_m": [
+        -0.08077999949455261,
+        -0.04280000180006027,
+        0.37700000405311584
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 212,
+      "top_surface_coverage": 0.686,
+      "surface_mad_m": 0.001494,
+      "surface_rmse_m": 0.000512,
+      "surface_parallel_deg": 25.36,
+      "surface_rectangularity": 0.814,
+      "metric_size_mm": [
+        11.81,
+        9.05
+      ]
+    },
+    {
+      "id": 48,
+      "score": 0.586,
+      "area_px": 961,
+      "box_xyxy": [
+        384,
+        235,
+        425,
+        258
+      ],
+      "centroid_xy": [
+        404.3,
+        246.1
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          404.5,
+          246.5
+        ],
+        "size_wh": [
+          23.0,
+          41.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 1.02,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06717,
+      "position_camera_m": [
+        0.058959998190402985,
+        0.0009299999801442027,
+        0.3880000114440918
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.694,
+      "top_surface_pixels": 250,
+      "top_surface_coverage": 0.691,
+      "surface_mad_m": 0.001085,
+      "surface_rmse_m": 0.000611,
+      "surface_parallel_deg": 11.46,
+      "surface_rectangularity": 0.868,
+      "metric_size_mm": [
+        12.34,
+        9.79
+      ]
+    },
+    {
+      "id": 49,
+      "score": 0.574,
+      "area_px": 346,
+      "box_xyxy": [
+        268,
+        236,
+        283,
+        259
+      ],
+      "centroid_xy": [
+        276.0,
+        247.9
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          275.5,
+          247.5
+        ],
+        "size_wh": [
+          15.0,
+          23.0
+        ],
+        "angle_deg": -0.0
+      },
+      "rectangularity": 1.0,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06511,
+      "position_camera_m": [
+        -0.02824999950826168,
+        0.0015699999639764428,
+        0.3919999897480011
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 151,
+      "top_surface_coverage": 0.993,
+      "surface_mad_m": 0.000197,
+      "surface_rmse_m": 0.000733,
+      "surface_parallel_deg": 5.74,
+      "surface_rectangularity": 1.18,
+      "metric_size_mm": [
+        10.16,
+        5.17
+      ]
+    },
+    {
+      "id": 50,
+      "score": 0.566,
+      "area_px": 1129,
+      "box_xyxy": [
+        320,
+        158,
+        372,
+        183
+      ],
+      "centroid_xy": [
+        342.2,
+        170.0
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          346.0,
+          170.5
+        ],
+        "size_wh": [
+          25.0,
+          52.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.87,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.07525,
+      "position_camera_m": [
+        0.011210000142455101,
+        -0.046140000224113464,
+        0.3779999911785126
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.939,
+      "top_surface_pixels": 648,
+      "top_surface_coverage": 0.991,
+      "surface_mad_m": 0.000625,
+      "surface_rmse_m": 0.000635,
+      "surface_parallel_deg": 6.23,
+      "surface_rectangularity": 0.853,
+      "metric_size_mm": [
+        21.46,
+        11.53
+      ]
+    },
+    {
+      "id": 51,
+      "score": 0.547,
+      "area_px": 969,
+      "box_xyxy": [
+        384,
+        183,
+        424,
+        207
+      ],
+      "centroid_xy": [
+        404.2,
+        195.6
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          404.5,
+          195.0
+        ],
+        "size_wh": [
+          24.0,
+          41.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.99,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "wrong_metric_size",
+      "height_m": 0.06679,
+      "position_camera_m": [
+        0.05778000131249428,
+        -0.031599998474121094,
+        0.38600000739097595
+      ],
+      "yaw_camera_deg": 0.0,
+      "valid_depth_fraction": 0.548,
+      "top_surface_pixels": 276,
+      "top_surface_coverage": 0.932,
+      "surface_mad_m": 0.000847,
+      "surface_rmse_m": 0.000967,
+      "surface_parallel_deg": 9.41,
+      "surface_rectangularity": 0.854,
+      "metric_size_mm": [
+        12.82,
+        10.1
+      ]
+    },
+    {
+      "id": 52,
+      "score": 0.535,
+      "area_px": 924,
+      "box_xyxy": [
+        409,
+        118,
+        434,
+        169
+      ],
+      "centroid_xy": [
+        423.7,
+        143.5
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          421.5,
+          143.5
+        ],
+        "size_wh": [
+          51.0,
+          25.0
+        ],
+        "angle_deg": 90.0
+      },
+      "rectangularity": 0.73,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "irregular_rectangle",
+      "height_m": 0.06672,
+      "position_camera_m": [
+        0.06415999680757523,
+        -0.06362999975681305,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 425,
+      "top_surface_coverage": 0.882,
+      "surface_mad_m": 0.000463,
+      "surface_rmse_m": 0.000673,
+      "surface_parallel_deg": 8.14,
+      "surface_rectangularity": 0.589,
+      "metric_size_mm": [
+        18.86,
+        11.93
+      ]
+    },
+    {
+      "id": 53,
+      "score": 0.531,
+      "area_px": 882,
+      "box_xyxy": [
+        180,
+        337,
+        205,
+        377
+      ],
+      "centroid_xy": [
+        192.6,
+        358.1
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          192.5,
+          353.5
+        ],
+        "size_wh": [
+          25.0,
+          47.0
+        ],
+        "angle_deg": 0.0
+      },
+      "rectangularity": 0.79,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "nonplanar_surface",
+      "height_m": 0.07881,
+      "position_camera_m": [
+        -0.07918000221252441,
+        0.0725099965929985,
+        0.3840000033378601
+      ],
+      "yaw_camera_deg": -90.0,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 286,
+      "top_surface_coverage": 0.559,
+      "surface_mad_m": 0.001873,
+      "surface_rmse_m": 0.000603,
+      "surface_parallel_deg": 24.48,
+      "surface_rectangularity": 0.688,
+      "metric_size_mm": [
+        20.16,
+        8.59
+      ]
+    },
+    {
+      "id": 54,
+      "score": 0.516,
+      "area_px": 1132,
+      "box_xyxy": [
+        374,
+        311,
+        423,
+        345
+      ],
+      "centroid_xy": [
+        393.7,
+        327.8
+      ],
+      "min_area_rect": {
+        "center_xy": [
+          392.4,
+          328.5
+        ],
+        "size_wh": [
+          34.1,
+          36.9
+        ],
+        "angle_deg": 86.2
+      },
+      "rectangularity": 0.9,
+      "touches_border": false,
+      "top_layer": false,
+      "depth_status": "irregular_rectangle",
+      "height_m": 0.07541,
+      "position_camera_m": [
+        0.04481000080704689,
+        0.050439998507499695,
+        0.382999986410141
+      ],
+      "yaw_camera_deg": -3.8,
+      "valid_depth_fraction": 1.0,
+      "top_surface_pixels": 531,
+      "top_surface_coverage": 0.828,
+      "surface_mad_m": 0.000763,
+      "surface_rmse_m": 0.000462,
+      "surface_parallel_deg": 10.04,
+      "surface_rectangularity": 0.681,
+      "metric_size_mm": [
+        17.16,
+        13.53
+      ]
+    }
+  ],
+  "sam_rejected": [
+    {
+      "score": 0.5703125,
+      "reason": "not rectangular",
+      "rectangularity": 0.68,
+      "area_px": 961
+    }
+  ]
+}

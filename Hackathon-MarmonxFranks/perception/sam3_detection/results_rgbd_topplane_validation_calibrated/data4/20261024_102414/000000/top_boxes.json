@@ -1,0 +1,175 @@
+{
+  "strategy": "top-plane-first-v2",
+  "dataset": "data4",
+  "recording": "20261024_102414",
+  "frame": 0,
+  "rgb": "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/rgb/000000.png",
+  "depth_sources": [
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000000.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000007.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000015.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000022.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000030.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000037.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000044.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000052.png",
+    "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102414/depth/000059.png"
+  ],
+  "support_plane": {
+    "normal_camera": [
+      0.02204589918255806,
+      0.07964680343866348,
+      -0.9965792894363403
+    ],
+    "d": 0.4272404,
+    "inliers": 30000,
+    "rmse_m": 0.000832
+  },
+  "top_height_m": 0.084419,
+  "top_plane_pixels": 5440,
+  "lattice": {
+    "brick_long_px": 55.3,
+    "brick_short_px": 29.1,
+    "pitch_px": 55.3,
+    "angle_deg": -87.6,
+    "geometric_seeds": 22,
+    "oriented_seeds": 2,
+    "top_plane_seeds": 2
+  },
+  "boxes": [
+    {
+      "id": 1,
+      "center_xy": [
+        185.1,
+        244.9
+      ],
+      "size_wh": [
+        55.3,
+        29.1
+      ],
+      "angle_deg": -87.6,
+      "corners_xy": [
+        [
+          198.5,
+          273.20001220703125
+        ],
+        [
+          169.39999389648438,
+          271.8999938964844
+        ],
+        [
+          171.6999969482422,
+          216.6999969482422
+        ],
+        [
+          200.8000030517578,
+          217.89999389648438
+        ]
+      ],
+      "top_coverage": 0.77,
+      "sam_overlap": 0.99,
+      "position_camera_m": [
+        -0.07665999978780746,
+        0.0002699999895412475,
+        0.34200000762939453
+      ],
+      "source": "sam+lattice"
+    },
+    {
+      "id": 2,
+      "center_xy": [
+        187.4,
+        189.7
+      ],
+      "size_wh": [
+        55.3,
+        29.1
+      ],
+      "angle_deg": -87.6,
+      "corners_xy": [
+        [
+          200.8000030517578,
+          217.89999389648438
+        ],
+        [
+          171.6999969482422,
+          216.6999969482422
+        ],
+        [
+          174.10000610351562,
+          161.39999389648438
+        ],
+        [
+          203.10000610351562,
+          162.6999969482422
+        ]
+      ],
+      "top_coverage": 0.796,
+      "sam_overlap": 0.978,
+      "position_camera_m": [
+        -0.07483000308275223,
+        -0.03013000078499317,
+        0.3400000035762787
+      ],
+      "source": "sam+lattice"
+    },
+    {
+      "id": 3,
+      "center_xy": [
+        189.7,
+        134.4
+      ],
+      "size_wh": [
+        55.3,
+        29.1
+      ],
+      "angle_deg": -87.6,
+      "corners_xy": [
+        [
+          203.10000610351562,
+          162.6999969482422
+        ],
+        [
+          174.10000610351562,
+          161.39999389648438
+        ],
+        [
+          176.39999389648438,
+          106.19999694824219
+        ],
+        [
+          205.39999389648438,
+          107.4000015258789
+        ]
+      ],
+      "top_coverage": 0.829,
+      "sam_overlap": 0.991,
+      "position_camera_m": [
+        -0.07276000082492828,
+        -0.06128000095486641,
+        0.33799999952316284
+      ],
+      "source": "sam+lattice"
+    }
+  ],
+  "sam_rejected": [
+    {
+      "score": 0.82421875,
+      "reason": "not rectangular",
+      "rectangularity": 0.65,
+      "area_px": 1028
+    },
+    {
+      "score": 0.66015625,
+      "reason": "not rectangular",
+      "rectangularity": 0.68,
+      "area_px": 863
+    },
+    {
+      "score": 0.64453125,
+      "reason": "not rectangular",
+      "rectangularity": 0.6,
+      "area_px": 887
+    }
+  ]
+}

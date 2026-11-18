@@ -1,0 +1,2127 @@
+{
+  "image": "data_collection/captured_images_rgb_stack/rgb_20261023_190213_238873.png",
+  "prompts": [
+    "red lego brick",
+    "dark red lego brick",
+    "orange lego brick",
+    "beige lego brick",
+    "brown lego brick",
+    "lego brick"
+  ],
+  "threshold": 0.6,
+  "classes": {
+    "1": "red",
+    "2": "dark_red",
+    "3": "dark_orange",
+    "4": "medium_nougat",
+    "5": "reddish_brown"
+  },
+  "quality": {
+    "red": "good",
+    "dark_red": "good",
+    "dark_orange": "good",
+    "medium_nougat": "bad",
+    "reddish_brown": "bad"
+  },
+  "instances": [
+    {
+      "id": 1,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 1,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.93,
+      "area_px": 29202,
+      "box_xyxy": [
+        1496.0,
+        792.0,
+        1624.0,
+        1032.0
+      ],
+      "centroid_xy": [
+        1558.2,
+        911.2
+      ],
+      "touches_border": false,
+      "lab": [
+        143.0,
+        133.0,
+        141.0
+      ],
+      "colour_dist": 4.0
+    },
+    {
+      "id": 2,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 1,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.926,
+      "area_px": 23559,
+      "box_xyxy": [
+        1056.0,
+        756.0,
+        1176.0,
+        984.0
+      ],
+      "centroid_xy": [
+        1119.2,
+        868.4
+      ],
+      "touches_border": false,
+      "lab": [
+        147.0,
+        170.0,
+        178.0
+      ],
+      "colour_dist": 32.7
+    },
+    {
+      "id": 3,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 2,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.922,
+      "area_px": 24560,
+      "box_xyxy": [
+        1272.0,
+        772.0,
+        1392.0,
+        1000.0
+      ],
+      "centroid_xy": [
+        1339.1,
+        887.5
+      ],
+      "touches_border": false,
+      "lab": [
+        145.0,
+        133.0,
+        140.0
+      ],
+      "colour_dist": 5.0
+    },
+    {
+      "id": 4,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 1,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.918,
+      "area_px": 20520,
+      "box_xyxy": [
+        836.0,
+        744.0,
+        968.0,
+        952.0
+      ],
+      "centroid_xy": [
+        905.9,
+        858.1
+      ],
+      "touches_border": false,
+      "lab": [
+        157.0,
+        134.0,
+        183.0
+      ],
+      "colour_dist": 26.0
+    },
+    {
+      "id": 5,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 3,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.918,
+      "area_px": 17776,
+      "box_xyxy": [
+        984.0,
+        190.0,
+        1160.0,
+        298.0
+      ],
+      "centroid_xy": [
+        1068.6,
+        243.0
+      ],
+      "touches_border": false,
+      "lab": [
+        155.0,
+        132.0,
+        158.0
+      ],
+      "colour_dist": 19.5
+    },
+    {
+      "id": 6,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 2,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.914,
+      "area_px": 9906,
+      "box_xyxy": [
+        1784.0,
+        155.0,
+        1920.0,
+        256.0
+      ],
+      "centroid_xy": [
+        1855.1,
+        204.4
+      ],
+      "touches_border": true,
+      "lab": [
+        98.0,
+        137.0,
+        161.0
+      ],
+      "colour_dist": 12.9
+    },
+    {
+      "id": 7,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 2,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.91,
+      "area_px": 20621,
+      "box_xyxy": [
+        544.0,
+        462.0,
+        752.0,
+        584.0
+      ],
+      "centroid_xy": [
+        643.7,
+        519.4
+      ],
+      "touches_border": false,
+      "lab": [
+        92.0,
+        156.0,
+        155.0
+      ],
+      "colour_dist": 21.8
+    },
+    {
+      "id": 8,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 3,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.906,
+      "area_px": 16467,
+      "box_xyxy": [
+        1328.0,
+        82.5,
+        1504.0,
+        186.0
+      ],
+      "centroid_xy": [
+        1422.8,
+        132.2
+      ],
+      "touches_border": false,
+      "lab": [
+        93.0,
+        138.0,
+        157.0
+      ],
+      "colour_dist": 17.5
+    },
+    {
+      "id": 9,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 4,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.906,
+      "area_px": 18923,
+      "box_xyxy": [
+        1328.0,
+        960.0,
+        1568.0,
+        1080.0
+      ],
+      "centroid_xy": [
+        1437.9,
+        1031.4
+      ],
+      "touches_border": true,
+      "lab": [
+        167.0,
+        134.0,
+        182.0
+      ],
+      "colour_dist": 30.1
+    },
+    {
+      "id": 10,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 5,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.906,
+      "area_px": 21232,
+      "box_xyxy": [
+        736.0,
+        474.0,
+        944.0,
+        596.0
+      ],
+      "centroid_xy": [
+        840.0,
+        534.8
+      ],
+      "touches_border": false,
+      "lab": [
+        167.0,
+        134.0,
+        189.0
+      ],
+      "colour_dist": 33.1
+    },
+    {
+      "id": 11,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 6,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.906,
+      "area_px": 19203,
+      "box_xyxy": [
+        620.0,
+        752.0,
+        760.0,
+        936.0
+      ],
+      "centroid_xy": [
+        691.3,
+        849.2
+      ],
+      "touches_border": false,
+      "lab": [
+        161.0,
+        135.0,
+        192.0
+      ],
+      "colour_dist": 32.3
+    },
+    {
+      "id": 12,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 3,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.906,
+      "area_px": 19164,
+      "box_xyxy": [
+        772.0,
+        316.0,
+        968.0,
+        430.0
+      ],
+      "centroid_xy": [
+        867.3,
+        374.4
+      ],
+      "touches_border": false,
+      "lab": [
+        139.0,
+        179.0,
+        189.0
+      ],
+      "colour_dist": 34.8
+    },
+    {
+      "id": 13,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 4,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.906,
+      "area_px": 16848,
+      "box_xyxy": [
+        800.0,
+        182.0,
+        984.0,
+        292.0
+      ],
+      "centroid_xy": [
+        892.4,
+        232.2
+      ],
+      "touches_border": false,
+      "lab": [
+        154.0,
+        132.0,
+        162.0
+      ],
+      "colour_dist": 22.9
+    },
+    {
+      "id": 14,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 4,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.902,
+      "area_px": 19647,
+      "box_xyxy": [
+        680.0,
+        900.0,
+        896.0,
+        1032.0
+      ],
+      "centroid_xy": [
+        786.0,
+        972.2
+      ],
+      "touches_border": false,
+      "lab": [
+        124.0,
+        175.0,
+        184.0
+      ],
+      "colour_dist": 25.5
+    },
+    {
+      "id": 15,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 5,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.902,
+      "area_px": 15439,
+      "box_xyxy": [
+        1280.0,
+        628.0,
+        1384.0,
+        780.0
+      ],
+      "centroid_xy": [
+        1335.7,
+        705.3
+      ],
+      "touches_border": false,
+      "lab": [
+        197.0,
+        130.0,
+        148.0
+      ],
+      "colour_dist": 31.3
+    },
+    {
+      "id": 16,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 6,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.902,
+      "area_px": 21115,
+      "box_xyxy": [
+        1344.0,
+        354.0,
+        1552.0,
+        472.0
+      ],
+      "centroid_xy": [
+        1441.5,
+        413.1
+      ],
+      "touches_border": false,
+      "lab": [
+        179.0,
+        131.0,
+        154.0
+      ],
+      "colour_dist": 25.1
+    },
+    {
+      "id": 17,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 7,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.898,
+      "area_px": 22336,
+      "box_xyxy": [
+        936.0,
+        490.0,
+        1144.0,
+        616.0
+      ],
+      "centroid_xy": [
+        1039.0,
+        550.9
+      ],
+      "touches_border": false,
+      "lab": [
+        118.0,
+        135.0,
+        146.0
+      ],
+      "colour_dist": 11.0
+    },
+    {
+      "id": 18,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 8,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.898,
+      "area_px": 14219,
+      "box_xyxy": [
+        1080.0,
+        612.0,
+        1184.0,
+        764.0
+      ],
+      "centroid_xy": [
+        1129.2,
+        688.2
+      ],
+      "touches_border": false,
+      "lab": [
+        132.0,
+        134.0,
+        139.0
+      ],
+      "colour_dist": 4.1
+    },
+    {
+      "id": 19,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 5,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.898,
+      "area_px": 19595,
+      "box_xyxy": [
+        960.0,
+        326.0,
+        1152.0,
+        440.0
+      ],
+      "centroid_xy": [
+        1055.5,
+        386.7
+      ],
+      "touches_border": false,
+      "lab": [
+        137.0,
+        178.0,
+        186.0
+      ],
+      "colour_dist": 32.1
+    },
+    {
+      "id": 20,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 9,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.895,
+      "area_px": 16681,
+      "box_xyxy": [
+        632.0,
+        170.0,
+        808.0,
+        276.0
+      ],
+      "centroid_xy": [
+        720.5,
+        221.0
+      ],
+      "touches_border": false,
+      "lab": [
+        164.0,
+        131.0,
+        161.0
+      ],
+      "colour_dist": 24.4
+    },
+    {
+      "id": 21,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 6,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.895,
+      "area_px": 24285,
+      "box_xyxy": [
+        696.0,
+        652.0,
+        924.0,
+        780.0
+      ],
+      "centroid_xy": [
+        809.3,
+        717.0
+      ],
+      "touches_border": false,
+      "lab": [
+        140.0,
+        175.0,
+        186.0
+      ],
+      "colour_dist": 33.0
+    },
+    {
+      "id": 22,
+      "colour": "reddish_brown",
+      "class_id": 5,
+      "colour_index": 1,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.891,
+      "area_px": 18090,
+      "box_xyxy": [
+        1152.0,
+        201.0,
+        1336.0,
+        308.0
+      ],
+      "centroid_xy": [
+        1249.5,
+        252.8
+      ],
+      "touches_border": false,
+      "lab": [
+        83.0,
+        139.0,
+        152.0
+      ],
+      "colour_dist": 16.7
+    },
+    {
+      "id": 23,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 7,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.887,
+      "area_px": 16662,
+      "box_xyxy": [
+        470.0,
+        876.0,
+        684.0,
+        996.0
+      ],
+      "centroid_xy": [
+        575.6,
+        946.1
+      ],
+      "touches_border": false,
+      "lab": [
+        151.0,
+        137.0,
+        192.0
+      ],
+      "colour_dist": 28.4
+    },
+    {
+      "id": 24,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 10,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.887,
+      "area_px": 22767,
+      "box_xyxy": [
+        1136.0,
+        504.0,
+        1352.0,
+        628.0
+      ],
+      "centroid_xy": [
+        1244.0,
+        566.0
+      ],
+      "touches_border": false,
+      "lab": [
+        125.0,
+        134.0,
+        144.0
+      ],
+      "colour_dist": 6.9
+    },
+    {
+      "id": 25,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 11,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.887,
+      "area_px": 7167,
+      "box_xyxy": [
+        684.0,
+        588.0,
+        796.0,
+        652.0
+      ],
+      "centroid_xy": [
+        739.1,
+        619.4
+      ],
+      "touches_border": false,
+      "lab": [
+        172.0,
+        131.0,
+        151.0
+      ],
+      "colour_dist": 20.6
+    },
+    {
+      "id": 26,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 7,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.883,
+      "area_px": 15798,
+      "box_xyxy": [
+        1152.0,
+        73.5,
+        1336.0,
+        173.0
+      ],
+      "centroid_xy": [
+        1249.9,
+        122.9
+      ],
+      "touches_border": false,
+      "lab": [
+        131.0,
+        182.0,
+        188.0
+      ],
+      "colour_dist": 31.8
+    },
+    {
+      "id": 27,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 8,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.883,
+      "area_px": 10134,
+      "box_xyxy": [
+        968.0,
+        724.0,
+        1072.0,
+        828.0
+      ],
+      "centroid_xy": [
+        1018.4,
+        774.6
+      ],
+      "touches_border": false,
+      "lab": [
+        140.0,
+        134.0,
+        167.0
+      ],
+      "colour_dist": 16.1
+    },
+    {
+      "id": 28,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 12,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.875,
+      "area_px": 10018,
+      "box_xyxy": [
+        1384.0,
+        756.0,
+        1496.0,
+        872.0
+      ],
+      "centroid_xy": [
+        1437.9,
+        815.6
+      ],
+      "touches_border": false,
+      "lab": [
+        169.0,
+        131.0,
+        147.0
+      ],
+      "colour_dist": 17.6
+    },
+    {
+      "id": 29,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 9,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.871,
+      "area_px": 5313,
+      "box_xyxy": [
+        1280.0,
+        460.0,
+        1384.0,
+        520.0
+      ],
+      "centroid_xy": [
+        1332.7,
+        488.3
+      ],
+      "touches_border": false,
+      "lab": [
+        159.0,
+        137.0,
+        192.0
+      ],
+      "colour_dist": 31.3
+    },
+    {
+      "id": 30,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 13,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.867,
+      "area_px": 20476,
+      "box_xyxy": [
+        888.0,
+        916.0,
+        1104.0,
+        1048.0
+      ],
+      "centroid_xy": [
+        1000.5,
+        992.2
+      ],
+      "touches_border": false,
+      "lab": [
+        119.0,
+        133.0,
+        146.0
+      ],
+      "colour_dist": 10.1
+    },
+    {
+      "id": 31,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 14,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.867,
+      "area_px": 9407,
+      "box_xyxy": [
+        1168.0,
+        740.0,
+        1272.0,
+        848.0
+      ],
+      "centroid_xy": [
+        1225.7,
+        792.0
+      ],
+      "touches_border": false,
+      "lab": [
+        114.0,
+        147.0,
+        140.0
+      ],
+      "colour_dist": 19.4
+    },
+    {
+      "id": 32,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 15,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.859,
+      "area_px": 4915,
+      "box_xyxy": [
+        1096.0,
+        442.0,
+        1184.0,
+        502.0
+      ],
+      "centroid_xy": [
+        1140.6,
+        473.9
+      ],
+      "touches_border": false,
+      "lab": [
+        110.0,
+        141.0,
+        149.0
+      ],
+      "colour_dist": 18.2
+    },
+    {
+      "id": 33,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 10,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.855,
+      "area_px": 21969,
+      "box_xyxy": [
+        488.0,
+        636.0,
+        712.0,
+        756.0
+      ],
+      "centroid_xy": [
+        594.9,
+        695.6
+      ],
+      "touches_border": false,
+      "lab": [
+        107.0,
+        154.0,
+        151.0
+      ],
+      "colour_dist": 25.9
+    },
+    {
+      "id": 34,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 16,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.852,
+      "area_px": 9487,
+      "box_xyxy": [
+        1472.0,
+        438.0,
+        1592.0,
+        608.0
+      ],
+      "centroid_xy": [
+        1539.4,
+        510.6
+      ],
+      "touches_border": false,
+      "lab": [
+        133.0,
+        133.0,
+        145.0
+      ],
+      "colour_dist": 4.7
+    },
+    {
+      "id": 35,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 17,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.852,
+      "area_px": 9736,
+      "box_xyxy": [
+        468.0,
+        524.0,
+        596.0,
+        700.0
+      ],
+      "centroid_xy": [
+        533.2,
+        605.9
+      ],
+      "touches_border": false,
+      "lab": [
+        128.0,
+        133.0,
+        146.0
+      ],
+      "colour_dist": 6.7
+    },
+    {
+      "id": 36,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 18,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.848,
+      "area_px": 23444,
+      "box_xyxy": [
+        1352.0,
+        520.0,
+        1560.0,
+        644.0
+      ],
+      "centroid_xy": [
+        1452.7,
+        581.6
+      ],
+      "touches_border": false,
+      "lab": [
+        124.0,
+        135.0,
+        146.0
+      ],
+      "colour_dist": 8.8
+    },
+    {
+      "id": 37,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 8,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.848,
+      "area_px": 4873,
+      "box_xyxy": [
+        912.0,
+        430.0,
+        1012.0,
+        490.0
+      ],
+      "centroid_xy": [
+        955.3,
+        460.3
+      ],
+      "touches_border": false,
+      "lab": [
+        124.0,
+        183.0,
+        186.0
+      ],
+      "colour_dist": 28.3
+    },
+    {
+      "id": 38,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 11,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.832,
+      "area_px": 3687,
+      "box_xyxy": [
+        1280.0,
+        310.0,
+        1376.0,
+        352.0
+      ],
+      "centroid_xy": [
+        1329.9,
+        330.6
+      ],
+      "touches_border": false,
+      "lab": [
+        112.0,
+        137.0,
+        154.0
+      ],
+      "colour_dist": 18.1
+    },
+    {
+      "id": 39,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 9,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.832,
+      "area_px": 2501,
+      "box_xyxy": [
+        784.0,
+        148.0,
+        872.0,
+        181.0
+      ],
+      "centroid_xy": [
+        830.4,
+        162.8
+      ],
+      "touches_border": false,
+      "lab": [
+        129.0,
+        185.0,
+        189.0
+      ],
+      "colour_dist": 32.7
+    },
+    {
+      "id": 40,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 19,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.832,
+      "area_px": 20964,
+      "box_xyxy": [
+        1104.0,
+        940.0,
+        1328.0,
+        1064.0
+      ],
+      "centroid_xy": [
+        1220.3,
+        1014.1
+      ],
+      "touches_border": false,
+      "lab": [
+        120.0,
+        147.0,
+        139.0
+      ],
+      "colour_dist": 18.0
+    },
+    {
+      "id": 41,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 12,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.828,
+      "area_px": 3398,
+      "box_xyxy": [
+        1104.0,
+        298.0,
+        1192.0,
+        340.0
+      ],
+      "centroid_xy": [
+        1151.2,
+        319.3
+      ],
+      "touches_border": false,
+      "lab": [
+        104.0,
+        139.0,
+        154.0
+      ],
+      "colour_dist": 18.3
+    },
+    {
+      "id": 42,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 20,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.824,
+      "area_px": 3459,
+      "box_xyxy": [
+        928.0,
+        284.0,
+        1020.0,
+        326.0
+      ],
+      "centroid_xy": [
+        975.6,
+        308.1
+      ],
+      "touches_border": false,
+      "lab": [
+        175.0,
+        132.0,
+        155.0
+      ],
+      "colour_dist": 24.0
+    },
+    {
+      "id": 43,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 13,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.824,
+      "area_px": 2326,
+      "box_xyxy": [
+        956.0,
+        156.0,
+        1040.0,
+        188.0
+      ],
+      "centroid_xy": [
+        992.9,
+        172.0
+      ],
+      "touches_border": false,
+      "lab": [
+        157.5,
+        138.0,
+        194.0
+      ],
+      "colour_dist": 32.0
+    },
+    {
+      "id": 44,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 14,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.82,
+      "area_px": 3986,
+      "box_xyxy": [
+        1384.0,
+        636.0,
+        1464.0,
+        688.0
+      ],
+      "centroid_xy": [
+        1427.6,
+        662.6
+      ],
+      "touches_border": false,
+      "lab": [
+        101.0,
+        136.0,
+        161.0
+      ],
+      "colour_dist": 12.4
+    },
+    {
+      "id": 45,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 15,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.816,
+      "area_px": 3279,
+      "box_xyxy": [
+        1020.0,
+        292.0,
+        1112.0,
+        334.0
+      ],
+      "centroid_xy": [
+        1062.5,
+        313.1
+      ],
+      "touches_border": false,
+      "lab": [
+        90.0,
+        139.0,
+        159.0
+      ],
+      "colour_dist": 16.7
+    },
+    {
+      "id": 46,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 10,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.809,
+      "area_px": 2622,
+      "box_xyxy": [
+        1280.0,
+        175.0,
+        1376.0,
+        209.0
+      ],
+      "centroid_xy": [
+        1327.8,
+        190.9
+      ],
+      "touches_border": false,
+      "lab": [
+        134.0,
+        181.0,
+        190.0
+      ],
+      "colour_dist": 34.0
+    },
+    {
+      "id": 47,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 11,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.809,
+      "area_px": 1718,
+      "box_xyxy": [
+        1872.0,
+        112.0,
+        1920.0,
+        177.0
+      ],
+      "centroid_xy": [
+        1905.0,
+        142.8
+      ],
+      "touches_border": true,
+      "lab": [
+        104.0,
+        180.0,
+        181.0
+      ],
+      "colour_dist": 17.7
+    },
+    {
+      "id": 48,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 12,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.797,
+      "area_px": 3159,
+      "box_xyxy": [
+        1192.0,
+        304.0,
+        1280.0,
+        346.0
+      ],
+      "centroid_xy": [
+        1234.9,
+        324.8
+      ],
+      "touches_border": false,
+      "lab": [
+        79.0,
+        172.0,
+        170.0
+      ],
+      "colour_dist": 5.0
+    },
+    {
+      "id": 49,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 16,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.789,
+      "area_px": 2506,
+      "box_xyxy": [
+        1872.0,
+        386.0,
+        1920.0,
+        474.0
+      ],
+      "centroid_xy": [
+        1901.7,
+        426.7
+      ],
+      "touches_border": true,
+      "lab": [
+        80.0,
+        152.0,
+        165.0
+      ],
+      "colour_dist": 21.4
+    },
+    {
+      "id": 50,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 13,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.785,
+      "area_px": 4627,
+      "box_xyxy": [
+        1184.0,
+        452.0,
+        1272.0,
+        510.0
+      ],
+      "centroid_xy": [
+        1232.2,
+        480.7
+      ],
+      "touches_border": false,
+      "lab": [
+        79.0,
+        174.0,
+        170.0
+      ],
+      "colour_dist": 4.6
+    },
+    {
+      "id": 51,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 14,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.785,
+      "area_px": 2347,
+      "box_xyxy": [
+        1120.0,
+        165.0,
+        1208.0,
+        198.0
+      ],
+      "centroid_xy": [
+        1159.9,
+        181.8
+      ],
+      "touches_border": false,
+      "lab": [
+        133.0,
+        182.0,
+        189.0
+      ],
+      "colour_dist": 33.2
+    },
+    {
+      "id": 52,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 15,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.781,
+      "area_px": 4725,
+      "box_xyxy": [
+        1004.0,
+        438.0,
+        1096.0,
+        494.0
+      ],
+      "centroid_xy": [
+        1047.7,
+        467.1
+      ],
+      "touches_border": false,
+      "lab": [
+        73.0,
+        171.0,
+        168.0
+      ],
+      "colour_dist": 7.2
+    },
+    {
+      "id": 53,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 16,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.77,
+      "area_px": 3309,
+      "box_xyxy": [
+        676.0,
+        270.0,
+        764.0,
+        312.0
+      ],
+      "centroid_xy": [
+        716.5,
+        291.2
+      ],
+      "touches_border": false,
+      "lab": [
+        75.0,
+        174.0,
+        169.0
+      ],
+      "colour_dist": 5.9
+    },
+    {
+      "id": 54,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 17,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.766,
+      "area_px": 4912,
+      "box_xyxy": [
+        716.0,
+        418.0,
+        812.0,
+        476.0
+      ],
+      "centroid_xy": [
+        771.7,
+        448.0
+      ],
+      "touches_border": false,
+      "lab": [
+        153.0,
+        138.0,
+        191.0
+      ],
+      "colour_dist": 28.3
+    },
+    {
+      "id": 55,
+      "colour": "dark_red",
+      "class_id": 2,
+      "colour_index": 1,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.762,
+      "area_px": 3305,
+      "box_xyxy": [
+        844.0,
+        278.0,
+        940.0,
+        320.0
+      ],
+      "centroid_xy": [
+        889.2,
+        302.1
+      ],
+      "touches_border": false,
+      "lab": [
+        44.0,
+        154.0,
+        152.0
+      ],
+      "colour_dist": 20.8
+    },
+    {
+      "id": 56,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 18,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.754,
+      "area_px": 2658,
+      "box_xyxy": [
+        1032.0,
+        158.0,
+        1128.0,
+        194.0
+      ],
+      "centroid_xy": [
+        1076.6,
+        177.4
+      ],
+      "touches_border": false,
+      "lab": [
+        97.0,
+        137.0,
+        160.0
+      ],
+      "colour_dist": 14.0
+    },
+    {
+      "id": 57,
+      "colour": "reddish_brown",
+      "class_id": 5,
+      "colour_index": 2,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.75,
+      "area_px": 4000,
+      "box_xyxy": [
+        1184.0,
+        620.0,
+        1272.0,
+        672.0
+      ],
+      "centroid_xy": [
+        1227.2,
+        645.8
+      ],
+      "touches_border": false,
+      "lab": [
+        58.0,
+        138.0,
+        149.0
+      ],
+      "colour_dist": 7.3
+    },
+    {
+      "id": 58,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 21,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.742,
+      "area_px": 10777,
+      "box_xyxy": [
+        876.0,
+        600.0,
+        984.0,
+        752.0
+      ],
+      "centroid_xy": [
+        937.4,
+        661.8
+      ],
+      "touches_border": false,
+      "lab": [
+        114.0,
+        136.0,
+        145.0
+      ],
+      "colour_dist": 12.7
+    },
+    {
+      "id": 59,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 22,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.738,
+      "area_px": 5436,
+      "box_xyxy": [
+        1448.0,
+        156.0,
+        1552.0,
+        284.0
+      ],
+      "centroid_xy": [
+        1515.2,
+        210.3
+      ],
+      "touches_border": false,
+      "lab": [
+        191.0,
+        130.0,
+        151.0
+      ],
+      "colour_dist": 29.3
+    },
+    {
+      "id": 60,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 19,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.727,
+      "area_px": 2437,
+      "box_xyxy": [
+        1192.0,
+        169.0,
+        1280.0,
+        202.0
+      ],
+      "centroid_xy": [
+        1239.8,
+        185.5
+      ],
+      "touches_border": false,
+      "lab": [
+        89.0,
+        153.0,
+        171.0
+      ],
+      "colour_dist": 17.8
+    },
+    {
+      "id": 61,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 20,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.719,
+      "area_px": 2393,
+      "box_xyxy": [
+        872.0,
+        151.0,
+        956.0,
+        185.0
+      ],
+      "centroid_xy": [
+        912.6,
+        167.5
+      ],
+      "touches_border": false,
+      "lab": [
+        94.0,
+        139.0,
+        164.0
+      ],
+      "colour_dist": 11.7
+    },
+    {
+      "id": 62,
+      "colour": "reddish_brown",
+      "class_id": 5,
+      "colour_index": 3,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.715,
+      "area_px": 3162,
+      "box_xyxy": [
+        1376.0,
+        314.0,
+        1464.0,
+        360.0
+      ],
+      "centroid_xy": [
+        1415.9,
+        335.3
+      ],
+      "touches_border": false,
+      "lab": [
+        51.0,
+        150.0,
+        153.0
+      ],
+      "colour_dist": 18.1
+    },
+    {
+      "id": 63,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 21,
+      "quality": "good",
+      "prompt": "beige lego brick",
+      "score": 0.715,
+      "area_px": 3397,
+      "box_xyxy": [
+        756.0,
+        276.0,
+        848.0,
+        318.0
+      ],
+      "centroid_xy": [
+        801.9,
+        296.8
+      ],
+      "touches_border": false,
+      "lab": [
+        157.0,
+        137.0,
+        193.0
+      ],
+      "colour_dist": 31.2
+    },
+    {
+      "id": 64,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 17,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.699,
+      "area_px": 2309,
+      "box_xyxy": [
+        1376.0,
+        179.0,
+        1448.0,
+        213.0
+      ],
+      "centroid_xy": [
+        1410.6,
+        195.0
+      ],
+      "touches_border": false,
+      "lab": [
+        80.0,
+        170.0,
+        171.0
+      ],
+      "colour_dist": 6.4
+    },
+    {
+      "id": 65,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 22,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.691,
+      "area_px": 4425,
+      "box_xyxy": [
+        816.0,
+        426.0,
+        916.0,
+        480.0
+      ],
+      "centroid_xy": [
+        864.2,
+        453.6
+      ],
+      "touches_border": false,
+      "lab": [
+        79.0,
+        152.0,
+        168.0
+      ],
+      "colour_dist": 21.0
+    },
+    {
+      "id": 66,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 23,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.691,
+      "area_px": 2418,
+      "box_xyxy": [
+        708.0,
+        142.0,
+        792.0,
+        176.0
+      ],
+      "centroid_xy": [
+        749.4,
+        158.4
+      ],
+      "touches_border": false,
+      "lab": [
+        86.0,
+        148.0,
+        170.0
+      ],
+      "colour_dist": 15.5
+    },
+    {
+      "id": 67,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 24,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.688,
+      "area_px": 7921,
+      "box_xyxy": [
+        520.0,
+        368.0,
+        648.0,
+        528.0
+      ],
+      "centroid_xy": [
+        578.4,
+        438.7
+      ],
+      "touches_border": false,
+      "lab": [
+        166.0,
+        135.0,
+        193.0
+      ],
+      "colour_dist": 34.8
+    },
+    {
+      "id": 68,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 23,
+      "quality": "bad",
+      "prompt": "beige lego brick",
+      "score": 0.688,
+      "area_px": 4446,
+      "box_xyxy": [
+        616.0,
+        110.5,
+        712.0,
+        229.0
+      ],
+      "centroid_xy": [
+        653.9,
+        160.7
+      ],
+      "touches_border": false,
+      "lab": [
+        190.0,
+        130.0,
+        155.0
+      ],
+      "colour_dist": 30.4
+    },
+    {
+      "id": 69,
+      "colour": "red",
+      "class_id": 1,
+      "colour_index": 18,
+      "quality": "good",
+      "prompt": "red lego brick",
+      "score": 0.684,
+      "area_px": 3913,
+      "box_xyxy": [
+        608.0,
+        572.0,
+        696.0,
+        624.0
+      ],
+      "centroid_xy": [
+        649.1,
+        601.6
+      ],
+      "touches_border": false,
+      "lab": [
+        69.0,
+        171.0,
+        166.0
+      ],
+      "colour_dist": 9.1
+    },
+    {
+      "id": 70,
+      "colour": "medium_nougat",
+      "class_id": 4,
+      "colour_index": 24,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.664,
+      "area_px": 5232,
+      "box_xyxy": [
+        1464.0,
+        286.0,
+        1552.0,
+        376.0
+      ],
+      "centroid_xy": [
+        1516.7,
+        333.3
+      ],
+      "touches_border": false,
+      "lab": [
+        188.0,
+        131.0,
+        153.0
+      ],
+      "colour_dist": 28.6
+    },
+    {
+      "id": 71,
+      "colour": "reddish_brown",
+      "class_id": 5,
+      "colour_index": 4,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.648,
+      "area_px": 4255,
+      "box_xyxy": [
+        1376.0,
+        468.0,
+        1472.0,
+        524.0
+      ],
+      "centroid_xy": [
+        1423.8,
+        492.9
+      ],
+      "touches_border": false,
+      "lab": [
+        55.0,
+        137.0,
+        150.0
+      ],
+      "colour_dist": 8.1
+    },
+    {
+      "id": 72,
+      "colour": "dark_red",
+      "class_id": 2,
+      "colour_index": 2,
+      "quality": "good",
+      "prompt": "lego brick",
+      "score": 0.621,
+      "area_px": 3969,
+      "box_xyxy": [
+        644.0,
+        414.0,
+        736.0,
+        464.0
+      ],
+      "centroid_xy": [
+        685.7,
+        440.8
+      ],
+      "touches_border": false,
+      "lab": [
+        35.0,
+        152.0,
+        147.0
+      ],
+      "colour_dist": 18.8
+    },
+    {
+      "id": 73,
+      "colour": "dark_orange",
+      "class_id": 3,
+      "colour_index": 25,
+      "quality": "good",
+      "prompt": "beige lego brick",
+      "score": 0.617,
+      "area_px": 4379,
+      "box_xyxy": [
+        788.0,
+        592.0,
+        892.0,
+        640.0
+      ],
+      "centroid_xy": [
+        839.0,
+        616.3
+      ],
+      "touches_border": false,
+      "lab": [
+        92.0,
+        138.0,
+        161.0
+      ],
+      "colour_dist": 14.6
+    },
+    {
+      "id": 74,
+      "colour": "reddish_brown",
+      "class_id": 5,
+      "colour_index": 5,
+      "quality": "bad",
+      "prompt": "lego brick",
+      "score": 0.613,
+      "area_px": 4353,
+      "box_xyxy": [
+        984.0,
+        604.0,
+        1088.0,
+        652.0
+      ],
+      "centroid_xy": [
+        1033.3,
+        631.4
+      ],
+      "touches_border": false,
+      "lab": [
+        40.0,
+        148.0,
+        147.0
+      ],
+      "colour_dist": 15.5
+    }
+  ],
+  "rejected": [
+    {
+      "score": 0.90625,
+      "prompt": "lego brick",
+      "lab": [
+        144.5,
+        176.0,
+        189.0
+      ],
+      "nearest": "red",
+      "colour_dist": 36.7
+    },
+    {
+      "score": 0.90234375,
+      "prompt": "lego brick",
+      "lab": [
+        138.0,
+        182.0,
+        191.0
+      ],
+      "nearest": "red",
+      "colour_dist": 36.3
+    },
+    {
+      "score": 0.90234375,
+      "prompt": "lego brick",
+      "lab": [
+        171.0,
+        135.0,
+        195.0
+      ],
+      "nearest": "dark_orange",
+      "colour_dist": 38.0
+    },
+    {
+      "score": 0.89453125,
+      "prompt": "red lego brick",
+      "lab": [
+        145.0,
+        173.0,
+        186.0
+      ],
+      "nearest": "red",
+      "colour_dist": 35.1
+    },
+    {
+      "score": 0.88671875,
+      "prompt": "lego brick",
+      "lab": [
+        169.0,
+        135.0,
+        193.0
+      ],
+      "nearest": "dark_orange",
+      "colour_dist": 36.0
+    },
+    {
+      "score": 0.875,
+      "prompt": "lego brick",
+      "lab": [
+        171.0,
+        135.0,
+        191.0
+      ],
+      "nearest": "dark_orange",
+      "colour_dist": 35.7
+    },
+    {
+      "score": 0.875,
+      "prompt": "lego brick",
+      "lab": [
+        168.0,
+        135.0,
+        192.0
+      ],
+      "nearest": "dark_orange",
+      "colour_dist": 35.0
+    },
+    {
+      "score": 0.83984375,
+      "prompt": "lego brick",
+      "lab": [
+        168.5,
+        135.0,
+        193.0
+      ],
+      "nearest": "dark_orange",
+      "colour_dist": 35.8
+    },
+    {
+      "score": 0.62109375,
+      "prompt": "lego brick",
+      "lab": [
+        168.0,
+        135.0,
+        195.0
+      ],
+      "nearest": "dark_orange",
+      "colour_dist": 36.8
+    }
+  ]
+}

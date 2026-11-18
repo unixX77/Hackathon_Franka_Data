@@ -1,0 +1,22 @@
+{
+  "schema": "brick-pose-visualization-v1",
+  "panels": [
+    "original RGB",
+    "top-layer segmentation",
+    "quality and pose"
+  ],
+  "legend": {
+    "cyan_fill": "measured pixels on the selected physical top surface",
+    "green_outline": "classified good brick",
+    "red_outline": "classified bad brick",
+    "yellow_cross": "exact top-surface grasp centre (ray-plane intersection)",
+    "blue_line": "brick +X / long-axis orientation",
+    "magenta_arrow": "gripper approach direction toward the brick",
+    "white_circle": "pre-grasp point projected into the image"
+  },
+  "top_surface_band_mm": 2.5,
+  "quality_source": "classifier/results_rgbd_quality_v1/data3/20261024_091602/000000/quality_boxes.json",
+  "pose_source": "classifier/results_rgbd_quality_v1/data3/20261024_091602/000000/brick_poses.json",
+  "segmentation_source": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/perception/sam3_detection/results_rgbd_topplane_v2/data3/20261024_091602/000000/top_boxes.json",
+  "brick_count": 26
+}

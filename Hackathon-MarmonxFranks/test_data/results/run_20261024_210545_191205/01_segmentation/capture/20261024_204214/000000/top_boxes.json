@@ -1,0 +1,110 @@
+{
+  "strategy": "top-plane-first-v2",
+  "dataset": "capture",
+  "recording": "20261024_204214",
+  "frame": 0,
+  "rgb": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/test_data/results/run_20261024_210545_191205/inputs/capture/20261024_204214/rgb/000000.png",
+  "depth_sources": [
+    "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/test_data/results/run_20261024_210545_191205/inputs/capture/20261024_204214/depth/000000.png"
+  ],
+  "support_plane": {
+    "normal_camera": [
+      0.004816200118511915,
+      0.0071887001395225525,
+      -0.9999626278877258
+    ],
+    "d": 0.2996883,
+    "inliers": 29287,
+    "rmse_m": 0.000724
+  },
+  "top_height_m": 0.009361,
+  "top_plane_pixels": 38973,
+  "lattice": {
+    "brick_long_px": 154.5,
+    "brick_short_px": 86.1,
+    "pitch_px": 154.5,
+    "angle_deg": 84.8,
+    "geometric_seeds": 4,
+    "oriented_seeds": 4,
+    "top_plane_seeds": 4
+  },
+  "boxes": [
+    {
+      "id": 1,
+      "center_xy": [
+        1150.2,
+        714.5
+      ],
+      "size_wh": [
+        154.5,
+        86.1
+      ],
+      "angle_deg": 84.8,
+      "corners_xy": [
+        [
+          1100.300048828125,
+          641.4000244140625
+        ],
+        [
+          1186.0999755859375,
+          633.5999755859375
+        ],
+        [
+          1200.0999755859375,
+          787.5
+        ],
+        [
+          1114.300048828125,
+          795.2999877929688
+        ]
+      ],
+      "top_coverage": 0.692,
+      "sam_overlap": 0.812,
+      "position_camera_m": [
+        0.03880000114440918,
+        0.03336000069975853,
+        0.29100000858306885
+      ],
+      "source": "sam+lattice"
+    },
+    {
+      "id": 2,
+      "center_xy": [
+        996.3,
+        728.5
+      ],
+      "size_wh": [
+        154.5,
+        86.1
+      ],
+      "angle_deg": 84.8,
+      "corners_xy": [
+        [
+          946.5,
+          655.4000244140625
+        ],
+        [
+          1032.199951171875,
+          647.5999755859375
+        ],
+        [
+          1046.199951171875,
+          801.5
+        ],
+        [
+          960.5,
+          809.2999877929688
+        ]
+      ],
+      "top_coverage": 0.604,
+      "sam_overlap": 0.69,
+      "position_camera_m": [
+        0.00430000014603138,
+        0.03449999913573265,
+        0.28999999165534973
+      ],
+      "source": "sam+lattice"
+    }
+  ],
+  "sam_rejected": []
+}

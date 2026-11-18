@@ -1,0 +1,269 @@
+{
+  "schema": "brick-poses-v1",
+  "units": {
+    "translation": "metres",
+    "rotation": "unitless"
+  },
+  "coordinate_convention_camera": "RealSense optical: +x right, +y down, +z forward",
+  "pose_semantics": "brick origin is the box-centre camera ray intersected with the fitted top plane; +x follows the long axis; +z is the outward top-surface normal",
+  "corner_semantics": "camera_box corners 0-3 are the fitted top face and 4-7 are the bottom face directly below them",
+  "dataset": "data4",
+  "recording": "20261024_102426",
+  "frame": 0,
+  "rgb": "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102426/rgb/000000.png",
+  "camera_info": "/cache/s95vkond/rgbd_data/extracted/extracted/data4/20261024_102426/camera_info.json",
+  "segmentation_source": "/ipb70/home_domuser2/s95vkond/Desktop/Franks robotics/Hackathon-MarmonxFranks/perception/sam3_detection/results_rgbd_topplane_v2/data4/20261024_102426/000000/top_boxes.json",
+  "classification_source": "classifier/results_rgbd_quality_v1/data4/20261024_102426/000000/quality_boxes.json",
+  "robot_base_poses_available": false,
+  "missing_for_robot_execution": [
+    "T_base_camera hand-eye calibration"
+  ],
+  "approach_clearance_m": 0.08,
+  "bricks": [
+    {
+      "id": 1,
+      "quality": "bad",
+      "colour": "reddish_brown",
+      "classification_confidence": "high",
+      "detection": {
+        "top_coverage": 0.833,
+        "sam_overlap": 0.87,
+        "source": "sam+lattice",
+        "center_pixel_xy": [
+          186.5,
+          129.3
+        ],
+        "corners_pixel_xy": [
+          [
+            199.60000610351562,
+            158.39999389648438
+          ],
+          [
+            170.10000610351562,
+            156.6999969482422
+          ],
+          [
+            173.5,
+            100.19999694824219
+          ],
+          [
+            202.89999389648438,
+            101.9000015258789
+          ]
+        ]
+      },
+      "pose_camera": {
+        "frame_id": "camera_color_optical_frame",
+        "translation_m": {
+          "x": -0.073078,
+          "y": -0.063342,
+          "z": 0.337223
+        },
+        "quaternion_xyzw": {
+          "x": -0.7275132,
+          "y": 0.6848618,
+          "z": 0.0190181,
+          "w": 0.0364309
+        },
+        "rotation_matrix": [
+          [
+            0.06120522,
+            -0.99787766,
+            0.0222284
+          ],
+          [
+            -0.99510627,
+            -0.05927418,
+            0.0790575
+          ],
+          [
+            -0.07757214,
+            -0.02695835,
+            -0.9966222
+          ]
+        ],
+        "T_frame_brick": [
+          [
+            0.06120522,
+            -0.99787766,
+            0.0222284,
+            -0.07307806
+          ],
+          [
+            -0.99510627,
+            -0.05927418,
+            0.0790575,
+            -0.06334167
+          ],
+          [
+            -0.07757214,
+            -0.02695835,
+            -0.9966222,
+            0.33722283
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "camera_box": {
+        "top_face_center_camera_m": [
+          -0.0730781,
+          -0.0633417,
+          0.3372228
+        ],
+        "box_center_camera_m": [
+          -0.0731848,
+          -0.0637211,
+          0.3420066
+        ],
+        "box_size_m": [
+          0.0318,
+          0.0158,
+          0.0096
+        ],
+        "box_rotation_camera": [
+          [
+            0.06120522,
+            -0.99787766,
+            0.0222284
+          ],
+          [
+            -0.99510627,
+            -0.05927418,
+            0.0790575
+          ],
+          [
+            -0.07757214,
+            -0.02695835,
+            -0.9966222
+          ]
+        ],
+        "top_corners_camera_m": [
+          [
+            -0.0799881,
+            -0.0796321,
+            0.3357765
+          ],
+          [
+            -0.0819345,
+            -0.0479877,
+            0.3382433
+          ],
+          [
+            -0.066168,
+            -0.0470512,
+            0.3386692
+          ],
+          [
+            -0.0642217,
+            -0.0786956,
+            0.3362024
+          ]
+        ],
+        "bottom_corners_camera_m": [
+          [
+            -0.0802015,
+            -0.0803911,
+            0.345344
+          ],
+          [
+            -0.0821479,
+            -0.0487467,
+            0.3478108
+          ],
+          [
+            -0.0663814,
+            -0.0478102,
+            0.3482368
+          ],
+          [
+            -0.0644351,
+            -0.0794545,
+            0.34577
+          ]
+        ],
+        "box_corners_camera_m": [
+          [
+            -0.0799881,
+            -0.0796321,
+            0.3357765
+          ],
+          [
+            -0.0819345,
+            -0.0479877,
+            0.3382433
+          ],
+          [
+            -0.066168,
+            -0.0470512,
+            0.3386692
+          ],
+          [
+            -0.0642217,
+            -0.0786956,
+            0.3362024
+          ],
+          [
+            -0.0802015,
+            -0.0803911,
+            0.345344
+          ],
+          [
+            -0.0821479,
+            -0.0487467,
+            0.3478108
+          ],
+          [
+            -0.0663814,
+            -0.0478102,
+            0.3482368
+          ],
+          [
+            -0.0644351,
+            -0.0794545,
+            0.34577
+          ]
+        ],
+        "corner_order": [
+          "top(+long,+short)",
+          "top(-long,+short)",
+          "top(-long,-short)",
+          "top(+long,-short)",
+          "bottom(+long,+short)",
+          "bottom(-long,+short)",
+          "bottom(-long,-short)",
+          "bottom(+long,-short)"
+        ]
+      },
+      "depth_median_position_camera_m": [
+        -0.07417000085115433,
+        -0.06273999810218811,
+        0.3370000123977661
+      ],
+      "surface_normal_camera": [
+        0.0222284,
+        0.0790575,
+        -0.9966222
+      ],
+      "approach_direction_camera": [
+        -0.0222284,
+        -0.0790575,
+        0.9966222
+      ],
+      "pregrasp_translation_camera_m": [
+        -0.0713,
+        -0.057017,
+        0.257493
+      ],
+      "nominal_brick_size_m": {
+        "long": 0.0318,
+        "short": 0.0158,
+        "height": 0.0096
+      }
+    }
+  ]
+}
