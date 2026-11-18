@@ -1,0 +1,920 @@
+{
+  "/device_0/sensor_0/Depth_0/info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "encoding=Z16;fps=30"
+    }
+  ],
+  "/device_0/sensor_0/Depth_0/camera_info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "width=848;height=480;fx=421.900909;ppx=426.352509;fy=421.900909;ppy=239.925613;model=Brown Conrady;coeffs=0,0,0,0,0"
+    }
+  ],
+  "/device_0/sensor_1/Color_0/info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "encoding=RGB8;fps=30"
+    }
+  ],
+  "/device_0/sensor_1/Color_0/camera_info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "width=640;height=480;fx=618.824402;ppx=320.602692;fy=618.712952;ppy=245.514877;model=Inverse Brown Conrady;coeffs=0,0,0,0,0"
+    }
+  ],
+  "/device_0/info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Name=RealSense D435;Serial Number=829212071248;Firmware Version=5.17.3.10;Physical Port=/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/video4linux/video2;Debug Op Code=15;Advanced Mode=YES;Product Id=0B07;Camera Locked=YES;Usb Type Descriptor=3.2;Product Line=D400;Asic Serial Number=830213022287;Firmware Update Id=830213022287;Connection Type=USB;Imu Type=IMU_Unknown"
+    }
+  ],
+  "/device_0/sensor_0/info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Name=Stereo Module;Physical Port=/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.0/video4linux/video2"
+    }
+  ],
+  "/device_0/sensor_0/option/Exposure/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 8500.0
+    }
+  ],
+  "/device_0/sensor_0/option/Exposure/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Depth Exposure (usec)"
+    }
+  ],
+  "/device_0/sensor_0/option/Gain/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 16.0
+    }
+  ],
+  "/device_0/sensor_0/option/Gain/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image gain"
+    }
+  ],
+  "/device_0/sensor_0/option/Enable_Auto_Exposure/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_0/option/Enable_Auto_Exposure/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable Auto Exposure"
+    }
+  ],
+  "/device_0/sensor_0/option/Visual_Preset/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_0/option/Visual_Preset/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Advanced-Mode Preset"
+    }
+  ],
+  "/device_0/sensor_0/option/Laser_Power/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 150.0
+    }
+  ],
+  "/device_0/sensor_0/option/Laser_Power/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Manual laser power in mw. applicable only when laser power mode is set to Manual"
+    }
+  ],
+  "/device_0/sensor_0/option/Emitter_Enabled/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_0/option/Emitter_Enabled/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Emitter select, 0-disable all emitters, 1-enable laser, 2-enable laser auto (opt), 3-enable LED (opt)"
+    }
+  ],
+  "/device_0/sensor_0/option/Frames_Queue_Size/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 16.0
+    }
+  ],
+  "/device_0/sensor_0/option/Frames_Queue_Size/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa"
+    }
+  ],
+  "/device_0/sensor_0/option/Asic_Temperature/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 38.0
+    }
+  ],
+  "/device_0/sensor_0/option/Asic_Temperature/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Current Asic Temperature (degree celsius)"
+    }
+  ],
+  "/device_0/sensor_0/option/Error_Polling_Enabled/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_0/option/Error_Polling_Enabled/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable / disable polling of camera internal errors"
+    }
+  ],
+  "/device_0/sensor_0/option/Projector_Temperature/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 33.0
+    }
+  ],
+  "/device_0/sensor_0/option/Projector_Temperature/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Current Projector Temperature (degree celsius)"
+    }
+  ],
+  "/device_0/sensor_0/option/Output_Trigger_Enabled/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Output_Trigger_Enabled/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Generate trigger from the camera to external device once per frame"
+    }
+  ],
+  "/device_0/sensor_0/option/Depth_Units/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.001
+    }
+  ],
+  "/device_0/sensor_0/option/Depth_Units/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Number of meters represented by a single depth unit"
+    }
+  ],
+  "/device_0/sensor_0/option/Stereo_Baseline/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 49.952049
+    }
+  ],
+  "/device_0/sensor_0/option/Stereo_Baseline/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Distance in mm between the stereo imagers"
+    }
+  ],
+  "/device_0/sensor_0/option/Inter_Cam_Sync_Mode/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Inter_Cam_Sync_Mode/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "External sync"
+    }
+  ],
+  "/device_0/sensor_0/option/Emitter_On_Off/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Emitter_On_Off/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Alternating emitter pattern, toggled on/off on per-frame basis"
+    }
+  ],
+  "/device_0/sensor_0/option/Global_Time_Enabled/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_0/option/Global_Time_Enabled/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable/Disable global timestamp"
+    }
+  ],
+  "/device_0/sensor_0/option/Emitter_Always_On/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Emitter_Always_On/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Emitter always on mode: 0:disabled(default), 1:enabled"
+    }
+  ],
+  "/device_0/sensor_0/option/Hdr_Enabled/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Hdr_Enabled/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "HDR Option"
+    }
+  ],
+  "/device_0/sensor_0/option/Sequence_Name/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Sequence_Name/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "HDR Option"
+    }
+  ],
+  "/device_0/sensor_0/option/Sequence_Size/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 2.0
+    }
+  ],
+  "/device_0/sensor_0/option/Sequence_Size/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "HDR Option"
+    }
+  ],
+  "/device_0/sensor_0/option/Sequence_Id/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Sequence_Id/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "HDR Option"
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Exposure_Limit/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 165000.0
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Exposure_Limit/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Exposure limit is in microseconds. If the requested exposure limit is greater than frame time, it will be set to frame time at runtime. Setting will not take effect until next streaming session."
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Gain_Limit/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 248.0
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Gain_Limit/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Gain limits ranges from 16 to 248. If the requested gain limit is less than 16, it will be set to 16. If the requested gain limit is greater than 248, it will be set to 248. Setting will not take effect until next streaming session."
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Exposure_Limit_Toggle/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Exposure_Limit_Toggle/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Toggle Auto-Exposure Limit"
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Gain_Limit_Toggle/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_0/option/Auto_Gain_Limit_Toggle/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Toggle Auto-Gain Limit"
+    }
+  ],
+  "/device_0/sensor_0/post_processing": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Decimation Filter;Rotation Filter;HDR Merge;Filter By Sequence id;Threshold Filter;Depth to Disparity;Spatial Filter;Temporal Filter;Hole Filling Filter;Disparity to Depth"
+    }
+  ],
+  "/device_0/sensor_1/info": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Name=RGB Camera;Physical Port=/sys/devices/pci0000:00/0000:00:14.0/usb2/2-3/2-3:1.3/video4linux/video6"
+    }
+  ],
+  "/device_0/sensor_1/option/Backlight_Compensation/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_1/option/Backlight_Compensation/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable / disable backlight compensation"
+    }
+  ],
+  "/device_0/sensor_1/option/Brightness/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_1/option/Brightness/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image brightness"
+    }
+  ],
+  "/device_0/sensor_1/option/Contrast/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 50.0
+    }
+  ],
+  "/device_0/sensor_1/option/Contrast/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image contrast"
+    }
+  ],
+  "/device_0/sensor_1/option/Exposure/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 166.0
+    }
+  ],
+  "/device_0/sensor_1/option/Exposure/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Controls exposure time of color camera. Setting any value will disable auto exposure"
+    }
+  ],
+  "/device_0/sensor_1/option/Gain/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 64.0
+    }
+  ],
+  "/device_0/sensor_1/option/Gain/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image gain"
+    }
+  ],
+  "/device_0/sensor_1/option/Gamma/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 300.0
+    }
+  ],
+  "/device_0/sensor_1/option/Gamma/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image gamma setting"
+    }
+  ],
+  "/device_0/sensor_1/option/Hue/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_1/option/Hue/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image hue"
+    }
+  ],
+  "/device_0/sensor_1/option/Saturation/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 64.0
+    }
+  ],
+  "/device_0/sensor_1/option/Saturation/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image saturation setting"
+    }
+  ],
+  "/device_0/sensor_1/option/Sharpness/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 50.0
+    }
+  ],
+  "/device_0/sensor_1/option/Sharpness/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "UVC image sharpness setting"
+    }
+  ],
+  "/device_0/sensor_1/option/White_Balance/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 4600.0
+    }
+  ],
+  "/device_0/sensor_1/option/White_Balance/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Controls white balance of color image. Setting any value will disable auto white balance"
+    }
+  ],
+  "/device_0/sensor_1/option/Enable_Auto_Exposure/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_1/option/Enable_Auto_Exposure/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable / disable auto-exposure"
+    }
+  ],
+  "/device_0/sensor_1/option/Enable_Auto_White_Balance/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_1/option/Enable_Auto_White_Balance/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable / disable auto-white-balance"
+    }
+  ],
+  "/device_0/sensor_1/option/Frames_Queue_Size/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 16.0
+    }
+  ],
+  "/device_0/sensor_1/option/Frames_Queue_Size/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Max number of frames you can hold at a given time. Increasing this number will reduce frame drops but increase latency, and vice versa"
+    }
+  ],
+  "/device_0/sensor_1/option/Power_Line_Frequency/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 3.0
+    }
+  ],
+  "/device_0/sensor_1/option/Power_Line_Frequency/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Power Line Frequency"
+    }
+  ],
+  "/device_0/sensor_1/option/Auto_Exposure_Priority/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 0.0
+    }
+  ],
+  "/device_0/sensor_1/option/Auto_Exposure_Priority/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Restrict Auto-Exposure to enforce constant FPS rate. Turn ON to remove the restrictions (may result in FPS drop)"
+    }
+  ],
+  "/device_0/sensor_1/option/Global_Time_Enabled/value": [
+    {
+      "record_timestamp_ns": 0,
+      "value": 1.0
+    }
+  ],
+  "/device_0/sensor_1/option/Global_Time_Enabled/description": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Enable/Disable global timestamp"
+    }
+  ],
+  "/device_0/sensor_1/post_processing": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "Decimation Filter;Rotation Filter"
+    }
+  ],
+  "/device_0/sensor_1/Color_0/tf/ref_0": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "rotation=0.999951,-0.008721,-0.004719,0.008725,0.999962,0.000788,0.004712,-0.000829,0.999989;translation=0.014618,0.000079,0.000181"
+    }
+  ],
+  "/device_0/sensor_0/Depth_0/tf/ref_0": [
+    {
+      "record_timestamp_ns": 0,
+      "value": "rotation=1.000000,0.000000,0.000000,0.000000,1.000000,0.000000,0.000000,0.000000,1.000000;translation=0.000000,0.000000,0.000000"
+    }
+  ],
+  "/device_0/sensor_1/Color_0/image/metadata": [
+    {
+      "record_timestamp_ns": 3471,
+      "value": "Frame number=9791;timestamp_domain=Global Time;system_time=1792826142697.945312;timestamp=1792826142665.696045;Frame Counter=9791;Frame Timestamp=351940582;Sensor Timestamp=351940499;Auto Exposure=1;Time Of Arrival=1792826142697;Backend Timestamp=1792826142667;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 33217246,
+      "value": "Frame number=9792;timestamp_domain=Global Time;system_time=1792826142731.293457;timestamp=1792826142699.052979;Frame Counter=9792;Frame Timestamp=351973942;Sensor Timestamp=351973859;Auto Exposure=1;Time Of Arrival=1792826142731;Backend Timestamp=1792826142700;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 66692569,
+      "value": "Frame number=9793;timestamp_domain=Global Time;system_time=1792826142764.757324;timestamp=1792826142732.409668;Frame Counter=9793;Frame Timestamp=352007302;Sensor Timestamp=352007219;Auto Exposure=1;Time Of Arrival=1792826142764;Backend Timestamp=1792826142733;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 100029502,
+      "value": "Frame number=9794;timestamp_domain=Global Time;system_time=1792826142798.088379;timestamp=1792826142765.766602;Frame Counter=9794;Frame Timestamp=352040662;Sensor Timestamp=352040579;Auto Exposure=1;Time Of Arrival=1792826142798;Backend Timestamp=1792826142767;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 133329978,
+      "value": "Frame number=9795;timestamp_domain=Global Time;system_time=1792826142831.441406;timestamp=1792826142799.123291;Frame Counter=9795;Frame Timestamp=352074022;Sensor Timestamp=352073939;Auto Exposure=1;Time Of Arrival=1792826142831;Backend Timestamp=1792826142800;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 166611177,
+      "value": "Frame number=9796;timestamp_domain=Global Time;system_time=1792826142864.740967;timestamp=1792826142832.480225;Frame Counter=9796;Frame Timestamp=352107382;Sensor Timestamp=352107299;Auto Exposure=1;Time Of Arrival=1792826142864;Backend Timestamp=1792826142834;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 200309186,
+      "value": "Frame number=9797;timestamp_domain=Global Time;system_time=1792826142898.251221;timestamp=1792826142865.836914;Frame Counter=9797;Frame Timestamp=352140742;Sensor Timestamp=352140659;Auto Exposure=1;Time Of Arrival=1792826142898;Backend Timestamp=1792826142867;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 233627925,
+      "value": "Frame number=9798;timestamp_domain=Global Time;system_time=1792826142931.587891;timestamp=1792826142899.193604;Frame Counter=9798;Frame Timestamp=352174102;Sensor Timestamp=352174019;Auto Exposure=1;Time Of Arrival=1792826142931;Backend Timestamp=1792826142900;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 266770499,
+      "value": "Frame number=9799;timestamp_domain=Global Time;system_time=1792826142964.846680;timestamp=1792826142932.550537;Frame Counter=9799;Frame Timestamp=352207462;Sensor Timestamp=352207379;Auto Exposure=1;Time Of Arrival=1792826142964;Backend Timestamp=1792826142934;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 300320270,
+      "value": "Frame number=9800;timestamp_domain=Global Time;system_time=1792826142998.295410;timestamp=1792826142965.907227;Frame Counter=9800;Frame Timestamp=352240822;Sensor Timestamp=352240739;Auto Exposure=1;Time Of Arrival=1792826142998;Backend Timestamp=1792826142967;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 333762211,
+      "value": "Frame number=9801;timestamp_domain=Global Time;system_time=1792826143031.689209;timestamp=1792826142999.263916;Frame Counter=9801;Frame Timestamp=352274182;Sensor Timestamp=352274099;Auto Exposure=1;Time Of Arrival=1792826143031;Backend Timestamp=1792826143000;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 367002913,
+      "value": "Frame number=9802;timestamp_domain=Global Time;system_time=1792826143064.954346;timestamp=1792826143032.620850;Frame Counter=9802;Frame Timestamp=352307542;Sensor Timestamp=352307459;Auto Exposure=1;Time Of Arrival=1792826143064;Backend Timestamp=1792826143034;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 400251463,
+      "value": "Frame number=9803;timestamp_domain=Global Time;system_time=1792826143098.294922;timestamp=1792826143065.977539;Frame Counter=9803;Frame Timestamp=352340902;Sensor Timestamp=352340819;Auto Exposure=1;Time Of Arrival=1792826143098;Backend Timestamp=1792826143067;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 433741576,
+      "value": "Frame number=9804;timestamp_domain=Global Time;system_time=1792826143131.702637;timestamp=1792826143099.334229;Frame Counter=9804;Frame Timestamp=352374262;Sensor Timestamp=352374179;Auto Exposure=1;Time Of Arrival=1792826143131;Backend Timestamp=1792826143100;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 466812988,
+      "value": "Frame number=9805;timestamp_domain=Global Time;system_time=1792826143164.949951;timestamp=1792826143132.691162;Frame Counter=9805;Frame Timestamp=352407622;Sensor Timestamp=352407539;Auto Exposure=1;Time Of Arrival=1792826143164;Backend Timestamp=1792826143134;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 500396875,
+      "value": "Frame number=9806;timestamp_domain=Global Time;system_time=1792826143198.483398;timestamp=1792826143166.047852;Frame Counter=9806;Frame Timestamp=352440982;Sensor Timestamp=352440899;Auto Exposure=1;Time Of Arrival=1792826143198;Backend Timestamp=1792826143167;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 533597406,
+      "value": "Frame number=9807;timestamp_domain=Global Time;system_time=1792826143231.761963;timestamp=1792826143199.404541;Frame Counter=9807;Frame Timestamp=352474342;Sensor Timestamp=352474259;Auto Exposure=1;Time Of Arrival=1792826143231;Backend Timestamp=1792826143200;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 567255603,
+      "value": "Frame number=9808;timestamp_domain=Global Time;system_time=1792826143265.186279;timestamp=1792826143232.761230;Frame Counter=9808;Frame Timestamp=352507702;Sensor Timestamp=352507619;Auto Exposure=1;Time Of Arrival=1792826143265;Backend Timestamp=1792826143234;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 600503448,
+      "value": "Frame number=9809;timestamp_domain=Global Time;system_time=1792826143298.510986;timestamp=1792826143266.117920;Frame Counter=9809;Frame Timestamp=352541062;Sensor Timestamp=352540979;Auto Exposure=1;Time Of Arrival=1792826143298;Backend Timestamp=1792826143267;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 633971572,
+      "value": "Frame number=9810;timestamp_domain=Global Time;system_time=1792826143331.876465;timestamp=1792826143299.474854;Frame Counter=9810;Frame Timestamp=352574422;Sensor Timestamp=352574339;Auto Exposure=1;Time Of Arrival=1792826143331;Backend Timestamp=1792826143300;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 667413131,
+      "value": "Frame number=9811;timestamp_domain=Global Time;system_time=1792826143365.237549;timestamp=1792826143332.831543;Frame Counter=9811;Frame Timestamp=352607782;Sensor Timestamp=352607699;Auto Exposure=1;Time Of Arrival=1792826143365;Backend Timestamp=1792826143334;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 700910707,
+      "value": "Frame number=9812;timestamp_domain=Global Time;system_time=1792826143398.562012;timestamp=1792826143366.188232;Frame Counter=9812;Frame Timestamp=352641142;Sensor Timestamp=352641059;Auto Exposure=1;Time Of Arrival=1792826143398;Backend Timestamp=1792826143367;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 733854786,
+      "value": "Frame number=9813;timestamp_domain=Global Time;system_time=1792826143431.950928;timestamp=1792826143399.544922;Frame Counter=9813;Frame Timestamp=352674502;Sensor Timestamp=352674419;Auto Exposure=1;Time Of Arrival=1792826143431;Backend Timestamp=1792826143401;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 767213223,
+      "value": "Frame number=9814;timestamp_domain=Global Time;system_time=1792826143465.175781;timestamp=1792826143432.902100;Frame Counter=9814;Frame Timestamp=352707862;Sensor Timestamp=352707779;Auto Exposure=1;Time Of Arrival=1792826143465;Backend Timestamp=1792826143434;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 800550138,
+      "value": "Frame number=9815;timestamp_domain=Global Time;system_time=1792826143498.631104;timestamp=1792826143466.259033;Frame Counter=9815;Frame Timestamp=352741222;Sensor Timestamp=352741139;Auto Exposure=1;Time Of Arrival=1792826143498;Backend Timestamp=1792826143467;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 834007154,
+      "value": "Frame number=9816;timestamp_domain=Global Time;system_time=1792826143532.008057;timestamp=1792826143499.616211;Frame Counter=9816;Frame Timestamp=352774582;Sensor Timestamp=352774499;Auto Exposure=1;Time Of Arrival=1792826143532;Backend Timestamp=1792826143502;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 867233233,
+      "value": "Frame number=9817;timestamp_domain=Global Time;system_time=1792826143565.236572;timestamp=1792826143532.973145;Frame Counter=9817;Frame Timestamp=352807942;Sensor Timestamp=352807859;Auto Exposure=1;Time Of Arrival=1792826143565;Backend Timestamp=1792826143534;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 900507438,
+      "value": "Frame number=9818;timestamp_domain=Global Time;system_time=1792826143598.659180;timestamp=1792826143566.330322;Frame Counter=9818;Frame Timestamp=352841302;Sensor Timestamp=352841219;Auto Exposure=1;Time Of Arrival=1792826143598;Backend Timestamp=1792826143567;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 934001110,
+      "value": "Frame number=9819;timestamp_domain=Global Time;system_time=1792826143632.033936;timestamp=1792826143599.687500;Frame Counter=9819;Frame Timestamp=352874662;Sensor Timestamp=352874579;Auto Exposure=1;Time Of Arrival=1792826143632;Backend Timestamp=1792826143602;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 967188949,
+      "value": "Frame number=9820;timestamp_domain=Global Time;system_time=1792826143665.344727;timestamp=1792826143633.044434;Frame Counter=9820;Frame Timestamp=352908022;Sensor Timestamp=352907939;Auto Exposure=1;Time Of Arrival=1792826143665;Backend Timestamp=1792826143634;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1000800930,
+      "value": "Frame number=9821;timestamp_domain=Global Time;system_time=1792826143698.732666;timestamp=1792826143666.401611;Frame Counter=9821;Frame Timestamp=352941382;Sensor Timestamp=352941299;Auto Exposure=1;Time Of Arrival=1792826143698;Backend Timestamp=1792826143667;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1034151123,
+      "value": "Frame number=9822;timestamp_domain=Global Time;system_time=1792826143732.205566;timestamp=1792826143699.758545;Frame Counter=9822;Frame Timestamp=352974742;Sensor Timestamp=352974659;Auto Exposure=1;Time Of Arrival=1792826143732;Backend Timestamp=1792826143701;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1067427792,
+      "value": "Frame number=9823;timestamp_domain=Global Time;system_time=1792826143765.529541;timestamp=1792826143733.115723;Frame Counter=9823;Frame Timestamp=353008102;Sensor Timestamp=353008019;Auto Exposure=1;Time Of Arrival=1792826143765;Backend Timestamp=1792826143734;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1100812777,
+      "value": "Frame number=9824;timestamp_domain=Global Time;system_time=1792826143798.890869;timestamp=1792826143766.472656;Frame Counter=9824;Frame Timestamp=353041462;Sensor Timestamp=353041379;Auto Exposure=1;Time Of Arrival=1792826143798;Backend Timestamp=1792826143768;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1134018546,
+      "value": "Frame number=9825;timestamp_domain=Global Time;system_time=1792826143832.145264;timestamp=1792826143799.829834;Frame Counter=9825;Frame Timestamp=353074822;Sensor Timestamp=353074739;Auto Exposure=1;Time Of Arrival=1792826143832;Backend Timestamp=1792826143801;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1167614075,
+      "value": "Frame number=9826;timestamp_domain=Global Time;system_time=1792826143865.565430;timestamp=1792826143833.186768;Frame Counter=9826;Frame Timestamp=353108182;Sensor Timestamp=353108099;Auto Exposure=1;Time Of Arrival=1792826143865;Backend Timestamp=1792826143834;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1200874352,
+      "value": "Frame number=9827;timestamp_domain=Global Time;system_time=1792826143898.879883;timestamp=1792826143866.543945;Frame Counter=9827;Frame Timestamp=353141542;Sensor Timestamp=353141459;Auto Exposure=1;Time Of Arrival=1792826143898;Backend Timestamp=1792826143868;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1234082717,
+      "value": "Frame number=9828;timestamp_domain=Global Time;system_time=1792826143932.180908;timestamp=1792826143899.900879;Frame Counter=9828;Frame Timestamp=353174902;Sensor Timestamp=353174819;Auto Exposure=1;Time Of Arrival=1792826143932;Backend Timestamp=1792826143901;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1267505644,
+      "value": "Frame number=9829;timestamp_domain=Global Time;system_time=1792826143965.542236;timestamp=1792826143933.258057;Frame Counter=9829;Frame Timestamp=353208262;Sensor Timestamp=353208179;Auto Exposure=1;Time Of Arrival=1792826143965;Backend Timestamp=1792826143934;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1300936049,
+      "value": "Frame number=9830;timestamp_domain=Global Time;system_time=1792826143998.941650;timestamp=1792826143966.615234;Frame Counter=9830;Frame Timestamp=353241622;Sensor Timestamp=353241539;Auto Exposure=1;Time Of Arrival=1792826143998;Backend Timestamp=1792826143968;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1334117976,
+      "value": "Frame number=9831;timestamp_domain=Global Time;system_time=1792826144032.259766;timestamp=1792826143999.972168;Frame Counter=9831;Frame Timestamp=353274982;Sensor Timestamp=353274899;Auto Exposure=1;Time Of Arrival=1792826144032;Backend Timestamp=1792826144001;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1367651700,
+      "value": "Frame number=9832;timestamp_domain=Global Time;system_time=1792826144065.690186;timestamp=1792826144033.329346;Frame Counter=9832;Frame Timestamp=353308342;Sensor Timestamp=353308259;Auto Exposure=1;Time Of Arrival=1792826144065;Backend Timestamp=1792826144034;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1400978915,
+      "value": "Frame number=9833;timestamp_domain=Global Time;system_time=1792826144099.046143;timestamp=1792826144066.686279;Frame Counter=9833;Frame Timestamp=353341702;Sensor Timestamp=353341619;Auto Exposure=1;Time Of Arrival=1792826144099;Backend Timestamp=1792826144069;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1434274465,
+      "value": "Frame number=9834;timestamp_domain=Global Time;system_time=1792826144132.428711;timestamp=1792826144100.043457;Frame Counter=9834;Frame Timestamp=353375062;Sensor Timestamp=353374979;Auto Exposure=1;Time Of Arrival=1792826144132;Backend Timestamp=1792826144101;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    },
+    {
+      "record_timestamp_ns": 1467725627,
+      "value": "Frame number=9835;timestamp_domain=Global Time;system_time=1792826144165.810547;timestamp=1792826144133.400391;Frame Counter=9835;Frame Timestamp=353408422;Sensor Timestamp=353408339;Auto Exposure=1;Time Of Arrival=1792826144165;Backend Timestamp=1792826144134;Actual Fps=29978;Brightness=0;Contrast=50;Saturation=64;Sharpness=50;Auto White Balance Temperature=1;Backlight Compensation=0;Hue=0;Gamma=300;Manual White Balance=4600;Power Line Frequency=3;Low Light Compensation=0;Raw Frame Size=614400;"
+    }
+  ],
+  "/device_0/sensor_0/Depth_0/image/metadata": [
+    {
+      "record_timestamp_ns": 23777578,
+      "value": "Frame number=8730;timestamp_domain=Global Time;system_time=1792826142722.226318;timestamp=1792826142714.147461;depth_units=0.001000;Frame Counter=8730;Frame Timestamp=351989038;Sensor Timestamp=351988551;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142722;Backend Timestamp=1792826142715;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 57115155,
+      "value": "Frame number=8731;timestamp_domain=Global Time;system_time=1792826142755.564697;timestamp=1792826142747.488281;depth_units=0.001000;Frame Counter=8731;Frame Timestamp=352022382;Sensor Timestamp=352021895;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142755;Backend Timestamp=1792826142748;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 90566633,
+      "value": "Frame number=8732;timestamp_domain=Global Time;system_time=1792826142788.991455;timestamp=1792826142780.829102;depth_units=0.001000;Frame Counter=8732;Frame Timestamp=352055726;Sensor Timestamp=352055239;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142788;Backend Timestamp=1792826142781;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 124009120,
+      "value": "Frame number=8733;timestamp_domain=Global Time;system_time=1792826142822.425537;timestamp=1792826142814.169922;depth_units=0.001000;Frame Counter=8733;Frame Timestamp=352089070;Sensor Timestamp=352088583;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142822;Backend Timestamp=1792826142815;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 157161299,
+      "value": "Frame number=8734;timestamp_domain=Global Time;system_time=1792826142855.622314;timestamp=1792826142847.510742;depth_units=0.001000;Frame Counter=8734;Frame Timestamp=352122414;Sensor Timestamp=352121927;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142855;Backend Timestamp=1792826142848;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 190442224,
+      "value": "Frame number=8735;timestamp_domain=Global Time;system_time=1792826142888.879639;timestamp=1792826142880.851562;depth_units=0.001000;Frame Counter=8735;Frame Timestamp=352155758;Sensor Timestamp=352155271;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142888;Backend Timestamp=1792826142881;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 223961529,
+      "value": "Frame number=8736;timestamp_domain=Global Time;system_time=1792826142922.348633;timestamp=1792826142914.192139;depth_units=0.001000;Frame Counter=8736;Frame Timestamp=352189102;Sensor Timestamp=352188615;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142922;Backend Timestamp=1792826142915;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 257249251,
+      "value": "Frame number=8737;timestamp_domain=Global Time;system_time=1792826142955.656738;timestamp=1792826142947.532959;depth_units=0.001000;Frame Counter=8737;Frame Timestamp=352222446;Sensor Timestamp=352221959;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142955;Backend Timestamp=1792826142948;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 290579685,
+      "value": "Frame number=8738;timestamp_domain=Global Time;system_time=1792826142988.965576;timestamp=1792826142980.873779;depth_units=0.001000;Frame Counter=8738;Frame Timestamp=352255790;Sensor Timestamp=352255303;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826142988;Backend Timestamp=1792826142981;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 323898672,
+      "value": "Frame number=8739;timestamp_domain=Global Time;system_time=1792826143022.340576;timestamp=1792826143014.214600;depth_units=0.001000;Frame Counter=8739;Frame Timestamp=352289134;Sensor Timestamp=352288647;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143022;Backend Timestamp=1792826143015;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 357287571,
+      "value": "Frame number=8740;timestamp_domain=Global Time;system_time=1792826143055.701660;timestamp=1792826143047.555420;depth_units=0.001000;Frame Counter=8740;Frame Timestamp=352322478;Sensor Timestamp=352321991;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143055;Backend Timestamp=1792826143048;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 390606907,
+      "value": "Frame number=8741;timestamp_domain=Global Time;system_time=1792826143088.996338;timestamp=1792826143080.895020;depth_units=0.001000;Frame Counter=8741;Frame Timestamp=352355821;Sensor Timestamp=352355334;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143088;Backend Timestamp=1792826143081;Actual Fps=29994;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 424009326,
+      "value": "Frame number=8742;timestamp_domain=Global Time;system_time=1792826143122.447266;timestamp=1792826143114.235840;depth_units=0.001000;Frame Counter=8742;Frame Timestamp=352389165;Sensor Timestamp=352388678;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143122;Backend Timestamp=1792826143115;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 457190732,
+      "value": "Frame number=8743;timestamp_domain=Global Time;system_time=1792826143155.638428;timestamp=1792826143147.576660;depth_units=0.001000;Frame Counter=8743;Frame Timestamp=352422509;Sensor Timestamp=352422022;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143155;Backend Timestamp=1792826143148;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 490523110,
+      "value": "Frame number=8744;timestamp_domain=Global Time;system_time=1792826143188.988525;timestamp=1792826143180.917480;depth_units=0.001000;Frame Counter=8744;Frame Timestamp=352455853;Sensor Timestamp=352455366;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143188;Backend Timestamp=1792826143181;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 523973817,
+      "value": "Frame number=8745;timestamp_domain=Global Time;system_time=1792826143222.404541;timestamp=1792826143214.258057;depth_units=0.001000;Frame Counter=8745;Frame Timestamp=352489197;Sensor Timestamp=352488710;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143222;Backend Timestamp=1792826143215;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 557361597,
+      "value": "Frame number=8746;timestamp_domain=Global Time;system_time=1792826143255.819336;timestamp=1792826143247.598877;depth_units=0.001000;Frame Counter=8746;Frame Timestamp=352522541;Sensor Timestamp=352522054;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143255;Backend Timestamp=1792826143248;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 590729145,
+      "value": "Frame number=8747;timestamp_domain=Global Time;system_time=1792826143289.180176;timestamp=1792826143280.939697;depth_units=0.001000;Frame Counter=8747;Frame Timestamp=352555885;Sensor Timestamp=352555398;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143289;Backend Timestamp=1792826143281;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 623925131,
+      "value": "Frame number=8748;timestamp_domain=Global Time;system_time=1792826143322.354736;timestamp=1792826143314.280273;depth_units=0.001000;Frame Counter=8748;Frame Timestamp=352589229;Sensor Timestamp=352588742;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143322;Backend Timestamp=1792826143315;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 657277769,
+      "value": "Frame number=8749;timestamp_domain=Global Time;system_time=1792826143355.664062;timestamp=1792826143347.621094;depth_units=0.001000;Frame Counter=8749;Frame Timestamp=352622573;Sensor Timestamp=352622086;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143355;Backend Timestamp=1792826143348;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 690631671,
+      "value": "Frame number=8750;timestamp_domain=Global Time;system_time=1792826143389.034668;timestamp=1792826143380.961670;depth_units=0.001000;Frame Counter=8750;Frame Timestamp=352655917;Sensor Timestamp=352655430;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143389;Backend Timestamp=1792826143382;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 723960136,
+      "value": "Frame number=8751;timestamp_domain=Global Time;system_time=1792826143422.395508;timestamp=1792826143414.302734;depth_units=0.001000;Frame Counter=8751;Frame Timestamp=352689261;Sensor Timestamp=352688774;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143422;Backend Timestamp=1792826143415;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 757467192,
+      "value": "Frame number=8752;timestamp_domain=Global Time;system_time=1792826143455.895752;timestamp=1792826143447.643799;depth_units=0.001000;Frame Counter=8752;Frame Timestamp=352722605;Sensor Timestamp=352722118;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143455;Backend Timestamp=1792826143448;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 790592575,
+      "value": "Frame number=8753;timestamp_domain=Global Time;system_time=1792826143489.020508;timestamp=1792826143480.984863;depth_units=0.001000;Frame Counter=8753;Frame Timestamp=352755949;Sensor Timestamp=352755462;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143489;Backend Timestamp=1792826143482;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 824112750,
+      "value": "Frame number=8754;timestamp_domain=Global Time;system_time=1792826143522.503662;timestamp=1792826143514.324951;depth_units=0.001000;Frame Counter=8754;Frame Timestamp=352789292;Sensor Timestamp=352788805;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143522;Backend Timestamp=1792826143515;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 857377713,
+      "value": "Frame number=8755;timestamp_domain=Global Time;system_time=1792826143555.833008;timestamp=1792826143547.666016;depth_units=0.001000;Frame Counter=8755;Frame Timestamp=352822636;Sensor Timestamp=352822149;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143555;Backend Timestamp=1792826143548;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 890846076,
+      "value": "Frame number=8756;timestamp_domain=Global Time;system_time=1792826143589.264160;timestamp=1792826143581.007080;depth_units=0.001000;Frame Counter=8756;Frame Timestamp=352855980;Sensor Timestamp=352855493;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143589;Backend Timestamp=1792826143581;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 924175528,
+      "value": "Frame number=8757;timestamp_domain=Global Time;system_time=1792826143622.598877;timestamp=1792826143614.348145;depth_units=0.001000;Frame Counter=8757;Frame Timestamp=352889324;Sensor Timestamp=352888837;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143622;Backend Timestamp=1792826143615;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 957376245,
+      "value": "Frame number=8758;timestamp_domain=Global Time;system_time=1792826143655.807861;timestamp=1792826143647.689209;depth_units=0.001000;Frame Counter=8758;Frame Timestamp=352922668;Sensor Timestamp=352922181;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143655;Backend Timestamp=1792826143648;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 990704563,
+      "value": "Frame number=8759;timestamp_domain=Global Time;system_time=1792826143689.123535;timestamp=1792826143681.030273;depth_units=0.001000;Frame Counter=8759;Frame Timestamp=352956012;Sensor Timestamp=352955525;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143689;Backend Timestamp=1792826143682;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1024171267,
+      "value": "Frame number=8760;timestamp_domain=Global Time;system_time=1792826143722.596191;timestamp=1792826143714.371338;depth_units=0.001000;Frame Counter=8760;Frame Timestamp=352989356;Sensor Timestamp=352988869;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143722;Backend Timestamp=1792826143715;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1057418447,
+      "value": "Frame number=8761;timestamp_domain=Global Time;system_time=1792826143755.844238;timestamp=1792826143747.712402;depth_units=0.001000;Frame Counter=8761;Frame Timestamp=353022700;Sensor Timestamp=353022213;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143755;Backend Timestamp=1792826143748;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1090818796,
+      "value": "Frame number=8762;timestamp_domain=Global Time;system_time=1792826143789.247314;timestamp=1792826143781.053467;depth_units=0.001000;Frame Counter=8762;Frame Timestamp=353056044;Sensor Timestamp=353055557;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143789;Backend Timestamp=1792826143782;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1124139310,
+      "value": "Frame number=8763;timestamp_domain=Global Time;system_time=1792826143822.525391;timestamp=1792826143814.394531;depth_units=0.001000;Frame Counter=8763;Frame Timestamp=353089388;Sensor Timestamp=353088901;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143822;Backend Timestamp=1792826143815;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1157478127,
+      "value": "Frame number=8764;timestamp_domain=Global Time;system_time=1792826143855.884277;timestamp=1792826143847.735596;depth_units=0.001000;Frame Counter=8764;Frame Timestamp=353122732;Sensor Timestamp=353122245;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143855;Backend Timestamp=1792826143848;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1190823916,
+      "value": "Frame number=8765;timestamp_domain=Global Time;system_time=1792826143889.224609;timestamp=1792826143881.076660;depth_units=0.001000;Frame Counter=8765;Frame Timestamp=353156076;Sensor Timestamp=353155589;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143889;Backend Timestamp=1792826143882;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1224110451,
+      "value": "Frame number=8766;timestamp_domain=Global Time;system_time=1792826143922.547119;timestamp=1792826143914.417725;depth_units=0.001000;Frame Counter=8766;Frame Timestamp=353189420;Sensor Timestamp=353188933;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143922;Backend Timestamp=1792826143915;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1257369556,
+      "value": "Frame number=8767;timestamp_domain=Global Time;system_time=1792826143955.821289;timestamp=1792826143947.758789;depth_units=0.001000;Frame Counter=8767;Frame Timestamp=353222764;Sensor Timestamp=353222277;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143955;Backend Timestamp=1792826143948;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1290838385,
+      "value": "Frame number=8768;timestamp_domain=Global Time;system_time=1792826143989.253418;timestamp=1792826143981.098877;depth_units=0.001000;Frame Counter=8768;Frame Timestamp=353256107;Sensor Timestamp=353255620;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826143989;Backend Timestamp=1792826143982;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1324098641,
+      "value": "Frame number=8769;timestamp_domain=Global Time;system_time=1792826144022.509033;timestamp=1792826144014.439941;depth_units=0.001000;Frame Counter=8769;Frame Timestamp=353289451;Sensor Timestamp=353288964;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826144022;Backend Timestamp=1792826144015;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1357480966,
+      "value": "Frame number=8770;timestamp_domain=Global Time;system_time=1792826144055.905518;timestamp=1792826144047.781006;depth_units=0.001000;Frame Counter=8770;Frame Timestamp=353322795;Sensor Timestamp=353322308;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826144055;Backend Timestamp=1792826144048;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1390964702,
+      "value": "Frame number=8771;timestamp_domain=Global Time;system_time=1792826144089.355957;timestamp=1792826144081.122070;depth_units=0.001000;Frame Counter=8771;Frame Timestamp=353356139;Sensor Timestamp=353355652;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826144089;Backend Timestamp=1792826144082;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1424228731,
+      "value": "Frame number=8772;timestamp_domain=Global Time;system_time=1792826144122.669678;timestamp=1792826144114.463135;depth_units=0.001000;Frame Counter=8772;Frame Timestamp=353389483;Sensor Timestamp=353388996;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826144122;Backend Timestamp=1792826144115;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    },
+    {
+      "record_timestamp_ns": 1457520631,
+      "value": "Frame number=8773;timestamp_domain=Global Time;system_time=1792826144155.946289;timestamp=1792826144147.804199;depth_units=0.001000;Frame Counter=8773;Frame Timestamp=353422827;Sensor Timestamp=353422340;Actual Exposure=974;Gain Level=16;Auto Exposure=1;Time Of Arrival=1792826144155;Backend Timestamp=1792826144148;Actual Fps=29993;Frame Laser Power=150;Frame Laser Power Mode=1;Exposure Priority=1;Exposure Roi Left=106;Exposure Roi Right=742;Exposure Roi Top=60;Exposure Roi Bottom=420;Frame Emitter Mode=1;Raw Frame Size=814080;Gpio Input Data=251;Sequence Name=0;Sequence Id=0;Sequence Size=0;"
+    }
+  ]
+}
